@@ -41,7 +41,7 @@
     <Publish>
       <Port>
         <HostPort>8585</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
