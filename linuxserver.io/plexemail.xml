@@ -40,8 +40,8 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8585</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
