@@ -47,7 +47,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/mcmyadmin</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/minecraft</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
