@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Network:Other MediaApp:Other Other: Tools:</Category>
+<Date>2016-01-23</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Mariadb Change Log[/font][/center]
+[b]23.01.2016[/b] Change mysqld_safe user to abc, better handling of unclean shutdown.
+[b]10.12.2015[/b] Remove autoupdate feature, was breaking between random versions.
+</Changes>
+  <Name>mariadb</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=42422</Support>
+  <Description>
+An Enhanced drop in replacement for Mysql[br]
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where mariadb should store databases, logs and configuration files[br]
+  </Description>
+ <Overview>An Enhanced drop in replacement for Mysql</Overview>
+  <Project>https://mariadb.org/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/mariadb/</Registry>
+  <Repository>linuxserver/mariadb</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+    <Variable>
+      <Name>MYSQL_ROOT_PASSWORD</Name>
+      <Value>0</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+    <Port>
+        <HostPort>3306</HostPort>
+        <ContainerPort>3306</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+   </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI></WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-icon.png</Icon>
+</Container>

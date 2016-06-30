@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Downloaders: MediaApp:Other Tools:</Category>
+<Date>2016-01-25</Date>
+  <Changes>
+  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+  [center][font size=4]Hydra Change Log[/font][/center]
+  [b]26.01.2016:[/b] Initial Release. 
+  </Changes>
+  <Name>hydra</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=45939.0</Support>
+  <Description>NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.[br]
+  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] : Storing all hydra config files [br]
+  [b]/downloads[/b] : Point to Downloads location[br]
+  </Description>
+  <Project>https://github.com/theotherp/nzbhydra</Project>
+  <Overview>NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.</Overview>
+  <Registry>https://hub.docker.com/r/linuxserver/hydra/</Registry>
+  <Repository>linuxserver/hydra</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5075</HostPort>
+        <ContainerPort>5075</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+</Publish>
+ </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI>http://[IP]:[PORT:5075]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png</Icon>
+</Container>

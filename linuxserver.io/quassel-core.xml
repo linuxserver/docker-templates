@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Network:Messenger</Category>
+  <Date>2015-07-06</Date>
+  <Name>quassel-core</Name>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Quassel Core Change Log[/font][/center]</Changes>
+  <Support>https://lime-technology.com/forum/index.php?topic=42573.0</Support>
+  <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.
+  [br][br]
+  [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where quassel-cores hould store settings, logs and configuration[br]
+  [b]ENV: WEBUI[/b] Set this to 1 to enable the optional buildt-inn webui (pressented at 64443)[br]
+  [b][i]Note Inital Configuration of a new core, must be done within the desktop client[/b][/i]
+  </Description>
+  <Project>http://quassel-irc.org/</Project>
+  <Overview>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.</Overview>
+  <Registry>https://hub.docker.com/r/linuxserver/quassel-core/</Registry>
+  <Repository>linuxserver/quassel-core</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>4242</HostPort>
+        <ContainerPort>4242</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>64443</HostPort>
+        <ContainerPort>64443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/quassel-core</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>b17f08ec</Version>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-icon.png</Icon>
+  <WebUI>http://[IP]:[PORT:64443]/</WebUI>
+  <ExtraParams></ExtraParams>
+</Container>

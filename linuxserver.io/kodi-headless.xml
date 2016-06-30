@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>MediaServer:Video</Category>
+  <Date>2015-11-24</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Kodi-Headless Change Log[/font][/center]
+[font size=4]24.11.2015[/font]
+- Tweak update init to cater for white space and out of
+range values in VERSION variable
+[font size=4]21.10.2015[/font]
+- Rebase to python baseimage, allows use of some plugins
+(user installed only, not supported)
+- Bump to 15.2
+</Changes>
+  <Name>kodi-headless</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=42439</Support>
+  <Description>Kodi™ (formerly known as XBMC™) is an award-winning free and open source (GPL) software media center for playing videos, music, pictures, games, and more.
+  [br]Headless installation to enable library updates[br]
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where kodi-headless should store settings, log and configuration files[br]
+  [b]VERSION[/b] An optional variable setting to choose main kodi version, check out the support thread before setting[br]
+  </Description>
+  <Overview>Headless installation of Kodi™ (formerly known as XBMC™), to enable library updates.</Overview>
+<Project>http://kodi.tv/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/kodi-headless/</Registry>
+  <Repository>linuxserver/kodi-headless</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+  <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+  <Port>
+        <HostPort>9777</HostPort>
+        <ContainerPort>9777</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+   </Publish>
+</Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config/.kodi</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI></WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kodi-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kodi-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>

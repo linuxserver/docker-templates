@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Network:Other</Category>
+<Date>2015-10-03</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Readerself Change Log[/font][/center]
+</Changes>
+  <Name>readerself</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=43265.0</Support>
+  <Description>Self-hosted rss reader, responsive on  desktop, tablet and mobile.[br]
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where readerself should store settings and configuration files[br]
+  </Description>
+<Overview>Self-hosted rss reader, responsive on  desktop, tablet and mobile.</Overview>
+<Project>https://readerself.com/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/readerself/</Registry>
+  <Repository>linuxserver/readerself</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+  <Port>
+        <HostPort>80</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+   </Publish>
+</Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/tt-rss-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/readerself-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>

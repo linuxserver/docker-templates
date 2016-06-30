@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Downloaders:</Category>
+<Date>2016-03-08</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Rutorrent Change Log[/font][/center]
+[b]08.03.2016[/b] Initial Release  
+</Changes>
+  <Name>rutorrent</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=47299.0</Support>
+  <Description>
+  Popular torrent client with a webui for ease of use. 
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where rutorrent should store configuration files[br]
+  [b]/downloads[/b] Downloads folder[br]
+  </Description>
+  <Overview>Popular torrent client with a webui for ease of use.</Overview>
+  <Project>https://github.com/Novik/ruTorrent</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/rutorrent/</Registry>
+  <Repository>linuxserver/rutorrent</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>80</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45566</HostPort>
+        <ContainerPort>45566</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45567</HostPort>
+        <ContainerPort>45567</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45568</HostPort>
+        <ContainerPort>45568</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45569</HostPort>
+        <ContainerPort>45569</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45570</HostPort>
+        <ContainerPort>45570</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45571</HostPort>
+        <ContainerPort>45571</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45572</HostPort>
+        <ContainerPort>45572</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45573</HostPort>
+        <ContainerPort>45573</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45574</HostPort>
+        <ContainerPort>45574</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45575</HostPort>
+        <ContainerPort>45575</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45576</HostPort>
+        <ContainerPort>45576</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9527</HostPort>
+        <ContainerPort>9527</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png</Icon>
+</Container>
+

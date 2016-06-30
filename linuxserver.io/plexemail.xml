@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Network:Web Network:Proxy</Category>
+<Date>2015-10-11</Date>
+  <Name>plexemail</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=43937.0</Support>
+  <Overview>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.
+</Overview>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+[center][font size=4]Plexemail Change Log[/font][/center]
+[b]21.11.2015:[/b] Added test scripts
+[b]16.11.2015:[/b] Initial copy of crontab now made by default
+[b]06.11.2015:[/b] Initial Release
+</Changes>
+
+  <Description>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.[br]
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]80[/b] Standard HTTP Port [br]
+  [b]443[/b] Standard HTTPS Port [br]
+  [b]/config[/b]Storing Configuration and the cron info[br]
+  </Description>
+  <Project>https://github.com/jakewaldron/PlexEmail</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/plexemail/</Registry>
+  <Repository>linuxserver/plexemail</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8585</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/plexemail</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/plex/Library/Application Support</HostDir>
+      <ContainerDir>/plex</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:8585]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexemail-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
