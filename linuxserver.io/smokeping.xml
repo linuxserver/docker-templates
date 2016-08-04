@@ -7,7 +7,9 @@
   <Name>smokeping</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
-[center][font size=4]SmokePing Change Log[/font][/center]</Changes>
+[center][font size=4]SmokePing Change Log[/font][/center]
+[b]04.08.2016:[/b] Rebase to alpine linux, more options in /config and change of url from /cgi-bin/smokeping.cgi to /smokeping/smokeping.cgi.
+</Changes>
   <Description>Smokeping keeps track of your network latency.
   [br][br]
   [b][u][span style=\\\'color: #E80000;\\\']Configuration[/span][/u][/b][br]
@@ -52,7 +54,7 @@
     </Volume>
   </Data>
   <Version>b8cfd24b</Version>
-  <WebUI>http://[IP]:[PORT:80]/cgi-bin/smokeping.cgi</WebUI>
+  <WebUI>http://[IP]:[PORT:80]/smokeping/smokeping.cgi</WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/smokeping-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/smokeping-icon.png</Icon>
   <ExtraParams></ExtraParams>
