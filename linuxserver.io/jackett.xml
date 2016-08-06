@@ -2,11 +2,12 @@
 <Container>
 <Beta>False</Beta>
 <Category>Downloaders: Tools:</Category>
-<Date>2016-01-25</Date>
+<Date>2016-08-06</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
   [center][font size=4]Jackett Change Log[/font][/center]
+  [b]06.08.2016:[/b] Rebase to alpine linux. 
   [b]26.01.2016:[/b] Initial Release. 
   </Changes>
   <Name>jackett</Name>
