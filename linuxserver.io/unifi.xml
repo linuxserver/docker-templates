@@ -68,5 +68,5 @@
   <Banner>https://github.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/unifi-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-icon.png</Icon>
   <ExtraParams></ExtraParams>
-<BaseImage>ubuntu:16.04</BaseImage>
+<BaseImage>lsiobase/xenial</BaseImage>
 </Container>
