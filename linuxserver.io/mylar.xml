@@ -63,4 +63,5 @@
 <WebUI>http://[IP]:[PORT:8090]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png</Icon>
+<BaseImage></BaseImage>
 </Container>

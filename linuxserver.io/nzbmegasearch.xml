@@ -52,4 +52,5 @@
 <WebUI>http://[IP]:[PORT:5000]/</WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbmegasearch-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbmegasearch-icon.png</Icon>
+<BaseImage></BaseImage>
 </Container>

@@ -51,4 +51,5 @@
 <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/muximux-icon.png</Icon>
+<BaseImage></BaseImage>
 </Container>

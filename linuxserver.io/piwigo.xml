@@ -52,5 +52,6 @@ Change to use baseimage update script
 <WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-banner.png</Banner>
 <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/piwigo-icon.png</Icon>
+<BaseImage></BaseImage>
 </Container>
 

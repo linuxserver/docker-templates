@@ -64,4 +64,5 @@ A simple, easy way to turn a photo album into a webgallery[br]
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/photoshow-icon.png</Icon>
   <ExtraParams></ExtraParams>
+<BaseImage></BaseImage>
 </Container>
