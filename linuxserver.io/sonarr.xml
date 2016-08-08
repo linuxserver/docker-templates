@@ -67,6 +67,6 @@
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-icon.png</Icon>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>lsiobase/xenial</BaseImage>
 </Container>
 

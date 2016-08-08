@@ -56,5 +56,5 @@ A free, self-hostable rss aggregator…[br]
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-icon.png</Icon>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>linuxserver/baseimage.apache</BaseImage>
 </Container>

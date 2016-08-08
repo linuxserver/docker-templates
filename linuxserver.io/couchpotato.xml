@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
   <Category>Downloaders: MediaApp:Video</Category>
-  <Date>2015-12-10</Date>
+  <Date>2016-08-08</Date>
   <Changes>
   	[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]CouchPotato Change Log[/font][/center]
+ [b]08.08.2016[/b] Rebase to alpine linux
  [b]10.12.2015[/b] Update requests and urllib3 libraries via baseimage
  [b]12.11.2015:[/b] Code Cleanup, and updated baseimage.
   [b]25.09.2015:[/b] Add python-openssl package.
@@ -67,6 +68,6 @@
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/couchpotato-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/couchpotato-icon.png</Icon>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>lsiobase/alpine.python</BaseImage>
 </Container>
 

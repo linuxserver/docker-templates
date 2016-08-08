@@ -60,6 +60,6 @@
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-icon.png</Icon>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>linuxserver/baseimage</BaseImage>
 </Container>
 

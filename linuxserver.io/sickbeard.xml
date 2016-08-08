@@ -2,11 +2,13 @@
 <Container>
 <Beta>False</Beta>
 <Category>Downloaders: MediaApp:Video</Category>
-<Date>2015-12-11</Date>
+<Date>2016-08-08</Date>
  <Name>sickbeard</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Sickbeard Change Log[/font][/center]
+[font size=4]08-08-2016[/font]
+- Rebase to alpine linux.
 [font size=4]11-12-2015[/font]
 - Update requests and urllib3 libraries
 [font size=4]09-11-2015[/font]
@@ -69,5 +71,5 @@ Automatically finds new and old episodes for you and it works with your current 
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickbeard-icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8081]/</WebUI>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>lsiobase/alpine.python</BaseImage>
 </Container>

@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Music</Category>
-  <Date>2015-08-25</Date>
+  <Date>2016-08-08</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]HeadPhones Change Log[/font][/center]
+  [b]08.08.2016:[/b] Rebase to alpine linux.
   [b]15.07.2015:[/b] Inital Release.
   </Changes>
   <Name>Headphones</Name>
@@ -56,5 +57,5 @@
   <Banner>http://i.imgur.com/5vSV3Gk.png</Banner>
   <Icon>http://i.imgur.com/5vSV3Gkl.png</Icon>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>lsiobase/alpine.python</BaseImage>
 </Container>

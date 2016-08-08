@@ -52,5 +52,5 @@
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/maraschino-icon.png</Icon>
   <WebUI>http://[IP]:[PORT:7000]/</WebUI>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>linuxserver/baseimage.python</BaseImage>
 </Container>

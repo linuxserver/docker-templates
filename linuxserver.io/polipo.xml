@@ -51,5 +51,5 @@ Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy, a prox
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/polipo-icon.png</Icon>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>linuxserver/baseimage</BaseImage>
 </Container>

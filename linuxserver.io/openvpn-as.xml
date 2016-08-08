@@ -50,5 +50,5 @@
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvpn-as-icon.png</Icon>
   <WebUI>https://[IP]:[PORT:943]/</WebUI>
   <ExtraParams></ExtraParams>
-<BaseImage></BaseImage>
+<BaseImage>lsiobase/xenial</BaseImage>
 </Container>

@@ -70,6 +70,6 @@
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png</Icon>
-<BaseImage></BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>
 

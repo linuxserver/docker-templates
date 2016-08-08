@@ -2,11 +2,12 @@
 <Container>
 <Beta>False</Beta>
 <Category>Downloaders: MediaApp:Books</Category>
-<Date>2016-01-25</Date>
+<Date>2016-08-08</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
   [center][font size=4]Mylar Change Log[/font][/center]
+  [b]08.08.2016:[/b] Rebase to alpine linux. 
   [b]26.01.2016:[/b] Initial Release. 
   </Changes>
   <Name>mylar</Name>
@@ -63,5 +64,5 @@
 <WebUI>http://[IP]:[PORT:8090]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png</Icon>
-<BaseImage></BaseImage>
+<BaseImage>lsiobase/alpine.python</BaseImage>
 </Container>
