@@ -62,4 +62,5 @@
   <WebUI>http://[IP]:[PORT:8585]/</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexemail-icon.png</Icon>
   <ExtraParams></ExtraParams>
+<BaseImage></BaseImage>
 </Container>

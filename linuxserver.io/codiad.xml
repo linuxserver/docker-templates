@@ -56,4 +56,5 @@
   <WebUI>http://[IP]:[PORT:8088]/</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/codiad-icon.png</Icon>
   <ExtraParams></ExtraParams>
+<BaseImage></BaseImage>
 </Container>
