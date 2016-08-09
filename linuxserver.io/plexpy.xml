@@ -9,7 +9,7 @@
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]PlexPy Change Log[/font][/center]
-[b]08.08.2016:[/b] Initial Release</Changes> 
+[b]08.08.2016:[/b] Rebase to alpine linux. 
 [b]16.07.2015:[/b] Initial Release</Changes> 
   <Description>plexpy is a python based statistics manager for plex&#13;
   &#13;
