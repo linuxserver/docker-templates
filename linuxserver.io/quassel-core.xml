@@ -13,7 +13,7 @@
   <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
-  [b]/config[/b] Where quassel-cores hould store settings, logs and configuration[br]
+  [b]/config[/b] Where quassel-core should store settings, logs and configuration[br]
   [b][i]Note Inital Configuration of a new core, must be done within the desktop client[/b][/i]
   </Description>
   <Project>http://quassel-irc.org/</Project>
