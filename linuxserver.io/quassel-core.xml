@@ -49,7 +49,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version>b17f08ec</Version>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <BaseImage>lsiobase/xenial</BaseImage>
