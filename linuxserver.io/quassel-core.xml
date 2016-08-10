@@ -40,11 +40,6 @@
         <ContainerPort>4242</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
-      <Port>
-        <HostPort>64443</HostPort>
-        <ContainerPort>64443</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
     </Publish>
   </Networking>
   <Data>
@@ -56,7 +51,6 @@
   </Data>
   <Version>b17f08ec</Version>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-icon.png</Icon>
-  <WebUI>http://[IP]:[PORT:64443]/</WebUI>
   <ExtraParams></ExtraParams>
 <BaseImage>lsiobase/xenial</BaseImage>
 </Container>
