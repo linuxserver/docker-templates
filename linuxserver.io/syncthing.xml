@@ -2,8 +2,11 @@
 <Container>
   <Beta>False</Beta>
   <Category>Backup: Cloud: Network:Other Tools:</Category>
-  <Date>2015-09-24</Date> 
-  <Changes>[b]24.09.15: [/b] Inital release.</Changes>
+  <Date>2016-08-11</Date> 
+  <Changes>
+    [b]11.08.16: [/b] Rebase to alpine linux.
+    [b]24.09.15: [/b] Inital release.
+  </Changes>
   <Name>syncthing</Name>
   <Project>https://github.com/syncthing/syncthing</Project>
   <Support>http://lime-technology.com/forum/index.php?topic=43080.0</Support>
@@ -62,5 +65,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>
