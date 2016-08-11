@@ -58,5 +58,8 @@
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-icon.png</Icon>
   <ExtraParams></ExtraParams>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>linuxserver/baseimage.nginx</BaseImage>
 </Container>

@@ -51,5 +51,8 @@
 <WebUI>http://[IP]:[PORT:9000]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shout-icon.png</Icon>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>linuxserver/baseimage</BaseImage>
 </Container>
