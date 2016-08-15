@@ -25,7 +25,7 @@
   <Network>host</Network>
   <Privileged>false</Privileged>
   <WebUI>http://[IP]:[PORT:8875]</WebUI>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuserver.io/img/satip-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/minisatip-icon.png</Icon>
   <ExtraParams>--device=/dev/dvb/</ExtraParams>
   <Networking>
     <Mode>host</Mode>
