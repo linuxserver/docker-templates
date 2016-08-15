@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Beta>False</Beta>
-  <Category>MediaApp:Video MediaApp:Other MediaServer:Video MediaServer:Other Other: Tools:</Category>
+  <Category>MediaServer:Video MediaServer:Other Other: Tools:</Category>
   <Date>2016-08-15</Date> 
   <Name>minisatip</Name>
 <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
