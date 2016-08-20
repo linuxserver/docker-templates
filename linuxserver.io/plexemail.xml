@@ -18,8 +18,7 @@
 
   <Description>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]80[/b] Standard HTTP Port [br]
-  [b]443[/b] Standard HTTPS Port [br]
+  [b]8080[/b] Standard HTTP Port [br]
   [b]/config[/b]Storing Configuration and the cron info[br]
   </Description>
   <Project>https://github.com/jakewaldron/PlexEmail</Project>
@@ -41,8 +40,8 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>80</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -60,7 +59,7 @@
     </Volume>
   </Data>
   <Version></Version>
-  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexemail-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>
