@@ -2,12 +2,13 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
-  <Date>2015-09-17</Date>
+  <Date>2016-08-27</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Plex Media Server Change Log[/font][/center]
   
+  [b]27.08.2016:[/b] Rebase to ubuntu xenial with S6 overlay.
   [b]17.09.2015:[/b] Changed to run chmod only once
   [b]16.09.2015:[/b] Now downloads from https rather than http (To comply with changes by plex.tv)
   [b]28.08.2015:[/b] Now uses VERSION only rather than VERSION+PLEXPASS, Failure detection on updateing plex, aswell as faster baseimage.
@@ -62,5 +63,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage</BaseImage>
+<BaseImage>lsiobase/xenial</BaseImage>
 </Container>
