@@ -64,7 +64,7 @@ missing from last 2 data dumps.
     </Volume>
   </Data>
   <Version></Version>
-  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/musicbrainz-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/musicbrainz-icon.png</Icon>
   <WebUI>http://[IP]:[PORT:5000]/</WebUI>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>
