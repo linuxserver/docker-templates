@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Container>
-<Beta>False</Beta>
-<Category>MediaServer:Photos</Category>
-<Date>2015-12-08</Date>
+  <Beta>false</Beta>
+  <Category>MediaServer:Photos</Category>
+  <Date>2015-12-08</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Photoshow Change Log[/font][/center]</Changes>
-[b]08.12.2015:[/b] Patch in modified keyboard.js file
   <Name>photoshow</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42424</Support>
   <Description>
@@ -17,7 +16,7 @@ A simple, easy way to turn a photo album into a webgallery[br]
   [b]/Pictures[/b]What you want photoshow to make a webgallery from, includes subfolders[br]
   [b]/Thumbs[/b]Where photoshow should store its thumbnails[br]
 </Description>
- <Overview>A simple, easy way to turn a photo album into a webgallery</Overview>
+  <Overview>A simple, easy way to turn a photo album into a webgallery</Overview>
   <Project>http://www.photoshow-gallery.com/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/photoshow/</Registry>
   <Repository>linuxserver/photoshow</Repository>
@@ -36,12 +35,12 @@ A simple, easy way to turn a photo album into a webgallery[br]
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
-    <Port>
+      <Port>
         <HostPort>80</HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
-   </Publish>
+    </Publish>
   </Networking>
   <Data>
     <Volume>
@@ -60,12 +59,12 @@ A simple, easy way to turn a photo album into a webgallery[br]
       <Mode>rw</Mode>
     </Volume>
   </Data>
-<WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner></Banner>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Banner/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/photoshow-icon.png</Icon>
-  <ExtraParams></ExtraParams>
-<DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
-<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.nginx</BaseImage>
+  <ExtraParams/>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+  <BaseImage>linuxserver/baseimage.nginx</BaseImage>
 </Container>
