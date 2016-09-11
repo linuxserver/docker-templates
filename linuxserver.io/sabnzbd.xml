@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
 <Category>Downloaders:</Category>
-  <Date>2016-09-09</Date>
+  <Date>2016-11-09</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Sabnzbd Change Log[/font][/center]
+[b]11.09.2016[/b] Bump to 1.10 release. 
 [b]09.09.2016[/b] Rebase back to ubunutu, compatibility of 1.10 branch and python alpine and notifications tab
 [b]31.08.2016[/b] Rebase to alpine linux. 
 [b]14.03.2016[/b] Bump image install to 1.0 RC5 
