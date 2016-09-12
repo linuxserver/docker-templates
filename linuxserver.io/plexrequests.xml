@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Downloaders: Network:Other MediaApp:Video Tools:</Category>
+<Date>2016-09-12</Date>
+  <Changes>
+  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+  [center][font size=4]Plexrequests Change Log[/font][/center]
+  [b]12.09.2016: [/b] Rebase to xenial, move to main repository.
+  [b]27.02.2016: [/b] Bump to latest release
+  [b]05.02.2016:[/b] Initial Release. 
+  </Changes>
+  <Name>plexrequests</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=46320.0</Support>
+  <Description>Simple automated way for users to request new content for Plex[br]
+  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] : Storing all plexrequests config files [br]
+  [b]Setting URL_BASE variable to /requests will enable reverse proxy of this container[/br]substitute requests for another name if you wish[/b]
+</Description>
+  <Project>http://plexrequests.8bits.ca/</Project>
+  <Overview>Simple automated way for users to request new content for Plex.</Overview>
+  <Registry>https://hub.docker.com/r/linuxserver/plexrequests/</Registry>
+  <Repository>linuxserver/plexrequests</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+    <Variable>
+      <Name>URL_BASE</Name>
+      <Value>0</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+     <Port>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
+      </Port>
+</Publish>
+ </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/plexrequests-icon.png</Icon>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/xenial</BaseImage>
+</Container>
