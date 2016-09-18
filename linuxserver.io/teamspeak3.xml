@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>teamspeak3</Name>
-  <Date>2016-08-13</Date>
+  <Date>2016-09-18</Date>
   <Project>https://www.teamspeak.com/</Project>
   <Support>http://lime-technology.com/forum/index.php?topic=43603.0</Support>
   <Description>VoIP software designed with security in mind, featuring crystal clear voice quality, endless customization options, and scalabilty up to thousands of simultaneous users.
@@ -12,6 +12,7 @@
   <Privileged>false</Privileged>
   <Category>Network:Voip</Category>
   <Changes>
+[b]18.09.2016:[/b] Corrected long standing error with network configuration.
 [b]13.08.2016:[/b] Rebase to ubuntu xenial.
 [b]10.09.2015:[/b] Inital release
 </Changes>
@@ -26,27 +27,27 @@
     </Variable>
   </Environment>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>host</Mode>
     <Publish>
       <Port>
-        <HostPort>9987</HostPort>
-        <ContainerPort>9987</ContainerPort>
-        <Protocol>udp</Protocol>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
       </Port>
       <Port>
-        <HostPort>10011</HostPort>
-        <ContainerPort>10011</ContainerPort>
-        <Protocol>tcp</Protocol>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
       </Port>
       <Port>
-        <HostPort>30033</HostPort>
-        <ContainerPort>30033</ContainerPort>
-        <Protocol>tcp</Protocol>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
       </Port>
       <Port>
-        <HostPort>41144</HostPort>
-        <ContainerPort>41144</ContainerPort>
-        <Protocol>tcp</Protocol>
+        <HostPort></HostPort>
+        <ContainerPort></ContainerPort>
+        <Protocol></Protocol>
       </Port>
     </Publish>
   </Networking>
