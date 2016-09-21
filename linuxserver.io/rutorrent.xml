@@ -2,11 +2,13 @@
 <Container>
 <Beta>False</Beta>
 <Category>Downloaders:</Category>
-<Date>2016-08-07</Date>
+<Date>2016-09-21</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Rutorrent Change Log[/font][/center]
+[b]21.09.2016[/b] Mediainfo update, pick up latest changes from rutorrent, 
+add wget (hopefully better rss integration).  
 [b]07.08.2016[/b] Rebase to alpine.  
 [b]08.03.2016[/b] Initial Release  
 </Changes>
