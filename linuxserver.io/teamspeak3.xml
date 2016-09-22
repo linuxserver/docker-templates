@@ -7,7 +7,7 @@
   <Description>VoIP software designed with security in mind, featuring crystal clear voice quality, endless customization options, and scalabilty up to thousands of simultaneous users.
   Use the command line log to get the privilege rather than the webui log.</Description>
   <Registry>https://hub.docker.com/r/linuxserver/gsm-ts3/</Registry>
-  <Repository>linuxserver/gsm-ts3</Repository>
+  <Repository>linuxserver/gsm-ts3:unraid</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Category>Network:Voip</Category>
