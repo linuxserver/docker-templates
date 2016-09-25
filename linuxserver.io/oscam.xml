@@ -18,7 +18,7 @@
   (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the 
   not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.</Overview>
   <Category>MediaServer:Other</Category>
-  <WebUI>http://[IP]:[PORT:9981]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8888]/</WebUI>
   <TemplateURL/>
   <Icon>http://i.imgur.com/8LadrLg.png</Icon>
   <ExtraParams/>
