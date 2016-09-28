@@ -2,11 +2,13 @@
 <Container>
   <Beta>False</Beta>
   <Category>Network:Messenger</Category>
-  <Date>2016-08-10</Date>
+  <Date>2016-09-24</Date>
   <Name>quassel-core</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Quassel Core Change Log[/font][/center]
+[b]24.09.2016[/b] Use correct dependencies due to xenial quassel built with Qt5 and not Qt4,
+thanks bauerj
 [b]10.08.2016[/b] Rebase to ubuntu xenial
 </Changes>
   <Support>https://lime-technology.com/forum/index.php?topic=42573.0</Support>

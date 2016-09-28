@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>MediaApp:Music Other: Tools:</Category>
+<Date>2016-08-28</Date>
+  <Name>musicbrainz</Name>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]musicbrainz Change Log[/font][/center]
+[b]29.08.2016[/b] Move to main repository.
+[b]21.03.2016[/b] Bump to latest server release
+[b]26.02.2016[/b] Bump to latest server release
+[b]03.01.2016[/b] Move d/l of db dump higher up initialise phase, take out d/l of sitemaps
+missing from last 2 data dumps.
+[b]15.12.2015[/b] Switch to the new production branch for latest stable code
+</Changes>
+  <Support>http://lime-technology.com/forum/index.php?topic=44606.0</Support>
+  <Description> MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.
+  [br][br]
+  [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where musicbrainz should store settings, logs and configuration[br]
+  [b]/data[/b] Where musicbrainz should store its databases
+</Description>
+  <Project>https://musicbrainz.org/</Project>
+  <Overview> MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.</Overview>
+  <Registry>https://hub.docker.com/r/linuxserver/musicbrainz/</Registry>
+  <Repository>linuxserver/musicbrainz</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>BRAINZCODE</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/musicbrainz-icon.png</Icon>
+  <WebUI>http://[IP]:[PORT:5000]/</WebUI>
+  <ExtraParams></ExtraParams>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>ubuntu:14.04</BaseImage>
+</Container>
+

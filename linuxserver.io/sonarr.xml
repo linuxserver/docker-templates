@@ -2,11 +2,14 @@
 <Container>
   <Beta>False</Beta>
   <Category>Downloaders: MediaApp:Video</Category>
-  <Date>2015-08-31</Date>
+  <Date>2016-09-23</Date>
   <Name>Sonarr</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
-[center][font size=4]Sonarr Change Log[/font][/center]</Changes>
+[center][font size=4]Sonarr Change Log[/font][/center]
+[b]23.09.2016:[/b] Fix issues with redirect on althub.
+[b]16.09.2016:[/b] Add libcurl3 package for https connections.
+</Changes>
   <Support>http://lime-technology.com/forum/index.php?topic=43601.0</Support>
   <Description>Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.&#13;
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;#13;&#13;
@@ -72,4 +75,3 @@
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>lsiobase/xenial</BaseImage>
 </Container>
-

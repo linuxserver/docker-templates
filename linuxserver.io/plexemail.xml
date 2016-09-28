@@ -2,7 +2,7 @@
 <Container>
 <Beta>False</Beta>
 <Category>Network:Web Network:Proxy</Category>
-<Date>2015-10-11</Date>
+<Date>2016-08-20</Date>
   <Name>plexemail</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=43937.0</Support>
   <Overview>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.
@@ -10,6 +10,7 @@
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
 [center][font size=4]Plexemail Change Log[/font][/center]
+[b]20.08.2016:[/b] Rebase to alpine linux.
 [b]21.11.2015:[/b] Added test scripts
 [b]16.11.2015:[/b] Initial copy of crontab now made by default
 [b]06.11.2015:[/b] Initial Release
@@ -17,8 +18,7 @@
 
   <Description>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]80[/b] Standard HTTP Port [br]
-  [b]443[/b] Standard HTTPS Port [br]
+  [b]8080[/b] Standard HTTP Port [br]
   [b]/config[/b]Storing Configuration and the cron info[br]
   </Description>
   <Project>https://github.com/jakewaldron/PlexEmail</Project>
@@ -53,17 +53,17 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/plex/Library/Application Support</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/plex</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Version></Version>
-  <WebUI>http://[IP]:[PORT:8585]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexemail-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.python</BaseImage>
+<BaseImage>lsiobase/alpine.python</BaseImage>
 </Container>

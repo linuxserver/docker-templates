@@ -2,11 +2,13 @@
 <Container>
   <Beta>False</Beta>
   <Category>Downloaders:</Category>
-  <Date>2016-09-08</Date>
+  <Date>2016-09-23</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
   [center][font size=4]Transmission Change Log[/font][/center]
+  [b]23.09.2016:[/b] Edit git and hub readme's for securing webui with username/password.
+  [b]21.09.2016:[/b] Add curl package for app to app communication in scripts.
   [b]09.08.2016:[/b] Rebase to alpine linux.
   [b]16.11.2015:[/b] Initial Release. 
   </Changes>

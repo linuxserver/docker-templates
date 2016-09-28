@@ -2,11 +2,15 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Video</Category>
-  <Date>2015-11-24</Date>
+  <Date>2016-09-21</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Kodi-Headless Change Log[/font][/center]
+[font size=4]21.09.2016[/font]
+- Add in kodi-send, fix /var/cache/samba permissions.
+[font size=4]03.09.2016[/font]
+- Remove VERSION variable in favour of tagging, rebase most version to alpine linux.
 [font size=4]24.11.2015[/font]
 - Tweak update init to cater for white space and out of
 range values in VERSION variable
@@ -62,11 +66,10 @@ range values in VERSION variable
     </Volume>
   </Data>
 <WebUI></WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kodi-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kodi-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.python</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

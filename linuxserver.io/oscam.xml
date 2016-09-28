@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>oscam</Name>
+  <Date>2016-09-26</Date>
+  <Repository>linuxserver/oscam</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/oscam/</Registry>
+    <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Oscam Change Log[/font][/center]
+  [b]26.09.2016:[/b] Initial Release.
+</Changes>
+<Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://lime-technology.com/forum/index.php?topic=52273.0</Support>
+  <Project>http://www.streamboard.tv/oscam/</Project>
+  <Overview>OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module 
+  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the 
+  not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.</Overview>
+  <Category>MediaServer:Other</Category>
+  <WebUI>http://[IP]:[PORT:8888]/</WebUI>
+  <TemplateURL/>
+  <Icon>http://i.imgur.com/8LadrLg.png</Icon>
+  <ExtraParams/>
+  <Description>OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module 
+  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the 
+  not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8888</HostPort>
+        <ContainerPort>8888</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>10000</HostPort>
+        <ContainerPort>10000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="Config" Target="/config" Default="" Mode="rw" Description="Config" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="PGID" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="PUID" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="Webgui" Target="8888" Default="8888" Mode="tcp" Description="Webgui" Type="Port" Display="always" Required="true" Mask="false">8888</Config>
+  <Config Name="Port" Target="10000" Default="10000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="true" Mask="false">10000</Config>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+  <BaseImage>lsiobase/alpine</BaseImage>
+</Container>
