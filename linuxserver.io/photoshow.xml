@@ -2,11 +2,13 @@
 <Container>
   <Beta>false</Beta>
   <Category>MediaServer:Photos</Category>
-  <Date>2015-12-08</Date>
+  <Date>2016-09-30</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
-[center][font size=4]Photoshow Change Log[/font][/center]</Changes>
+[center][font size=4]Photoshow Change Log[/font][/center]
+[b]30.09.2016[/b] Rebase to alpine linux.
+</Changes>
   <Name>photoshow</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42424</Support>
   <Description>
@@ -66,5 +68,5 @@ A simple, easy way to turn a photo album into a webgallery[br]
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>linuxserver/baseimage.nginx</BaseImage>
+  <BaseImage>lsiobase/alpine.nginx</BaseImage>
 </Container>
