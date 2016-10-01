@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaApp:Music</Category>
-  <Date>2016-09-25</Date>
+  <Date>2016-10-01</Date>
   <Changes>
   	[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Beets Change Log[/font][/center]
+  [b]10.01.2016:[/b] Add nano to packages, set EDITOR variable.
   [b]25.09.2016:[/b] Rebase to alpine linux.
   [b]05.01.2016:[/b] Change ffmpeg repository, pp3man version crashes container keyboard input
   [b]29.11.2015:[/b] Change to no terminal type set, seems to be causing
