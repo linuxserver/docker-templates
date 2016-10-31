@@ -25,7 +25,9 @@ range values in VERSION variable
   [br]Headless installation to enable library updates[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where kodi-headless should store settings, log and configuration files[br]
-  [b]VERSION[/b] An optional variable setting to choose main kodi version, check out the support thread before setting[br]
+  [b]tags[/b] Adding a tag in the form :Krypton (for example only),
+  allows you to specify kodi main version[br]See git README https://github.com/linuxserver/docker-kodi-headless#tags[br] for current supported tags
+
   </Description>
   <Overview>Headless installation of Kodi™ (formerly known as XBMC™), to enable library updates.</Overview>
 <Project>http://kodi.tv/</Project>
