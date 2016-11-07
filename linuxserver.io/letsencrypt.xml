@@ -8,7 +8,7 @@
   - Initial release.
   </Changes>
   <Repository>linuxserver/letsencrypt</Repository>
-  <Registry>https://hub.docker.com/u/linuxserver/letsencrypt/</Registry>
+  <Registry>https://hub.docker.com/r/linuxserver/letsencrypt/</Registry>
   <Network>bridge</Network>
   <Privileged>true</Privileged>
   <Support>http://lime-technology.com/forum/index.php?topic=53542.0</Support>
