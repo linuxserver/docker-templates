@@ -10,7 +10,7 @@
   <Repository>linuxserver/letsencrypt</Repository>
   <Registry>https://hub.docker.com/u/linuxserver/letsencrypt/</Registry>
   <Network>bridge</Network>
-  <Privileged>false</Privileged>
+  <Privileged>true</Privileged>
   <Support>http://lime-technology.com/forum/index.php?topic=53542.0</Support>
   <Overview>This container sets up an Nginx webserver and reverse proxy with php support and a built-in letsencrypt client that automates free SSL server certificate generation and renewal processes. It also contains fail2ban for intrusion prevention.&#xD;
   &#xD;
