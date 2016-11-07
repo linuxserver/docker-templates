@@ -32,7 +32,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>80</HostPort>
+        <HostPort></HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -77,7 +77,7 @@
       <Mode/>
     </Variable>
   </Environment>
-  <Config Name="http" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false">80</Config>
+  <Config Name="http" Target="80" Default="" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false">80</Config>
   <Config Name="https" Target="443" Default="443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="false" Mask="false">443</Config>
   <Config Name="Email" Target="EMAIL" Default="" Mode="" Description="Your e-mail address for cert registration" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Domain Name" Target="URL" Default="" Mode="" Description="the top url you have control over customdomain.com if you own it, or customsubdomain.ddnsprovider.com if using dynamic dns)" Type="Variable" Display="always" Required="false" Mask="false"/>
