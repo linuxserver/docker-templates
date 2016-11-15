@@ -53,14 +53,16 @@
     </Volume>
   </Data>
   <Environment>
-     <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
     </Variable>
     <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-</Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
 <Variable>
       <Value/>
       <Name>EMAIL</Name>
