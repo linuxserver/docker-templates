@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>DuckDNS</Name>
+  <Date>2016-11-17</Date>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+  [center][font size=4]DuckDNS Change Log[/font][/center]
+  [font size=4]17-11-2016[/font]
+  - Initial release.
+  </Changes>
   <Repository>linuxserver/duckdns</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/duckdns/</Registry>
   <Network>host</Network>
@@ -20,7 +27,6 @@ It will update your IP with the DuckDNS service every 5 minutes&#xD;
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png</Icon>
   <ExtraParams/>
-  <DateInstalled>1479424520</DateInstalled>
   <Description>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.</Description>
   <Networking>
     <Mode>host</Mode>
