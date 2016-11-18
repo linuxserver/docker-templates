@@ -18,6 +18,9 @@
   <Overview>Libresonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.&#xD;
 &#xD;
 /music - Location of music.&#xD;
+/media - Location of other media.&#xD;
+/podcasts - Location of podcasts.&#xD;
+/playlists - Location for playlists storage.&#xD;
 CONTEXT_PATH for setting url-base in reverse proxy setups - (optional)&#xD;
 &#xD;
 Default user/pass is admin/admin</Overview>
@@ -45,6 +48,21 @@ Default user/pass is admin/admin</Overview>
     </Volume>
     <Volume>
       <HostDir/>
+      <ContainerDir>/playlists</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/podcasts</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+       <Volume>
+      <HostDir/>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -68,6 +86,9 @@ Default user/pass is admin/admin</Overview>
   </Environment>
   <Config Name="Port" Target="4040" Default="" Mode="tcp" Description="Container Port: 4040" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Container Path: /music" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Playlists" Target="/playlists" Default="" Mode="rw" Description="Container Path: /playlists" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Podcasts" Target="/podcasts" Default="" Mode="rw" Description="Container Path: /podcasts" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Media" Target="/media" Default="" Mode="rw" Description="Container Path: /media" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Context Path" Target="CONTEXT_PATH" Default="" Mode="" Description="Container Variable: CONTEXT_PATH" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
