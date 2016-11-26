@@ -51,8 +51,8 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>8080</HostPort>
-        <ContainerPort>8080</ContainerPort>
+        <HostPort>1443</HostPort>
+        <ContainerPort>1443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
