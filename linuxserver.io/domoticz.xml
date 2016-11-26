@@ -12,7 +12,7 @@
   <Name>domoticz</Name>
   <Support></Support>
   <Description>
-  Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.
+  Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config/[/b] Where Domoticz stores configuration files[br]
   If you want to pass through a USB device, add the device using the Add another Path, Port or Variable in the bottom of this template.
@@ -65,7 +65,7 @@
     </Volume>
   </Data>
   <Version></Version>
-  <WebUI></WebUI>
+<WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/domoticz.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/domoticz.png</Icon>
 <DonateText>Donations</DonateText>
