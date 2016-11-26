@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Network:Other Other:</Category>
+<Date>2016-11-26</Date>
+ <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]DDClient Change Log[/font][/center]
+[b]26.11.2016[/b] Initial Release.
+  </Changes>
+  <Name>ddclient</Name>
+  <Support></Support>
+  <Description>
+  DDclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config/[/b] Where DDClient stores configuration files.[br]
+  </Description>
+  <Overview>DDclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.</Overview>
+  <Project>https://sourceforge.net/p/ddclient/wiki/Home/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/ddclient/</Registry>
+  <Repository>linuxserver/ddclient</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+    <Variable>
+      <Name>TZ</Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI></WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient.png</Icon>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/alpine</BaseImage>
+</Container>
