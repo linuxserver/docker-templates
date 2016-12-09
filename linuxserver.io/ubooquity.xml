@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <Date>2016-12-09</Date>
+  <Beta>False</Beta>
   <Name>ubooquity</Name>
+    <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Ubooquity Change Log[/font][/center]
+[b]09.12.2016[/b] Initial Release.
+</Changes>
+  <Project>https://vaemendis.net/ubooquity/</Project>
   <Repository>linuxserver/ubooquity</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/ubooquity/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>http://lime-technology.com/forum/index.php?topic=54543.0</Support>
-  <Overview>Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.&#xD;
-  [br][br]&#xD;
-  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
-  [b]/config[/b] Where Ubooquity should store settings, logs and configuration[br]&#xD;
-  [b]/books[/b] Path to your Ebooks[br]&#xD;
-  [b]/comics[/b] Path to your comics[br]&#xD;
-  </Overview>
+  <Overview>Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.</Overview>
   <Category>Cloud: MediaApp:Books MediaServer:Books</Category>
   <WebUI>http://[IP]:[PORT:2202]/ubooquity/admin</WebUI>
   <TemplateURL/>
