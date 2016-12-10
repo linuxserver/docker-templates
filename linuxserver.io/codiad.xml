@@ -5,14 +5,14 @@
   <Date>2015-07-11</Date>
   <Changes>
   	[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Coadiad Change Log[/font][/center]
   [b]07.11.2015:[/b] Initial Release [br]
   [b]07.11.2015:[/b] Add fix to remove collboaration warning [br]
   [b]014.11.2015:[/b] Add fix have sed command only run once
   </Changes>
   <Support>http://lime-technology.com/forum/index.php?topic=43882.0</Support>
-  <Name>Codiad</Name>
+  <Name>codiad</Name>
   <Description>Codiad is a web-based IDE framework with a small footprint and minimal requirements.[br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : Where the config file will be created.[br]

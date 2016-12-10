@@ -3,7 +3,7 @@
 <Beta>False</Beta>
 <Category>Network:Web Network:Proxy</Category>
 <Date>2015-11-06</Date>
-  <Name>Apache</Name>
+  <Name>apache</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=43858.0</Support>
   <Overview>This is an apache web server docker with reverse proxy services enabled. Reverse proxy gives the ability going to www.domain.com:8351 for a service, you can go direct to www.domain.com/service and also enable HTTPS.</Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]

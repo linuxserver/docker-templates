@@ -4,9 +4,9 @@
   <Category>Downloaders:</Category>
   <Date>2016-08-19</Date>
   <Support>http://lime-technology.com/forum/index.php?topic=43599.0</Support>
-  <Name>NZBGet</Name>
+  <Name>nzbget</Name>
  <Changes> [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]NZBGet Change Log[/font][/center]
 [b]19.08.2016:[/b] Rebase to alpine linux.</Changes>
   <Description>NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players.
@@ -66,4 +66,3 @@
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>lsiobase/alpine</BaseImage>
 </Container>
-
