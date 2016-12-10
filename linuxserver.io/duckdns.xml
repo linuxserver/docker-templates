@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>DuckDNS</Name>
+  <Name>duckdns</Name>
   <Date>2016-11-17</Date>
   <Category>Network:DNS Tools:</Category>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]

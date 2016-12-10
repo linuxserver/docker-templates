@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Piwigo</Name>
+<Name>piwigo</Name>
 <Beta>False</Beta>
 <Date>2015-10-07</Date>
 <Project>http://piwigo.org/</Project>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Piwigo Change Log[/font][/center]
 [font size=4]2015-10-07[/font]
 Change to use baseimage update script
@@ -57,4 +57,3 @@ Change to use baseimage update script
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>linuxserver/baseimage.apache</BaseImage>
 </Container>
-
