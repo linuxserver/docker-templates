@@ -27,7 +27,7 @@
   [b]/config[/b] Where booksonic should store settings, logs and configuration[br]&amp;amp;#xD;&#xD;
   [b]/books[/b] Path to your audiobooks[br]&amp;amp;#xD;&#xD;
   [b]/podcasts[/b] Path to your podcasts[br]&amp;amp;#xD;
-  [b]CONTEXT_PATH[/b]Enables easier reverse proxying[br]&amp;amp;#xD;</Description>
+  [b]CONTEXT_PATH[/b] Enables easier reverse proxying[br]&amp;amp;#xD;</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
