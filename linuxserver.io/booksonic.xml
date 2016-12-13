@@ -29,48 +29,7 @@
   <Description>Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic.</Description>
   <Networking>
     <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>4040</HostPort>
-        <ContainerPort>4040</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
   </Networking>
-  <Data>
-    <Volume>
-      <HostDir/>
-      <ContainerDir>/books</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir/>
-      <ContainerDir>/podcasts</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir/>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment>
-    <Variable>
-      <Value>99</Value>
-      <Name>PUID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>100</Value>
-      <Name>PGID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>booksonic</Value>
-      <Name>CONTEXT_PATH</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
   <Config Name="Host Port" Target="4040" Default="4040" Mode="tcp" Description="Container Port:4040" Type="Port" Display="always" Required="true" Mask="false">4040</Config>
   <Config Name="Audiobook Location" Target="/books" Default="" Mode="rw" Description="Audiobook Location" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Podcasts Location" Target="/podcasts" Default="" Mode="rw" Description="Podcasts Location" Type="Path" Display="always" Required="false" Mask="false"/>
