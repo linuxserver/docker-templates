@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Date>2016-12-09</Date>
+  <Date>2016-12-13</Date>
   <Beta>False</Beta>
   <Name>booksonic</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
 [center][font size=4]Booksonic Change Log[/font][/center]
-[b]09.12.2016[/b] Initial Release.
+[b]13.12.2016[/b] Initial Release.
 </Changes>
   <Project>http://booksonic.org</Project>
   <Repository>linuxserver/booksonic</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/booksonic/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>http://lime-technology.com/forum/index.php?topic=54543.0</Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=54663.0</Support>
   <Overview>Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic</Overview>
   <Category>MediaApp:Books MediaApp:Other MediaServer:Books MediaServer:Other Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:4040]/booksonic/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/booksonic-icon.png</Icon>
   <ExtraParams/>
-  <DateInstalled>1481596096</DateInstalled>
   <Description>Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic.&amp;amp;#xD;&#xD;
   [br][br]&amp;amp;#xD;&#xD;
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;amp;#xD;&#xD;
