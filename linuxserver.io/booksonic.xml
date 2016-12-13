@@ -26,7 +26,8 @@
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;amp;#xD;&#xD;
   [b]/config[/b] Where booksonic should store settings, logs and configuration[br]&amp;amp;#xD;&#xD;
   [b]/books[/b] Path to your audiobooks[br]&amp;amp;#xD;&#xD;
-  [b]/podcasts[/b] Path to your podcasts[br]&amp;amp;#xD;</Description>
+  [b]/podcasts[/b] Path to your podcasts[br]&amp;amp;#xD;
+  [b]CONTEXT_PATH[/b]Enables easier reverse proxying[br]&amp;amp;#xD;</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
@@ -65,12 +66,6 @@
       <Mode/>
     </Variable>
   </Environment>
-  <Config Name="Host Path 2" Target="/books" Default="" Mode="rw" Description="Container Path: /books" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Host Path 3" Target="/podcast" Default="" Mode="rw" Description="Container Path: /podcast" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Host Key 1" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
-  <Config Name="Host Key 2" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
-  <Config Name="Host Key 3" Target="CONTEXT_PATH" Default="" Mode="" Description="Container Variable: CONTEXT_PATH" Type="Variable" Display="advanced" Required="false" Mask="false">booksonic</Config>
-  <Config Name="Host Path 1" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced" Required="true" Mask="false"/>
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
