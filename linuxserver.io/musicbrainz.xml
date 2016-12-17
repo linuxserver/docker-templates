@@ -2,11 +2,12 @@
 <Container>
 <Beta>False</Beta>
 <Category>MediaApp:Music Other: Tools:</Category>
-<Date>2016-08-28</Date>
+<Date>2016-12-17</Date>
   <Name>musicbrainz</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]musicbrainz Change Log[/font][/center]
+[b]17.12.2016[/b] Rebase to alpine linux.
 [b]29.08.2016[/b] Move to main repository.
 [b]21.03.2016[/b] Bump to latest server release
 [b]26.02.2016[/b] Bump to latest server release
@@ -70,6 +71,6 @@ missing from last 2 data dumps.
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>ubuntu:14.04</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>
 
