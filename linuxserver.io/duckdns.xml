@@ -23,7 +23,6 @@ Then run the docker create command above with your subdomain(s) and token&#xD;
 It will update your IP with the DuckDNS service every 5 minutes&#xD;
 &#xD;
 </Overview>
-  <Category/>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duckdns.png</Icon>
