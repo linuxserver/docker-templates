@@ -65,7 +65,7 @@
   <Config Name="Webgui" Target="8888" Default="8888" Mode="tcp" Description="Webgui" Type="Port" Display="always" Required="true" Mask="false">8888</Config>
   <Config Name="Port" Target="10000" Default="10000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="true" Mask="false">10000</Config>
   <DonateText>Donations</DonateText>
-  <DonateLink>https://www.linuxserver.io/index.php/donations/</DonateLink>
+  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
   <BaseImage>lsiobase/alpine</BaseImage>
 </Container>
