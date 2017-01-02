@@ -16,7 +16,7 @@
   <Privileged>false</Privileged>
   <Support>http://lime-technology.com/forum/index.php?topic=55241.0</Support>
   <Overview>Medusa, automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.</Overview>
-  <WebUI>http://[IP]:[PORT:8081]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8081]/medusa</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/medusa-icon.png</Icon>
   <Description>Medusa, automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.&#xD;
   [br][br]&#xD;
