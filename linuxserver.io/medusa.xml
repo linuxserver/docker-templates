@@ -10,6 +10,7 @@
 [b]02.01.2017[/b] Initial Release.
   </Changes>
   <Name>medusa</Name>
+  <Project>https://github.com/pymedusa/Medusa</Project>
   <Repository>linuxserver/medusa</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/medusa/</Registry>
   <Network>bridge</Network>
