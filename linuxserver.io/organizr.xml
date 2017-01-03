@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Tools: Network:Web Network:Proxy Network:Other</Category>
+  <Date>2017-01-03</Date>
+<Changes>
+  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+  [center][font size=4]Organizr Change Log[/font][/center]
+  [b]03.01.2017:[/b] Initial Release. 
+  </Changes>
+  <Name>organizr</Name>
+  <Support>https://lime-technology.com/forum/index.php?topic=</Support>
+  <Repository>lsiodev/organizr</Repository>
+  <Registry>https://hub.docker.com/r/lsiodev/organizr/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>HTPC/Homelab Services Organizer - Written in PHP</Overview>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/organizr-icon.png</Icon>
+  <Description>HTPC/Homelab Services Organizer - Written in PHP&#xD;
+[br]&#xD;
+[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+[b]/config[/b] : Storing all organizr config files [br]&#xD;
+</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/alpine.nginx:3.5</BaseImage>
+</Container>
