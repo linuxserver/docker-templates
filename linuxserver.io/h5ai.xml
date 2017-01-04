@@ -11,8 +11,8 @@
   </Changes>
   <Name>h5ai</Name>
   <Support>https://lime-technology.com/forum/index.php?topic=</Support>
-  <Repository>chbmb/h5ai</Repository>
-  <Registry>https://hub.docker.com/r/chbmb/h5ai/</Registry>
+  <Repository>linuxserver/h5ai</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/h5ai/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Overview>h5ai is a modern file indexer for HTTP web servers with focus on your files. Directories are displayed in a appealing way and browsing them is enhanced by different views, a breadcrumb and a tree overview.</Overview>
