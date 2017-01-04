@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Tools: Network:Web Network:Proxy Network:Other</Category>
+  <Date>2017-01-03</Date>
+<Changes>
+  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+  [center][font size=4]H5ai Change Log[/font][/center]
+  [b]03.01.2017:[/b] Initial Release. 
+  </Changes>
+  <Name>h5ai</Name>
+  <Support>https://lime-technology.com/forum/index.php?topic=</Support>
+  <Repository>chbmb/h5ai</Repository>
+  <Registry>https://hub.docker.com/r/chbmb/h5ai/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>h5ai is a modern file indexer for HTTP web servers with focus on your files. Directories are displayed in a appealing way and browsing them is enhanced by different views, a breadcrumb and a tree overview.</Overview>
+  <WebUI>http://[IP]:[PORT:80]/h5ai/</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/h5ai-icon.png</Icon>
+  <Description>h5ai is a modern file indexer for HTTP web servers with focus on your files. Directories are displayed in a appealing way and browsing them is enhanced by different views, a breadcrumb and a tree overview.&#xD;
+[br]&#xD;
+[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+[b]/config[/b] : Storing all h5ai config files [br]&#xD;
+[b]/config/www/h5ai/files/[/b] : The folder you want to share [br]&#xD;
+</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config/www/h5ai/files/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/alpine.nginx</BaseImage>
+</Container>
