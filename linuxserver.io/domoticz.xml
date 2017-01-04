@@ -10,12 +10,11 @@
   [b]03.01.2017:[/b] Initial Release. 
   </Changes>
   <Name>domoticz</Name>
-  <Support>https://lime-technology.com/forum/index.php?topic=</Support>
   <Repository>linuxserver/domoticz</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/domoticz/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>http://lime-technology.com/forum/index.php?topic=55261.0</Support>
+  <Support>https://lime-technology.com/forum/index.php?topic=55261.0</Support>
   <Overview>Domoticz is a very light weight home automation system that lets you monitor and configure miscellaneous devices, including lights, switches, various sensors/meters like temperature, rainfall, wind, ultraviolet (UV) radiation, electricity usage/production, gas consumption, water consumption and many more. Notifications/alerts can be sent to any mobile device.</Overview>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/domoticz.png</Icon>
