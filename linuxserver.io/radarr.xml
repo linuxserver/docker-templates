@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>True</Beta>
+  <Category>Downloaders: MediaApp:Video Status:Beta</Category>
+  <Date>2017-01-03</Date>
+<Changes>
+  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+  [center][font size=4]Radarr Change Log[/font][/center]
+  [b]10.01.2017:[/b] Initial Release. 
+  </Changes>
+  <Name>radarr</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=55500.0</Support>
+  <Project>https://github.com/Radarr/Radarr</Project>
+  <Repository>linuxserver/radarr</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/radarr/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>This fork of Sonarr aims to turn it into something like Couchpotato.</Overview>
+  <WebUI>http://[IP]:[PORT:7878]</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png</Icon>
+  <Description>This fork of Sonarr aims to turn it into something like Couchpotato.&#xD;
+&#xD;
+[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+&#xD;
+[b]/config[/b] : Storing all Radarr config files [br]&#xD;
+&#xD;
+[b]/tv[/b] : Point to TV share[br]&#xD;
+&#xD;
+[b]8989[/b] : The web-interface. [br]</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>7878</HostPort>
+        <ContainerPort>7878</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/movies</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/xenial</BaseImage>
+</Container>
