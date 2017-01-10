@@ -25,7 +25,7 @@
 &#xD;
 [b]/config[/b] : Storing all Radarr config files [br]&#xD;
 &#xD;
-[b]/tv[/b] : Point to TV share[br]&#xD;
+[b]/movies[/b] : Point to Movies share[br]&#xD;
 &#xD;
 [b]7878[/b] : The web-interface. [br]</Description>
   <Networking>
