@@ -11,6 +11,7 @@
   </Changes>
   <Name>radarr</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=55500.0</Support>
+  <Project>https://github.com/Radarr/Radarr</Project>
   <Repository>linuxserver/radarr</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/radarr/</Registry>
   <Network>bridge</Network>
