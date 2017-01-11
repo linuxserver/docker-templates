@@ -20,7 +20,7 @@
   [b]/config[/b]Storing Configuration and the plexpy database[br]&#13;
   [b]/logs[/b] Map to you plex logs (required for IP logging)[br]&#13;
   </Description>
-  <Project>http://forums.plex.tv/discussion/169591/plexpy-yet-another-web-front-end-for-plexwatch</Project>
+  <Project>https://github.com/JonnyWong16/plexpy</Project>
   <Registry>https://hub.docker.com/r/linuxserver/plexpy/</Registry>
   <Repository>linuxserver/plexpy</Repository>
   <BindTime>true</BindTime>
