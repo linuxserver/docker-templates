@@ -16,10 +16,10 @@
   <Registry>https://hub.docker.com/r/linuxserver/radarr/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Overview>This fork of Sonarr aims to turn it into something like Couchpotato.</Overview>
+  <Overview>Radarr - A fork of Sonarr to work with movies à la Couchpotato.</Overview>
   <WebUI>http://[IP]:[PORT:7878]</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/radarr.png</Icon>
-  <Description>This fork of Sonarr aims to turn it into something like Couchpotato.&#xD;
+  <Description>Radarr - A fork of Sonarr to work with movies à la Couchpotato.&#xD;
 &#xD;
 [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
 &#xD;
