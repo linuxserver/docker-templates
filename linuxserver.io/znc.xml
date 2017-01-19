@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
   <Category>Network:Messenger</Category>
-  <Date>2016-12-07</Date>
+  <Date>2017-01-19</Date>
   <Name>znc</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]ZNC Change Log[/font][/center]
+[b]19.01.2017[/b] Add playback module.
 [b]07.12.2016[/b] Use scanelf to set runtime packages.
 [b]20.08.2016[/b] Rebase to alpine linux
 </Changes>
