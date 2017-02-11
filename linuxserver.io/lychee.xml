@@ -10,7 +10,7 @@
     [b]11.02.2017:[/b] Initial Release.
   </Changes>
   <Name>lychee</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=55261</Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=56494.0</Support>
   <Repository>linuxserver/lychee</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/lychee/</Registry>
   <Network>bridge</Network>
