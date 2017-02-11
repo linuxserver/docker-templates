@@ -70,5 +70,5 @@ To get full use of Domoticz, you probably have a USB device you want to pass thr
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine.nginx:3.5</BaseImage>
+  <BaseImage>lsiobase/alpine:3.5</BaseImage>
 </Container>
