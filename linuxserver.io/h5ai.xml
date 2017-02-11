@@ -11,7 +11,7 @@
   </Changes>
   <Name>h5ai</Name>
   <Support>https://lime-technology.com/forum/index.php?topic=</Support>
-  <Repository>chbmb/h5ai</Repository>
+  <Repository>linuxserver/h5ai</Repository>
   <Registry>https://hub.docker.com/r/chbmb/h5ai/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
