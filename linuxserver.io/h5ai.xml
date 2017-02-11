@@ -10,7 +10,7 @@
   [b]03.01.2017:[/b] Initial Release.
   </Changes>
   <Name>h5ai</Name>
-  <Support>https://lime-technology.com/forum/index.php?topic=</Support>
+  <Support>https://lime-technology.com/forum/index.php?topic=55262</Support>
   <Repository>linuxserver/h5ai</Repository>
   <Registry>https://hub.docker.com/r/chbmb/h5ai/</Registry>
   <Network>bridge</Network>
