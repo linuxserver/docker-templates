@@ -12,6 +12,7 @@
   <Name>domoticz</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=55261</Support>
   <Repository>linuxserver/domoticz</Repository>
+  <Project>https://www.domoticz.com</Project>
   <Branch>
     <Tag>stable-3.5877</Tag>
     <TagDescription>This is the stable version 3.5877 of Domoticz</TagDescription>
