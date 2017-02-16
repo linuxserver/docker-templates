@@ -33,11 +33,16 @@ range values in VERSION variable
   <Branch>
   <Tag>Helix</Tag>
   <TagDescription>Helix (14) version</TagDescription>
+  </Branch>
+  <Branch>
   <Tag>Isengard</Tag>
   <TagDescription>Isengard (15) version</TagDescription>
+  </Branch>
+  <Branch>
   <Tag>Jarvis</Tag>
   <TagDescription>Jarvis (16) version</TagDescription>
-  <Tag>Krypton</Tag>
+  </Branch>
+  <Branch><Tag>Krypton</Tag>
   <TagDescription>Krypton (17) version</TagDescription>
   </Branch>
   <Project>http://kodi.tv/</Project>
