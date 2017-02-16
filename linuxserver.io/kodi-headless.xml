@@ -30,7 +30,17 @@ range values in VERSION variable
 
   </Description>
   <Overview>Headless installation of Kodi™ (formerly known as XBMC™), to enable library updates.</Overview>
-<Project>http://kodi.tv/</Project>
+  <Branch>
+  <Tag>Helix</Tag>
+  <TagDescription>Helix (14) version</TagDescription>
+  <Tag>Isengard</Tag>
+  <TagDescription>Isengard (15) version</TagDescription>
+  <Tag>Jarvis</Tag>
+  <TagDescription>Jarvis (16) version</TagDescription>
+  <Tag>Krypton</Tag>
+  <TagDescription>Krypton (17) version</TagDescription>
+  </Branch>
+  <Project>http://kodi.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/kodi-headless/</Registry>
   <Repository>linuxserver/kodi-headless</Repository>
   <BindTime>true</BindTime>
