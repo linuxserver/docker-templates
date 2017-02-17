@@ -11,9 +11,9 @@
 </Changes>
 <Name>ombi</Name>
 <Support>http://lime-technology.com/forum/index.php?topic=55262</Support>
-  <Repository>lsiodev/ombi</Repository>
+  <Repository>linuxserver/ombi</Repository>
   <Project>https://www.ombi.io/</Project>
-  <Registry>https://hub.docker.com/r/lsiodev/ombi/</Registry>
+  <Registry>https://hub.docker.com/r/linuxserver/ombi/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Overview>Ombi allows you to host your own Plex Request and user management system. </Overview>
