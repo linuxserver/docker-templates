@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
 <Category>Downloaders:</Category>
-  <Date>2016-11-09</Date>
+  <Date>2017-25-02</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Sabnzbd Change Log[/font][/center]
+[b]25.02.2017[/b] split off unstable branch set by tag. 
 [b]11.09.2016[/b] Bump to 1.10 release. 
 [b]09.09.2016[/b] Rebase back to ubunutu, compatibility of 1.10 branch and python alpine and notifications tab
 [b]31.08.2016[/b] Rebase to alpine linux. 
@@ -23,7 +24,11 @@
   [b]/incomplete-downloads[/b] Where you want sab to place downlaods that are incomplete.
   </Description>
   <Overview>SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.</Overview>
-<Project>http://sabnzbd.org/</Project>
+  <Branch>
+  <Tag>unstable</Tag>
+  <TagDescription>unstable branch (includes betas etc)</TagDescription>
+  </Branch>
+  <Project>http://sabnzbd.org/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/sabnzbd/</Registry>
   <Repository>linuxserver/sabnzbd</Repository>
   <BindTime>true</BindTime>
