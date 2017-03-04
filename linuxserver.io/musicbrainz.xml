@@ -2,11 +2,12 @@
 <Container>
 <Beta>False</Beta>
 <Category>MediaApp:Music Other: Tools:</Category>
-<Date>2016-12-17</Date>
+<Date>2016-03-04</Date>
   <Name>musicbrainz</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]musicbrainz Change Log[/font][/center]
+[b]04.03.2017[/b] Bump server version, use nginx for webserver.
 [b]17.12.2016[/b] Rebase to alpine linux.
 [b]29.08.2016[/b] Move to main repository.
 [b]21.03.2016[/b] Bump to latest server release
@@ -21,6 +22,7 @@ missing from last 2 data dumps.
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where musicbrainz should store settings, logs and configuration[br]
   [b]/data[/b] Where musicbrainz should store its databases
+  [b][span style=\'color: #E80000;\']AFTER iniatilisation is complete you will need to edit the line sub WEB_SERVER { "localhost:5000" } in file /config/DBDefs.pm changing localhost to the ip of your host, this is to allow css to display properly.[/span][/b]
 </Description>
   <Project>https://musicbrainz.org/</Project>
   <Overview> MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.</Overview>
