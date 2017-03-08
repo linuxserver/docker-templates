@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Cloud: Productivity: Tools: MediaServer:Other Network:Web Status:Stable</Category>
+  <Date>2017-03-07</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+    [center][font size=4]Nextcloud Change Log[/font][/center]
+    [b]07.03.2017:[/b] Initial Release with PHP7 and Alpine 3.5.
+  </Changes>
+  <Name>nextcloud</Name>
+  <Support>https://forums.lime-technology.com/topic/48383-support-linuxserverio-nextcloud-beta/</Support>
+  <Repository>linuxserver/nextcloud</Repository>
+  <Project>https://nextcloud.com</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/nextcloud</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>Nextcloud is an open source, self-hosted file sync &amp;amp; communication app platform. Access &amp;amp; sync your files, contacts, calendars and communicate &amp;amp; collaborate across your devices. You decide what happens with your data, where it is and who can access it!</Overview>
+  <Category>Cloud: Productivity: Tools: MediaServer:Other Network:Web Status:Stable</Category>
+  <WebUI>https://[IP]:[PORT:443]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nextcloud-icon.png</Icon>
+  <Description>Nextcloud is an open source, self-hosted file sync &amp;amp; communication app platform. Access &amp;amp; sync your files, contacts, calendars and communicate &amp;amp; collaborate across your devices. You decide what happens with your data, where it is and who can access it!
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+     [b]/config[/b] : Where the config files will be created.[br]
+     [b]/data[/b] : Where your uploaded data will reside.[br]</Description></Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>443</HostPort>
+        <ContainerPort>443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+  <BaseImage>lsiobase/alpine:3.5</BaseImage>
+</Container>
