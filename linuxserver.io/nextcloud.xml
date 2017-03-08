@@ -23,7 +23,7 @@
   <Description>Nextcloud is an open source, self-hosted file sync and communication app platform. Access and sync your files, contacts, calendars and communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
      [b]/config[/b] : Where the config files will be created.[br]
-     [b]/data[/b] : Where your uploaded data will reside.[br]</Description></Description>
+     [b]/data[/b] : Where your uploaded data will reside.[br]</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
