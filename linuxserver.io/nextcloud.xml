@@ -28,7 +28,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>444</HostPort>
+        <HostPort>443</HostPort>
         <ContainerPort>443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
