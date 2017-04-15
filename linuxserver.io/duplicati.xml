@@ -42,7 +42,12 @@
     </Volume>
     <Volume>
       <HostDir/>
-      <ContainerDir>/backup></ContainerDir>
+      <ContainerDir>/backups></ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/source></ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
