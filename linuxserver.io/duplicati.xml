@@ -23,7 +23,7 @@
   [br][br]&amp;amp;#xD;&#xD;
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;amp;#xD;&#xD;
   [b]/config[/b] Where duplicati should store settings, logs and configuration[br]&amp;amp;#xD;&#xD;
-  [b]/backup[/b] Path to your audiobooks[br]&amp;amp;#xD;&#xD;</Description>
+  [b]/backup[/b] Path to the folder to backup[br]&amp;amp;#xD;&#xD;</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
