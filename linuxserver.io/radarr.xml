@@ -2,11 +2,12 @@
 <Container>
   <Beta>True</Beta>
   <Category>Downloaders: MediaApp:Video Status:Beta</Category>
-  <Date>2017-01-10</Date>
+  <Date>2017-04-17</Date>
 <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
   [center][font size=4]Radarr Change Log[/font][/center]
+  [b]17.04.2017:[/b] Mono 4.8 using inhouse baseimage.
   [b]10.01.2017:[/b] Initial Release. 
   </Changes>
   <Name>radarr</Name>
@@ -70,5 +71,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/xenial</BaseImage>
+<BaseImage>lsiobase/mono</BaseImage>
 </Container>
