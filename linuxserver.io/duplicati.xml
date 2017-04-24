@@ -3,6 +3,7 @@
   <Date>2017-04-15</Date>
   <Beta>False</Beta>
   <Name>duplicati</Name>
+  <Project>https://www.duplicati.com/</Project>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
   [center][font size=4]Duplicati Change Log[/font][/center]
