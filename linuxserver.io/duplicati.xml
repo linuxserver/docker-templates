@@ -20,11 +20,11 @@
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duplicati-icon.png</Icon>
   <ExtraParams/>
-  <Description>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive &amp;amp; S3, Google Drive, box.com, Mega, hubiC and many others.&amp;amp;#xD;&#xD;
-  [br][br]&amp;amp;#xD;&#xD;
-  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;amp;#xD;&#xD;
-  [b]/config[/b] Where duplicati should store settings, logs and configuration[br]&amp;amp;#xD;&#xD;
-  [b]/backup[/b] Path to your backup source[br]&amp;amp;#xD;&#xD;</Description>
+  <Description>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive &amp;amp; S3, Google Drive, box.com, Mega, hubiC and many others.
+  [br][br]
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where duplicati should store settings, logs and configuration[br]
+  [b]/backup[/b] Path to your backup source[br]</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
