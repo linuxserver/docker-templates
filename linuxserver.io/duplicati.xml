@@ -6,7 +6,7 @@
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
   [center][font size=4]Duplicati Change Log[/font][/center]
-  [b]15.04.2017[/b] Initial Release.
+  [b]24.04.2017[/b] Initial Release.
   </Changes>
   <Repository>linuxserver/duplicati</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/duplicati/</Registry>
