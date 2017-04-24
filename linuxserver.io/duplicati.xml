@@ -24,7 +24,8 @@
   [br][br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where duplicati should store settings, logs and configuration[br]
-  [b]/backup[/b] Path to your backup source[br]</Description>
+  [b]/backups[/b] Path to your backup destination[br]
+  [b]/source[/b] Path to your backup source[br]</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
