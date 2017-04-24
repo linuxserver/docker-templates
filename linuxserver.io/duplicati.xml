@@ -14,13 +14,13 @@
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.lime-technology.com/topic/56610-support-linuxserverio-duplicati/</Support>
-  <Overview>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive &amp;amp; S3, Google Drive, box.com, Mega, hubiC and many others.</Overview>
+  <Overview>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.</Overview>
   <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8200]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duplicati-icon.png</Icon>
   <ExtraParams/>
-  <Description>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive &amp;amp; S3, Google Drive, box.com, Mega, hubiC and many others.
+  <Description>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.
   [br][br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where duplicati should store settings, logs and configuration[br]
