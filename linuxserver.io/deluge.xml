@@ -43,6 +43,7 @@
     <Variable>
       <Name>PGID</Name>
       <Value>100</Value>
+      </Variable>
     <Variable>
       <Name>UMASK_SET</Name>
       <Value>000</Value>
