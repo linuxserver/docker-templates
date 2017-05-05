@@ -4,8 +4,12 @@
   <Date>2016-09-05</Date>
   <Repository>linuxserver/tvheadend</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/tvheadend/</Registry>
-    <Branch>
+  <Branch>
   <Tag>stable-4.0.9</Tag>
+  <TagDescription>Old stable version of TVH</TagDescription>
+  </Branch>
+  <Branch>
+  <Tag>stable-4.2.1</Tag>
   <TagDescription>Stable version of TVH</TagDescription>
   </Branch>
   <Changes>
