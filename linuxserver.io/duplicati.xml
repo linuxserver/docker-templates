@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Container>
+  <Date>2017-04-15</Date>
+  <Beta>False</Beta>
+  <Name>duplicati</Name>
+  <Project>https://www.duplicati.com/</Project>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+  [center][font size=4]Duplicati Change Log[/font][/center]
+  [b]24.04.2017[/b] Initial Release.
+  </Changes>
+  <Repository>linuxserver/duplicati</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/duplicati/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://forums.lime-technology.com/topic/56610-support-linuxserverio-duplicati/</Support>
+  <Overview>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.</Overview>
+  <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8200]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duplicati-icon.png</Icon>
+  <ExtraParams/>
+  <Description>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.
+  [br][br]
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where duplicati should store settings, logs and configuration[br]
+  [b]/backups[/b] Path to your backup destination[br]
+  [b]/source[/b] Path to your backup source[br]</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8200</HostPort>
+        <ContainerPort>8200</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/backups</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/source</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+    <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+  <BaseImage>lsiobase/mono</BaseImage>
+</Container>

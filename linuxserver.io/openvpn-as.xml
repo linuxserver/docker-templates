@@ -37,6 +37,16 @@
         <ContainerPort>943</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+      <Port>
+        <HostPort>9443</HostPort>
+        <ContainerPort>9443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>1194</HostPort>
+        <ContainerPort>1194</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
     </Publish>
   </Networking>
   <Data>

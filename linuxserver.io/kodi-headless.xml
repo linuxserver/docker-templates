@@ -2,11 +2,13 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Video</Category>
-  <Date>2016-09-21</Date>
+  <Date>2017-02-22</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Kodi-Headless Change Log[/font][/center]
+[font size=4]22.02.2017[/font]
+- Change default webui user/pw to kodi/kodi
 [font size=4]21.09.2016[/font]
 - Add in kodi-send, fix /var/cache/samba permissions.
 [font size=4]03.09.2016[/font]
@@ -30,7 +32,22 @@ range values in VERSION variable
 
   </Description>
   <Overview>Headless installation of Kodi™ (formerly known as XBMC™), to enable library updates.</Overview>
-<Project>http://kodi.tv/</Project>
+  <Branch>
+  <Tag>Helix</Tag>
+  <TagDescription>Helix (14) version</TagDescription>
+  </Branch>
+  <Branch>
+  <Tag>Isengard</Tag>
+  <TagDescription>Isengard (15) version</TagDescription>
+  </Branch>
+  <Branch>
+  <Tag>Jarvis</Tag>
+  <TagDescription>Jarvis (16) version</TagDescription>
+  </Branch>
+  <Branch><Tag>Krypton</Tag>
+  <TagDescription>Krypton (17) version</TagDescription>
+  </Branch>
+  <Project>http://kodi.tv/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/kodi-headless/</Registry>
   <Repository>linuxserver/kodi-headless</Repository>
   <BindTime>true</BindTime>

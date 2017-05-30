@@ -2,13 +2,15 @@
 <Container>
 <Beta>False</Beta>
 <Category>Network:Other</Category>
-<Date>2015-11-24</Date>
+<Date>2017-02-23</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]tt-rss Change Log[/font][/center]
+[font size=4]23-02-2017[/font]
+- Rebase to alpine linux and nginx.
 [font size=4]24-11-2015[/font]
-Refresh Dependencies
+- Refresh Dependencies
 </Changes>
   <Name>tt-rss</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42692</Support>
@@ -55,5 +57,5 @@ Refresh Dependencies
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.apache</BaseImage>
+<BaseImage>lsiobase/alpine.nginx</BaseImage>
 </Container>
