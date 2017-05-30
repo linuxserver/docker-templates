@@ -2,7 +2,7 @@
 <Container>
   <Beta>False</Beta>
   <Category>Backup: Cloud: Network:Other Tools:</Category>
-  <Date>2016-11-02</Date> 
+  <Date>2016-11-02</Date>
   <Changes>
     [b]02.11.16: [/b] Switch to compiling syncthing from source to keep more on track with updates.
     [b]11.08.16: [/b] Rebase to alpine linux.
@@ -66,5 +66,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine</BaseImage>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

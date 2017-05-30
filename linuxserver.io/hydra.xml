@@ -5,10 +5,10 @@
 <Date>2016-08-08</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
   [center][font size=4]Hydra Change Log[/font][/center]
-  [b]08.08.2016:[/b] Rebase to alpine linux. 
-  [b]26.01.2016:[/b] Initial Release. 
+  [b]08.08.2016:[/b] Rebase to alpine linux.
+  [b]26.01.2016:[/b] Initial Release.
   </Changes>
   <Name>hydra</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=45939.0</Support>
@@ -61,5 +61,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.python</BaseImage>
+<BaseImage>lsiobase/alpine.python:3.6</BaseImage>
 </Container>

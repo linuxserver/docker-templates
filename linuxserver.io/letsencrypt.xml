@@ -102,5 +102,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.nginx</BaseImage>
+<BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
 </Container>

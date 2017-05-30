@@ -14,7 +14,7 @@
   </Branch>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Tvheadend Change Log[/font][/center]
   [b]05.09.2016:[/b] Initial Release.
 </Changes>
@@ -81,5 +81,5 @@ Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV D
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine</BaseImage>
+  <BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>
