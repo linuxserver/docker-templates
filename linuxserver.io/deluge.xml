@@ -5,11 +5,11 @@
   <Date>2017-29-04</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
   [center][font size=4]Deluge Change Log[/font][/center]
-  [b]29.04.2017:[/b] Add UMASK_SET variable. 
-  [b]15.08.2016:[/b] Rebase to alpine linux. 
-  [b]15.10.2015:[/b] Initial Release. 
+  [b]29.04.2017:[/b] Add UMASK_SET variable.
+  [b]15.08.2016:[/b] Rebase to alpine linux.
+  [b]15.10.2015:[/b] Initial Release.
   [b]09.11.2015:[/b] Add unrar and unzip
   </Changes>
   <Name>deluge</Name>
@@ -72,5 +72,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine</BaseImage>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

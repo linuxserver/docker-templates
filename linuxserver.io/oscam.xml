@@ -6,7 +6,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/oscam/</Registry>
     <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Oscam Change Log[/font][/center]
   [b]26.09.2016:[/b] Initial Release.
 </Changes>
@@ -14,16 +14,16 @@
   <Privileged>false</Privileged>
   <Support>https://lime-technology.com/forum/index.php?topic=52273.0</Support>
   <Project>http://www.streamboard.tv/oscam/</Project>
-  <Overview>OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module 
-  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the 
+  <Overview>OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module
+  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the
   not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.</Overview>
   <Category>MediaServer:Other</Category>
   <WebUI>http://[IP]:[PORT:8888]/</WebUI>
   <TemplateURL/>
   <Icon>http://i.imgur.com/8LadrLg.png</Icon>
   <ExtraParams/>
-  <Description>OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module 
-  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the 
+  <Description>OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module
+  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the
   not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.</Description>
   <Networking>
     <Mode>bridge</Mode>
@@ -67,5 +67,5 @@
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine</BaseImage>
+  <BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

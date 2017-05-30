@@ -4,7 +4,7 @@
   <Beta>False</Beta>
   <Name>ubooquity</Name>
     <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Ubooquity Change Log[/font][/center]
 [b]09.12.2016[/b] Initial Release.
 </Changes>
@@ -82,5 +82,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine</BaseImage>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

@@ -5,9 +5,9 @@
   <Date>2017-03-11</Date>
 <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
   [center][font size=4]Organizr Change Log[/font][/center]
-  [b]11.03.2017:[/b] Initial Release. 
+  [b]11.03.2017:[/b] Initial Release.
   </Changes>
   <Name>organizr</Name>
   <Project>https://github.com/causefx/Organizr</Project>
@@ -56,5 +56,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.nginx:3.5</BaseImage>
+<BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
 </Container>

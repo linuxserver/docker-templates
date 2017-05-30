@@ -5,9 +5,9 @@
 <Date>2017-05-17</Date>
   <Name>musicbrainz</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]musicbrainz Change Log[/font][/center]
-[b]17.05.2017[/b] Schema 24 release, upgrade route recommended is to clear /config and /data 
+[b]17.05.2017[/b] Schema 24 release, upgrade route recommended is to clear /config and /data
 after updating to latest image.
 [b]04.03.2017[/b] Bump server version, use nginx for webserver.
 [b]17.12.2016[/b] Rebase to alpine linux.
@@ -75,6 +75,5 @@ missing from last 2 data dumps.
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine</BaseImage>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>
-

@@ -5,7 +5,7 @@
   <Date>2017-01-19</Date>
   <Name>znc</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]ZNC Change Log[/font][/center]
 [b]19.01.2017[/b] Add playback module.
 [b]07.12.2016[/b] Use scanelf to set runtime packages.
@@ -58,5 +58,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine</BaseImage>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

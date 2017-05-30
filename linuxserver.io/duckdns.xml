@@ -62,5 +62,5 @@ It will update your IP with the DuckDNS service every 5 minutes&#xD;
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine</BaseImage>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

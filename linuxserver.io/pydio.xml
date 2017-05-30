@@ -7,7 +7,7 @@
 <Project>https://pyd.io/</Project>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Pydio Change Log[/font][/center]
 [b]19.02.2017:[/b] Rebase to alpine linux nginx 3.5
 </Changes>
@@ -60,6 +60,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.nginx</BaseImage>
+<BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
 </Container>
-

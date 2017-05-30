@@ -5,7 +5,7 @@
   <Date>2017-02-22</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Kodi-Headless Change Log[/font][/center]
 [font size=4]22.02.2017[/font]
 - Change default webui user/pw to kodi/kodi
@@ -90,5 +90,5 @@ range values in VERSION variable
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine</BaseImage>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

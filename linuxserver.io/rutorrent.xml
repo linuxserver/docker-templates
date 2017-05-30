@@ -5,18 +5,18 @@
 <Date>2016-11-20</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Rutorrent Change Log[/font][/center]
-[b]20.11.2016[/b] Add php7-mbstring package, Mediainfo update 
-[b]21.09.2016[/b] Mediainfo update, pick up latest changes from rutorrent, 
-add wget (hopefully better rss integration).  
-[b]07.08.2016[/b] Rebase to alpine.  
-[b]08.03.2016[/b] Initial Release  
+[b]20.11.2016[/b] Add php7-mbstring package, Mediainfo update
+[b]21.09.2016[/b] Mediainfo update, pick up latest changes from rutorrent,
+add wget (hopefully better rss integration).
+[b]07.08.2016[/b] Rebase to alpine.
+[b]08.03.2016[/b] Initial Release
 </Changes>
   <Name>rutorrent</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=47299.0</Support>
   <Description>
-  Popular torrent client with a webui for ease of use. 
+  Popular torrent client with a webui for ease of use.
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where rutorrent should store configuration files[br]
   [b]/downloads[/b] Downloads folder[br]
@@ -76,6 +76,5 @@ add wget (hopefully better rss integration).
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine</BaseImage>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>
-
