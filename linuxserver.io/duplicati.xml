@@ -24,6 +24,7 @@
   [br][br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where duplicati should store settings, logs and configuration[br]
+  [b]/tmp[/b] Where duplicati stores /tmp files.
   [b]/backups[/b] Path to your backup destination[br]
   [b]/source[/b] Path to your backup source[br]</Description>
   <Networking>
@@ -40,6 +41,11 @@
     <Volume>
       <HostDir/>
       <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+        <Volume>
+      <HostDir/>
+      <ContainerDir>/tmp</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
