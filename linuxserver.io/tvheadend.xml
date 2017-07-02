@@ -1,21 +1,26 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>tvheadend</Name>
-  <Date>2016-09-05</Date>
+  <Date>2017-07-02</Date>
   <Repository>linuxserver/tvheadend</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/tvheadend/</Registry>
+  <Branch>
+  <Tag>release-4.2</Tag>
+  <TagDescription>latest release of 4.2 branch of TVH</TagDescription>
+  </Branch>
   <Branch>
   <Tag>stable-4.0.9</Tag>
   <TagDescription>Old stable version of TVH</TagDescription>
   </Branch>
   <Branch>
   <Tag>stable-4.2.1</Tag>
-  <TagDescription>Stable version of TVH</TagDescription>
+  <TagDescription>Old Stable version of TVH</TagDescription>
   </Branch>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
 [center][font size=4]Tvheadend Change Log[/font][/center]
+  [b]07.02.2017:[/b] Added Release branch of 4.2 tvh build.
   [b]05.09.2016:[/b] Initial Release.
 </Changes>
 <Network>bridge</Network>
