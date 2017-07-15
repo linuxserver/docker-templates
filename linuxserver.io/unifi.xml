@@ -10,10 +10,12 @@
   <Privileged>false</Privileged>
   <Beta>False</Beta>
   <Category>Network:Management Tools:</Category>
-  <Date>2016-09-20</Date>
+  <Date>2017-07-15</Date>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Unifi Change Log[/font][/center]
+[b]15.07.16[/b] Update to 5.5.19, using .deb instead of repo,
+using mongod repo instead of ubuntu defaut to install mongo
 [b]20.09.16[/b] Update to 5.27
 [b]18.11.16[/b] Symlink fix when app is updated
 [b]03.11.15[/b] Initial release</Changes>
