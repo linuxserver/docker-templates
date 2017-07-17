@@ -16,7 +16,7 @@
   <Support>http://lime-technology.com/forum/index.php?topic=54543.0</Support>
   <Overview>Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.</Overview>
   <Category>Cloud: MediaApp:Books MediaServer:Books</Category>
-  <WebUI>http://[IP]:[PORT:2202]/admin</WebUI>
+  <WebUI>http://[IP]:[PORT:2202]/ubooquity/admin</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-icon.png</Icon>
   <ExtraParams/>
