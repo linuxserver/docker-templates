@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>Cloud: MediaApp:Books MediaServer:Books Status:Stable</Category>
+  <Date>2017-07-17</Date>
+  <Changes>  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+  [center][font size=4] Change Log[/font][/center]
+  [b]17.07.2017[/b] Initial Release</Changes>
+  <Name>calibre-web</Name>
+  <Support></Support>
+  <Description>Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.&#xD;
+&#xD;
+  [br][br]&#xD;
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+  [b]/config[/b] Where Calibre-web should store it's database[br]&#xD;
+  [b]/books[/b] Path to your calibre library metadata.db file[br]
+  </Description>
+  <Project>https://github.com/janeczku/calibre-web/</Project>
+  <Overview>Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.</Overview>
+  <Registry>https://hub.docker.com/r/linuxserver/calibre-web/</Registry>
+  <Repository>linuxserver/calibre-web</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Privileged>false</Privileged>
+  <WebUI>http://[IP]:[PORT:8083]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png</Icon>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>8083</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/books</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+  <BaseImage>lsiobase/alpine.python:3.6</BaseImage>
+</Container>
