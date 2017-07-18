@@ -35,6 +35,11 @@
         <ContainerPort>2202</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+      <Port>
+        <HostPort>2203</HostPort>
+        <ContainerPort>2203</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
     </Publish>
   </Networking>
   <Data>
