@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/apache.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/nginx.xml</TemplateURL>
 <Beta>False</Beta>
 <Category>Network:Web Network:Proxy</Category>
-<Date>2015-11-06</Date>
-  <Name>apache</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=43858.0</Support>
-  <Overview>This is an apache web server docker with reverse proxy services enabled. Reverse proxy gives the ability going to www.domain.com:8351 for a service, you can go direct to www.domain.com/service and also enable HTTPS.</Overview>
+<Date>2015-12-05</Date>
+  <Name>nginx</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=44481.0</Support>
+  <Overview>Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache.</Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
-[center][font size=4]ApacheChange Log[/font][/center]
-[b]06.11.2015:[/b] Initial Release</Changes>
-  <Description>This is an apache web server docker with reverse proxy services enabled. Reverse proxy gives the ability going to www.domain.com:8351 for a service, you can go direct to www.domain.com/service and also enable HTTPS.[br]
+[center][font size=4]Nginx Change Log[/font][/center]
+[b]06.12.2015:[/b] Initial Release</Changes>
+  <Description>Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache..[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]80[/b] Standard HTTP Port [br]
   [b]443[/b] Standard HTTPS Port [br]
   [b]/config[/b]Storing Configuration and the www folder[br]
   </Description>
-  <Project>http://httpd.apache.org/docs/2.2/mod/mod_proxy.html</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/apache/</Registry>
-  <Repository>linuxserver/apache</Repository>
+  <Project>https://www.nginx.com/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/nginx/</Registry>
+  <Repository>linuxserver/nginx</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -56,11 +56,11 @@
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apacheweb-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apacheweb-icon.png</Icon>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nginx-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.apache</BaseImage>
+<BaseImage>linuxserver/baseimage.nginx</BaseImage>
 </Container>

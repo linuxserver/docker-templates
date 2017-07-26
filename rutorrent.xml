@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/rutorrent.xml</TemplateURL>
+<Beta>False</Beta>
+<Category>Downloaders:</Category>
+<Date>2016-11-20</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+[center][font size=4]Rutorrent Change Log[/font][/center]
+[b]20.11.2016[/b] Add php7-mbstring package, Mediainfo update
+[b]21.09.2016[/b] Mediainfo update, pick up latest changes from rutorrent,
+add wget (hopefully better rss integration).
+[b]07.08.2016[/b] Rebase to alpine.
+[b]08.03.2016[/b] Initial Release
+</Changes>
+  <Name>rutorrent</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=47299.0</Support>
+  <Description>
+  Popular torrent client with a webui for ease of use.
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where rutorrent should store configuration files[br]
+  [b]/downloads[/b] Downloads folder[br]
+  </Description>
+  <Overview>Popular torrent client with a webui for ease of use.</Overview>
+  <Project>https://github.com/Novik/ruTorrent</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/rutorrent/</Registry>
+  <Repository>linuxserver/rutorrent</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>80</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>51413</HostPort>
+        <ContainerPort>51413</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>6881</HostPort>
+        <ContainerPort>6881</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png</Icon>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
+</Container>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/lychee.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Cloud: Network:Web Network:Management MediaApp:Photos MediaServer:Photos</Category>
+  <Date>2017-02-24</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+    [center][font size=4]Lychee Change Log[/font][/center]
+    [b]24.02.2017:[/b] Initial Release.
+  </Changes>
+  <Name>lychee</Name>
+  <Project>https://lychee.electerious.com</Project>
+  <Support>http://lime-technology.com/forum/index.php?topic=56494.0</Support>
+  <Repository>linuxserver/lychee</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/lychee/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Overview>Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.</Overview>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/h5ai/linuxserver.io/img/lychee-icon.png</Icon>
+  <Description>Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.[br]
+[br]
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    [b]/config[/b] : Where the config file will be created.[br]
+    [b]/pictures[/b] : Where pictures are uploaded to.[br]</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/pictures</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+  <BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
+</Container>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/plex.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
+  <Date>2016-08-27</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+[center][font size=4]Plex Media Server Change Log[/font][/center]
+
+  [b]27.08.2016:[/b] Rebase to ubuntu xenial with S6 overlay.
+  [b]17.09.2015:[/b] Changed to run chmod only once
+  [b]16.09.2015:[/b] Now downloads from https rather than http (To comply with changes by plex.tv)
+  [b]28.08.2015:[/b] Now uses VERSION only rather than VERSION+PLEXPASS, Failure detection on updateing plex, aswell as faster baseimage.
+  [b]12.08.2015:[/b] Updated Support Thread.
+  [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
+  [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
+  [b]03.07.2015:[/b] Fixed a mistake that allowed plex to run as user plex rather than abc (99:100). Thanks to double16 for spotting this.</Changes>
+  <Name>plex</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
+  <Description>
+  Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. [br]
+
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]VERSION[/b] Set to either latest,public or a specific version e.g. "1.2.7.2987-1bef33a" [br]
+  [b]/config[/b] Where plex should store settings and metadata\logs and configuration[br]
+  [b]/media[/b] Map this to your media, you can use several submappings here[br]
+  </Description>
+  <Project>https://plex.tv/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
+  <Repository>linuxserver/plex</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+    <Variable>
+      <Name>VERSION</Name>
+      <Value>latest</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI>http://[IP]:[PORT:32400]/web</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/xenial</BaseImage>
+</Container>

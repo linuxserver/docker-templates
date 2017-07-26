@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/unifi.xml</TemplateURL>
+  <Name>unifi</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=43803.0</Support>
+  <Project>https://community.ubnt.com/</Project>
+  <Description>The UniFi® Controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.</Description>
+  <Registry>https://hub.docker.com/r/linuxserver/unifi</Registry>
+  <Repository>linuxserver/unifi</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Beta>False</Beta>
+  <Category>Network:Management Tools:</Category>
+  <Date>2017-07-15</Date>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+[center][font size=4]Unifi Change Log[/font][/center]
+[b]15.07.16[/b] Update to 5.5.19, using .deb instead of repo,
+using mongod repo instead of ubuntu defaut to install mongo
+[b]20.09.16[/b] Update to 5.27
+[b]18.11.16[/b] Symlink fix when app is updated
+[b]03.11.15[/b] Initial release</Changes>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8081</HostPort>
+        <ContainerPort>8081</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8443</HostPort>
+        <ContainerPort>8443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8843</HostPort>
+        <ContainerPort>8843</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8880</HostPort>
+        <ContainerPort>8880</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <WebUI>https://[IP]:[PORT:8443]</WebUI>
+  <Banner>https://github.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/unifi-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/xenial</BaseImage>
+</Container>
