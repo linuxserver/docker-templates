@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/deluge.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Downloaders:</Category>
+  <Date>2017-29-04</Date>
+  <Changes>
+  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+  [center][font size=4]Deluge Change Log[/font][/center]
+  [b]29.04.2017:[/b] Add UMASK_SET variable.
+  [b]15.08.2016:[/b] Rebase to alpine linux.
+  [b]15.10.2015:[/b] Initial Release.
+  [b]09.11.2015:[/b] Add unrar and unzip
+  </Changes>
+  <Name>deluge</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=43430.0</Support>
+  <Description>
+  Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing:[br]
+  Full Encryption[br]
+  WebUI[br]
+  Plugin System[br]
+  Much more...[br]
+  [br]
+
+  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] : Storing all Deluge config files [br]
+  [b]/downloads[/b] : Point to Downloads location[br]
+  [br] The default credentials to login are:[br]
+  [b]username:[/b] admin[br]
+  [b]password:[/b] deluge
+  </Description>
+  <Project>http://deluge-torrent.org/</Project>
+  <Overview>Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing: Full Encryption, WebUI, Plugin System, Much more...</Overview>
+  <Registry>https://hub.docker.com/r/linuxserver/deluge/</Registry>
+  <Repository>linuxserver/deluge</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+      </Variable>
+    <Variable>
+      <Name>UMASK_SET</Name>
+      <Value>000</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI>http://[IP]:[PORT:8112]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/deluge-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/deluge-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
+</Container>

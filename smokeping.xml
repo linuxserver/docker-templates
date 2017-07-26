@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/smokeping.xml</TemplateURL>
+<Beta>False</Beta>
+<Category>Network:Management</Category>
+<Date>2016-08-04</Date>
+<Support>http://lime-technology.com/forum/index.php?topic=41329.0</Support>
+  <Name>smokeping</Name>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+[center][font size=4]SmokePing Change Log[/font][/center]
+[b]04.08.2016:[/b] Rebase to alpine linux, more options in /config and change of url from /cgi-bin/smokeping.cgi to /smokeping/smokeping.cgi.
+</Changes>
+  <Description>Smokeping keeps track of your network latency.
+  [br][br]
+  [b][u][span style=\\\'color: #E80000;\\\']Configuration[/span][/u][/b][br]
+  [b]/config[/b] : Contains the Target file (List of stuff to monitor) [br]
+  [b]/data[/b] : Contains all the gathered data.[br]
+  [b]80[/b] : The web-interface. [br]</Description>
+  <Project>http://oss.oetiker.ch/smokeping/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/smokeping/</Registry>
+  <Repository>linuxserver/smokeping:unraid</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>b8cfd24b</Version>
+  <WebUI>http://[IP]:[PORT:80]/smokeping/smokeping.cgi</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/smokeping-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/smokeping-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>lsiobase/alpine:3.6</BaseImage>
+</Container>
