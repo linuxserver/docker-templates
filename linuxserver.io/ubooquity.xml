@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/ubooquity.xml</TemplateURL>
   <Date>2016-12-09</Date>
   <Beta>False</Beta>
   <Name>ubooquity</Name>

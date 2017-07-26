@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/teamspeak3.xml</TemplateURL>
   <Name>teamspeak3</Name>
   <Date>2016-09-21</Date>
   <Project>https://www.teamspeak.com/</Project>

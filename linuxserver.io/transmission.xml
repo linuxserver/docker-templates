@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/transmission.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Downloaders:</Category>
   <Date>2017-01-15</Date>

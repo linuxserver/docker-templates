@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/TEMPLATENAME.xml</TemplateURL>
   <Beta>False</Beta>
   <Category></Category>
   <!-- Date in format YYYY-MM-DD  -->
   <Date></Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
   [center][font size=4] Change Log[/font][/center]
   </Changes>
 <!-- name preferably in lowercase  -->
@@ -16,7 +17,7 @@
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Mapping for config files [br]
   </Description>
-<!-- link to the apps homepage or git page  --> 
+<!-- link to the apps homepage or git page  -->
  <Project></Project>
 <!-- DON'T use any "&" in the overview section  -->
   <Overview></Overview>
@@ -25,11 +26,11 @@
   <Repository>test/test</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Network Default="bridge">bridge</Network>  
-  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID" 
+  <Network Default="bridge">bridge</Network>
+  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
 Type="Variable" Display="always" Required="true" Mask="false">99</Config>
-  
-  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID" 
+
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
 Type="Variable" Display="always" Required="true" Mask="false">100</Config>
 
 
@@ -37,5 +38,3 @@ Type="Variable" Display="always" Required="true" Mask="false">100</Config>
   <Banner></Banner>
   <Icon></Icon>
 </Container>
-
-

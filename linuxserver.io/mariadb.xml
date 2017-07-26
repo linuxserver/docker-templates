@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/mariadb.xml</TemplateURL>
 <Beta>False</Beta>
 <Category>Network:Other MediaApp:Other Other: Tools:</Category>
 <Date>2016-10-11</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Mariadb Change Log[/font][/center]
 [b]11.10.2016[/b] Rebase to ubuntu xenial.
 [b]23.01.2016[/b] Change mysqld_safe user to abc, better handling of unclean shutdown.

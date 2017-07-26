@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/cardigann.xml</TemplateURL>
   <Beta>False</Beta>
 <Category>Downloaders:</Category>
   <Date>2016-11-01</Date>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/organizr.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Tools: Network:Web Network:Proxy Network:Other</Category>
   <Date>2017-03-11</Date>

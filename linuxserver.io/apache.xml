@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+<TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/apache.xml</TemplateURL>
 <Beta>False</Beta>
 <Category>Network:Web Network:Proxy</Category>
 <Date>2015-11-06</Date>

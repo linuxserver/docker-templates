@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/projectsend.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Cloud: Productivity: Tools: Network:Other Status:Stable</Category>
   <Date>2017-06-13</Date>
   <Changes>  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
   [center][font size=4] Change Log[/font][/center]
   [b]13.06.2017[/b] Initial Release</Changes>
   <Name>projectsend</Name>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/minisatip.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>MediaServer:Video MediaServer:Other Other: Tools:</Category>
   <Date>2016-08-15</Date>

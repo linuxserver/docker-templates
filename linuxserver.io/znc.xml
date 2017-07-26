@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/znc.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Network:Messenger</Category>
   <Date>2017-01-19</Date>
