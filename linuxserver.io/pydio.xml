@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/pydio.xml</TemplateURL>
 <Name>pydio</Name>
 <Beta>False</Beta>
 <Category>Cloud: Network:Other</Category>

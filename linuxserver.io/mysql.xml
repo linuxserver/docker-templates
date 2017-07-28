@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/mysql.xml</TemplateURL>
 <Beta>False</Beta>
 <Category>Network:Other MediaApp:Other Other: Tools:</Category>
 <Date>2016-09-14</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Mysql Change Log[/font][/center]
 [b]14.09.2016[/b] Bump version due to http://www.ubuntu.com/usn/usn-3078-1/
 [b]23.01.2016[/b] Change mysqld_safe user to abc, better handling of unclean shutdown.

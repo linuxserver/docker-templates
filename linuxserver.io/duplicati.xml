@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/duplicati.xml</TemplateURL>
   <Date>2017-04-15</Date>
   <Beta>False</Beta>
   <Name>duplicati</Name>

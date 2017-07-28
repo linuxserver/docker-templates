@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/ombi.xml</TemplateURL>
 <Beta>False</Beta>
 <Category>Downloaders: Network:Other MediaApp:Video Tools:</Category>
-<Date>2017-04-16</Date> 
+<Date>2017-04-16</Date>
 <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
 [center][font size=4]Ombi Change Log[/font][/center]
 [font size=4]16-04-2017[/font]
 - Mono 4.8 using inhouse baseimage.

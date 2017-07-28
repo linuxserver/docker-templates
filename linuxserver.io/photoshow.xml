@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/photoshow.xml</TemplateURL>
   <Beta>false</Beta>
   <Category>MediaServer:Photos</Category>
   <Date>2016-09-30</Date>

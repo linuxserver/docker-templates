@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/duckdns.xml</TemplateURL>
   <Name>duckdns</Name>
   <Date>2016-11-17</Date>
   <Category>Network:DNS Tools:</Category>

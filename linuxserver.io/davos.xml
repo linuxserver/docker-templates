@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/davos.xml</TemplateURL>
   <Beta>False</Beta>
   <Date>2016-11-18</Date>
   <Name>davos</Name>

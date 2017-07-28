@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/libresonic.xml</TemplateURL>
   <Beta>False</Beta>
   <Name>libresonic</Name>
   <Date>2016-11-29</Date>

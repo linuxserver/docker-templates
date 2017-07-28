@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/daapd.xml</TemplateURL>
 <Beta>False</Beta>
 <Category>MediaApp:Music MediaServer:Music</Category>
 <Date>2017-01-10</Date>

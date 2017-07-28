@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/plexrequests.xml</TemplateURL>
 <Beta>False</Beta>
 <Category>Downloaders: Network:Other MediaApp:Video Tools:</Category>
 <Date>2016-09-12</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
- 
+
   [center][font size=4]Plexrequests Change Log[/font][/center]
   [b]12.09.2016: [/b] Rebase to xenial, move to main repository.
   [b]27.02.2016: [/b] Bump to latest release
-  [b]05.02.2016:[/b] Initial Release. 
+  [b]05.02.2016:[/b] Initial Release.
   </Changes>
   <Name>plexrequests</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=46320.0</Support>
