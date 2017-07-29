@@ -35,6 +35,5 @@ Type="Variable" Display="always" Required="true" Mask="false">100</Config>
 
 
 <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner></Banner>
   <Icon></Icon>
 </Container>
