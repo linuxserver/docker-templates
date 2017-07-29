@@ -16,8 +16,6 @@
 /download : File Download Location</Overview>
   <Category>Network:FTP Network:Other Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL/>
-  <ExtraParams/>
   <Description>davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.&#xD;
 &#xD;
 /config : AppData Location&#xD;
@@ -48,12 +46,10 @@
     <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>100</Value>
       <Name>PGID</Name>
-      <Mode/>
     </Variable>
   </Environment>
   <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="true" Mask="false">8091</Config>

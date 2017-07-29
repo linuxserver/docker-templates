@@ -72,7 +72,6 @@ add wget (hopefully better rss integration).
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png</Icon>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>

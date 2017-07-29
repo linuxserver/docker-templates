@@ -24,7 +24,6 @@
   <Privileged>false</Privileged>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/projectsend-logo.png</Icon>
-  <ExtraParams/>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -51,12 +50,10 @@
     <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>100</Value>
       <Name>PGID</Name>
-      <Mode/>
     </Variable>
   </Environment>
   <DonateText>Donations</DonateText>

@@ -50,7 +50,6 @@
     </Volume>
   </Data>
 <WebUI>http://[IP]:[PORT:9000]/</WebUI>
-  <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/community-templates/master/lsiocommunity/img/shout-icon.png</Icon>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>

@@ -61,7 +61,6 @@
   </Data>
   <Version>b8cfd24b</Version>
   <WebUI>http://[IP]:[PORT:80]/smokeping/smokeping.cgi</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/smokeping-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/smokeping-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>

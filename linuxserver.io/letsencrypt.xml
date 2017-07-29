@@ -28,9 +28,7 @@
   <Description>Nginx webserver and reverse proxy with php support and a built-in letsencrypt client. It also contains fail2ban for intrusion prevention.</Description>
   <Category>Tools: Network:Web Status:Stable</Category>
   <WebUI>https://[IP]:[PORT:443]</WebUI>
-  <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/letsencrypt.png</Icon>
-  <ExtraParams/>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -57,37 +55,30 @@
     <Variable>
       <Value></Value>
       <Name>EMAIL</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value></Value>
       <Name>URL</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>www,</Value>
       <Name>SUBDOMAINS</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>false</Value>
       <Name>ONLY_SUBDOMAINS</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>2048</Value>
       <Name>DHLEVEL</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>100</Value>
       <Name>PGID</Name>
-      <Mode/>
     </Variable>
   </Environment>
   <Config Name="http" Target="80" Default="" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false"></Config>

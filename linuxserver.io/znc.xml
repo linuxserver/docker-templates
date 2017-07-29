@@ -52,7 +52,6 @@
     </Volume>
   </Data>
   <Version></Version>
-  <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/znc-icon.png</Icon>
   <WebUI>https://[IP]:[PORT:6501]/</WebUI>
   <ExtraParams></ExtraParams>

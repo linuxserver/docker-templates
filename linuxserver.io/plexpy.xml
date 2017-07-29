@@ -60,7 +60,6 @@
   </Data>
   <Version>45546b54</Version>
   <WebUI>http://[IP]:[PORT:8181]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexpy-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexpy-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>
