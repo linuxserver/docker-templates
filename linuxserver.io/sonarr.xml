@@ -69,7 +69,6 @@
   </Data>
   <Version>992c565c</Version>
   <WebUI>http://[IP]:[PORT:8989]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>

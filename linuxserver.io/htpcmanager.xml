@@ -56,7 +56,6 @@ Remove loglevel from run command, user can set in webui
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8085]/</WebUI>
   <ExtraParams></ExtraParams>

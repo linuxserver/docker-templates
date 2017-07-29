@@ -19,7 +19,6 @@
   <Category>Cloud: MediaApp:Books MediaServer:Books</Category>
   <WebUI>http://[IP]:[PORT:2202]/ubooquity/admin</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ubooquity-icon.png</Icon>
-  <ExtraParams/>
   <Description>Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.&#xD;
   [br][br]&#xD;
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
@@ -44,17 +43,14 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir/>
       <ContainerDir>/books</ContainerDir>
       <Mode>ro</Mode>
     </Volume>
     <Volume>
-      <HostDir/>
       <ContainerDir>/comics</ContainerDir>
       <Mode>ro</Mode>
     </Volume>
     <Volume>
-      <HostDir/>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -63,17 +59,14 @@
     <Variable>
       <Value>512</Value>
       <Name>MAXMEM</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>100</Value>
       <Name>PGID</Name>
-      <Mode/>
     </Variable>
   </Environment>
   <Config Name="Host Port 1" Target="2202" Default="2202" Mode="tcp" Description="Container Port: 2202" Type="Port" Display="always" Required="true" Mask="false">2202</Config>

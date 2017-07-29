@@ -69,7 +69,6 @@ using mongod repo instead of ubuntu defaut to install mongo
   </Data>
   <Version></Version>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
-  <Banner>https://github.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/unifi-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/unifi-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>

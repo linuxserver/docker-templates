@@ -69,7 +69,6 @@
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:8337]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png</Icon>
   <ExtraParams></ExtraParams>
 

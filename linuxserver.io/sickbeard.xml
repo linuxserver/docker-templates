@@ -68,7 +68,6 @@ Automatically finds new and old episodes for you and it works with your current 
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickbeard-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sickbeard-icon.png</Icon>
   <WebUI>http://[IP]:[PORT:8081]/</WebUI>
   <ExtraParams></ExtraParams>

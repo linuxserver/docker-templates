@@ -58,7 +58,6 @@ A free, self-hostable rss aggregator…[br]
     </Volume>
   </Data>
 <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>

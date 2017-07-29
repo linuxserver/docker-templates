@@ -66,7 +66,6 @@
   </Data>
   <Version>992c565c</Version>
   <WebUI>http://[IP]:[PORT:5050]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/couchpotato-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/couchpotato-icon.png</Icon>
   <ExtraParams></ExtraParams>
 

@@ -57,7 +57,6 @@
     </Volume>
   </Data>
 <WebUI>http://[IP]:[PORT:5075]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hydra-icon.png</Icon>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>

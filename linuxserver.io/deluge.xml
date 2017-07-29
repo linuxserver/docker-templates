@@ -52,7 +52,6 @@
   </Environment>
   <Networking>
     <Mode>host</Mode>
-    <Publish/>
   </Networking>
   <Data>
     <Volume>
@@ -67,7 +66,6 @@
     </Volume>
   </Data>
 <WebUI>http://[IP]:[PORT:8112]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/deluge-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/deluge-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>

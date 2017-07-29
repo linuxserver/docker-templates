@@ -48,17 +48,14 @@
       </Port>
     </Publish>
   </Networking>
-  <Data/>
   <Environment>
     <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>100</Value>
       <Name>PGID</Name>
-      <Mode/>
     </Variable>
   </Environment>
   <Config Name="Port 1" Target="8875" Default="8875" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8875</Config>

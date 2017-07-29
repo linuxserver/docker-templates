@@ -54,7 +54,6 @@
   </Data>
   <Version></Version>
   <WebUI></WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png</Icon>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>

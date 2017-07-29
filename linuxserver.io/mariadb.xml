@@ -57,7 +57,6 @@ An Enhanced drop in replacement for Mysql[br]
     </Volume>
   </Data>
 <WebUI></WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-icon.png</Icon>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>

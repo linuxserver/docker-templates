@@ -18,9 +18,7 @@
   <Overview>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.</Overview>
   <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8200]/</WebUI>
-  <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duplicati-icon.png</Icon>
-  <ExtraParams/>
   <Description>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.
   [br][br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -40,22 +38,18 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir/>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
         <Volume>
-      <HostDir/>
       <ContainerDir>/tmp</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir/>
       <ContainerDir>/backups</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir/>
       <ContainerDir>/source</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -64,12 +58,10 @@
     <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
-      <Mode/>
     </Variable>
     <Variable>
       <Value>100</Value>
       <Name>PGID</Name>
-      <Mode/>
     </Variable>
   </Environment>
   <DonateText>Donations</DonateText>
