@@ -21,7 +21,8 @@
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qbittorrent-icon.png</Icon>
   <Description>The qBittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library. [br]&#xD;
-  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+  [br][br][b][u][span style='color: #E80000;']The default username/password for the webui is admin/adminadmin[/span][/u][/b]
+    [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
   [b]/config[/b] : Storing all qbittorrent config files [br]&#xD;
   [b]/downloads[/b] : Path to downloads folder[br]&#xD;
 </Description>
