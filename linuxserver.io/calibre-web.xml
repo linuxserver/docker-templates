@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>False</Beta>
+  <MinVer>6.4.0-rc7a</MinVer>
   <Category>Cloud: MediaApp:Books MediaServer:Books Status:Stable</Category>
   <Date>2017-07-17</Date>
   <Changes>  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
