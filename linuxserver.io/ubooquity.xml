@@ -69,14 +69,6 @@
       <Name>PGID</Name>
     </Variable>
   </Environment>
-  <Config Name="Host Port 1" Target="2202" Default="2202" Mode="tcp" Description="Container Port: 2202" Type="Port" Display="always" Required="true" Mask="false">2202</Config>
-  <Config Name="Path to books" Target="/books" Default="" Mode="ro" Description="Container Path: /books" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Path to comics" Target="/comics" Default="" Mode="ro" Description="Container Path: /comics" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Maximum Memory" Target="MAXMEM" Default="" Mode="" Description="The quantity of memory allocated to Ubooquity depends on the hardware your are running it on. If this quantity is too small, you might sometime saturate it with when performing memory intensive operations. That&#x2019;s when you get java.lang.OutOfMemoryError: Java heap space errors.&#13;&#10;&#13;&#10;You can explicitly set the amount of memory Ubooquity is allowed to use (be careful to set a value lower than the actual physical memory of your hardware).&#13;&#10;&#13;&#10;If no value is set it will default to 512MB." Type="Variable" Display="always" Required="false" Mask="false">512</Config>
-  <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="Appdata Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false"/>
-  <Config Name="Key 2" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
-  <Config Name="Key 1" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
-
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
