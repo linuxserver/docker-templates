@@ -8,6 +8,12 @@
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
 [center][font size=4]Kodi-Headless Change Log[/font][/center]
+[font size=4]22.08.2017[/font]
+- Bump master and Krypton branches to 17.4.
+[font size=4]25.05.2017[/font]
+- Bump master and Krypton branches to 17.3.
+[font size=4]23.05.2017[/font]
+- Bump master and Krypton branches to 17.2.
 [font size=4]22.02.2017[/font]
 - Change default webui user/pw to kodi/kodi
 [font size=4]21.09.2016[/font]
