@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/egadgetjnr/docker-templates/master/egadgetjnr/dnsmadeeasy-ddns.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Network Services</Category>
+  <!-- Date in format YYYY-MM-DD  -->
+  <Date>2017-10-30</Date>
+  <Changes>
+  </Changes>
+<!-- name preferably in lowercase  -->
+  <Name>dnsmadeeasy dynamicdns</Name>
+  <Support></Support>
+  <Project>https://github.com/darron/dnsmadeeasy-ddns</Project>
+  <Description> [br]
+  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]DNS_RECORD[/b] : the Record to check [br]
+  [b]DNS_SERVER[/b] : the server to check against [br]
+  [b]DME_USER[/b] : your username at DNS Made Easy [br]
+  [b]DME_PASS[/b] : the password for that dns record. [br]
+  [b]DME_ID[/b] : the ID for that dns record [br]
+  [b]INTERVAL[/b] : seconds between checks [br]
+  [b]HIPCHAT_API_TOKEN[/b] : API token to notify Hipchat [br]
+  [b]HIPCHAT_ROOM_ID[/b] : room id to post the message in Hipchat [br]
+  </Description>
+<!-- link to the apps homepage or git page  -->
+ <Project></Project>
+<!-- DON'T use any "&" in the overview section  -->
+  <Overview></Overview>
+<!-- dockerhub link  -->
+  <Registry>https://hub.docker.com/r/darron/dnsmadeeasy-ddns/</Registry>
+  <Repository>darron/dnsmadeeasy-ddns</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Network Default="bridge">bridge</Network>
+  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
+Type="Variable" Display="hidden" Required="true" Mask="false">99</Config>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
+Type="Variable" Display="hidden" Required="true" Mask="false">100</Config>
+<Config Name="DNS Record" Target="DNS_RECORD" Default="" Description="The Record to check"
+Type="Variable" Display="always" Required="true" Mask="false"></Config>
+<Config Name="DNS Server" Target="DNS_SERVER" Default="" Description="The Server to check Against"
+Type="Variable" Display="always" Required="true" Mask="false"></Config>
+<Config Name="DNS Made Easy Username" Target="DME_USER" Default="" Description="Your username at DNS Made Easy"
+Type="Variable" Display="always" Required="true" Mask="false"></Config>
+<Config Name="DNS Made Easy Record Password" Target="DME_PASS" Default="" Description="The password for that DNS record"
+Type="Variable" Display="always" Required="true" Mask="true"></Config>
+<Config Name="DNS Made Easy Record ID" Target="DME_ID" Default="" Description="The ID for that DNS record"
+Type="Variable" Display="always" Required="true" Mask="false"></Config>
+<Config Name="Check Interval" Target="INTERVAL" Default="" Description="Seconds between checks"
+Type="Variable" Display="always" Required="true" Mask="false"></Config>
+<Config Name="Hipchat API" Target="HIPCHAT_API_TOKEN" Default="" Description="API token to notify Hipchat"
+Type="Variable" Display="advanced" Required="true" Mask="false"></Config>
+<Config Name="Hipchat Room" Target="HIPCHAT_ROOM_ID" Default="" Description="API token to notify Hipchat"
+Type="Variable" Display="advanced" Required="true" Mask="false"></Config>
+
+<WebUI></WebUI>
+  <Icon></Icon>
+</Container>
