@@ -54,5 +54,5 @@ Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
 <WebUI></WebUI>
-  <Icon></Icon>
+  <Icon>https://raw.githubusercontent.com/egadgetjnr/docker-templates/master/egadgetjnr/img/dnsmadeeasy.png</Icon>
 </Container>
