@@ -33,9 +33,9 @@
   <Privileged>false</Privileged>
   <Network Default="bridge">bridge</Network>
   <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
-Type="Variable" Display="hidden" Required="true" Mask="false">99</Config>
+Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
-Type="Variable" Display="hidden" Required="true" Mask="false">100</Config>
+Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 <Config Name="DNS Record" Target="DNS_RECORD" Default="" Description="The Record to check"
 Type="Variable" Display="always" Required="true" Mask="false"></Config>
 <Config Name="DNS Server" Target="DNS_SERVER" Default="" Description="The Server to check Against"
@@ -49,9 +49,9 @@ Type="Variable" Display="always" Required="true" Mask="false"></Config>
 <Config Name="Check Interval" Target="INTERVAL" Default="" Description="Seconds between checks"
 Type="Variable" Display="always" Required="true" Mask="false"></Config>
 <Config Name="Hipchat API" Target="HIPCHAT_API_TOKEN" Default="" Description="API token to notify Hipchat"
-Type="Variable" Display="advanced" Required="true" Mask="false"></Config>
+Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 <Config Name="Hipchat Room" Target="HIPCHAT_ROOM_ID" Default="" Description="API token to notify Hipchat"
-Type="Variable" Display="advanced" Required="true" Mask="false"></Config>
+Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 
 <WebUI></WebUI>
   <Icon></Icon>
