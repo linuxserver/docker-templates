@@ -27,8 +27,8 @@
 <!-- DON'T use any "&" in the overview section  -->
   <Overview></Overview>
 <!-- dockerhub link  -->
-  <Registry>https://hub.docker.com/r/darron/dnsmadeeasy-ddns/</Registry>
-  <Repository>darron/dnsmadeeasy-ddns</Repository>
+  <Registry>https://hub.docker.com/r/egadgetjnr89/dnsmadeeasy-ddns/</Registry>
+  <Repository>egadgetjnr89/dnsmadeeasy-ddns</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Network Default="bridge">bridge</Network>
