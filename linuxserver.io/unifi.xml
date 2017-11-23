@@ -39,6 +39,11 @@ using mongod repo instead of ubuntu defaut to install mongo
         <Protocol>udp</Protocol>
       </Port>
       <Port>
+        <HostPort>10001</HostPort>
+        <ContainerPort>10001</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
         <HostPort>8080</HostPort>
         <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
