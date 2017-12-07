@@ -16,7 +16,7 @@
 - Initial Release
 </Changes>
   <Support>http://lime-technology.com/forum/index.php?topic=43447.0</Support>
-  <Description>The ultimate PVR application that searches for and manages your TV shows
+  <Description>[b][u][span style=\'color: #E80000;\']DEPRECATED NO LONGER MAINTAINED OR REFRESHED[/span][/u][/b]The ultimate PVR application that searches for and manages your TV shows
 Automatically finds new and old episodes for you and it works with your current download client!
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
@@ -25,10 +25,9 @@ Automatically finds new and old episodes for you and it works with your current 
   [b]/tv[/b] Path to your tv-shows folder[br]
   </Description>
   <Project>http://sickbeard.com/</Project>
-  <Overview>The ultimate PVR application that searches for and manages your TV shows
-Automatically finds new and old episodes for you and it works with your current download client!</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/sickbeard/</Registry>
-  <Repository>linuxserver/sickbeard</Repository>
+  <Overview>DEPRECATED!</Overview>
+  <Registry>https://hub.docker.com/r/lsiocommunity/sickbeard/</Registry>
+  <Repository>lsiocommunity/sickbeard</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
