@@ -25,7 +25,7 @@ Automatically finds new and old episodes for you and it works with your current 
   [b]/tv[/b] Path to your tv-shows folder[br]
   </Description>
   <Project>http://sickbeard.com/</Project>
-  <Overview>DEPRECATED!</Overview>
+  <Deprecated>True</Deprecated>
   <Registry>https://hub.docker.com/r/lsiocommunity/sickbeard/</Registry>
   <Repository>lsiocommunity/sickbeard</Repository>
   <BindTime>true</BindTime>
