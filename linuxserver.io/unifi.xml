@@ -68,6 +68,11 @@ using mongod repo instead of ubuntu defaut to install mongo
         <ContainerPort>8880</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+      <Port>
+        <HostPort>3478</HostPort>
+        <ContainerPort>3478</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>      
     </Publish>
   </Networking>
   <Data>
