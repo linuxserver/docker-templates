@@ -36,7 +36,6 @@
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
-  </Networking>
   <Data>
     <Volume>
       <HostDir></HostDir>
@@ -70,10 +69,8 @@
   <Config Name="comics" Target="/comics" Default="" Mode="rw" Description="Container Path: /comics" Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="mylar db" Target="/mylar" Default="" Mode="rw" Description="Container Path: /mylar" Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="webui port" Target="4242" Default="" Mode="tcp" Description="Container Port: 4242" Type="Port" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
-Type="Variable" Display="always" Required="true" Mask="false">99</Config>
-  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
-Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
