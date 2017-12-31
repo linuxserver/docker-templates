@@ -2,7 +2,7 @@
 <Container>
 <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/gazee.xml</TemplateURL>
   <Beta>False</Beta>
-  <Category></Category>
+  <Category>Network:Web MediaServer:Books Tools:</Category>
   <Date>2017/12/30</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
@@ -74,4 +74,8 @@
 Type="Variable" Display="always" Required="true" Mask="false">99</Config>
   <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
 Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>linuxserver/baseimage.python3:3.7</BaseImage>
 </Container>
