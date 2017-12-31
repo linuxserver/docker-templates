@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/airsonic.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>MediaApp:Music MediaServer:Music Status:Stable</Category>
+  <Date>2017/12/30</Date>
+  <Changes>
+  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+  [center][font size=4] Change Log[/font][/center]
+  </Changes>
+  <Name>airsonic</Name>
+  <Support></Support>
+  <Description>Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.&#xD;
+&#xD;
+[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+  [b]/music[/b] - Location of music.[br]&#xD;
+  [b]/media[/b] - Location of other media.[br]&#xD;
+  [b]/podcasts[/b] - Location of podcasts.[br]&#xD;
+  [b]/playlists[/b] - Location for playlists storage.[br]&#xD;
+  [b]CONTEXT_PATH[/b] for setting url-base in reverse proxy setups[br]&#xD;
+  [b]JAVA_OPTS[/b] for setting Java options, default is 256MB starting RAM and Max RAM of 512MB[br]&#xD;
+[br][b]Default user/pass is: admin/admin[/b]</Description>
+  <Project>https://airsonic.github.io/</Project>
+  <Overview>Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.</Overview>
+  <Repository>linuxserver/airsonic</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Network Default="bridge">bridge</Network>
+  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
+Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
+Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+  <WebUI>http://[IP]:[PORT:4040]/airsonic</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-logo.png</Icon>
+    <Publish>
+      <Port>
+        <HostPort>4040</HostPort>
+        <ContainerPort>4040</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/music</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/playlists</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/podcasts</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>airsonic</Value>
+      <Name>CONTEXT_PATH</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>-Xms256 -Xmx512</Value>
+      <Name>JAVA_OPTS</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
+Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
+Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>linuxserver/baseimage.alpine:3.7</BaseImage>
+ </Container>
