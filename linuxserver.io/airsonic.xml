@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/airsonic.xml</TemplateURL>
+  <Name>airsonic</Name>
   <Beta>False</Beta>
   <Category>MediaApp:Music MediaServer:Music Status:Stable</Category>
   <Date>2017/12/30</Date>
@@ -9,27 +9,32 @@
 
   [center][font size=4] Change Log[/font][/center]
   </Changes>
-  <Name>airsonic</Name>
-  <Support>https://forums.lime-technology.com/topic/62456-support-linuxserverio-airsonic/</Support>
-  <Description>Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.&#xD;
-&#xD;
-[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
-  [b]/music[/b] - Location of music.[br]&#xD;
-  [b]/media[/b] - Location of other media.[br]&#xD;
-  [b]/podcasts[/b] - Location of podcasts.[br]&#xD;
-  [b]/playlists[/b] - Location for playlists storage.[br]&#xD;
-  [b]CONTEXT_PATH[/b] for setting url-base in reverse proxy setups[br]&#xD;
-  [b]JAVA_OPTS[/b] for setting Java options, default is 256MB starting RAM and Max RAM of 512MB[br]&#xD;
-[br][b]Default user/pass is: admin/admin[/b]</Description>
-  <Project>https://airsonic.github.io/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/airsonic/</Registry>
-  <Overview>Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.</Overview>
   <Repository>linuxserver/airsonic</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/airsonic/</Registry>
+  <Network>bridge</Network>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Network Default="bridge">bridge</Network>
+  <Support>https://forums.lime-technology.com/topic/62456-support-linuxserverio-airsonic/</Support>
+  <Overview>Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.&amp;amp;#xD;&#xD;
+&amp;amp;#xD;&#xD;
+[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;amp;#xD;&#xD;
+  [b]/music[/b] - Location of music.[br]&amp;amp;#xD;&#xD;
+  [b]/media[/b] - Location of other media.[br]&amp;amp;#xD;&#xD;
+  [b]/podcasts[/b] - Location of podcasts.[br]&amp;amp;#xD;&#xD;
+  [b]/playlists[/b] - Location for playlists storage.[br]&amp;amp;#xD;&#xD;
+  [b]CONTEXT_PATH[/b] for setting url-base in reverse proxy setups[br]&amp;amp;#xD;&#xD;
+  [b]JAVA_OPTS[/b] for setting Java options, default is 256MB starting RAM and Max RAM of 512MB[br]&amp;amp;#xD;&#xD;
+[br][b]Default user/pass is: admin/admin[/b]</Overview>
+  <Category/>
   <WebUI>http://[IP]:[PORT:4040]/airsonic</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/airsonic.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-logo.png</Icon>
+  <Project>https://airsonic.github.io/</Project>
+  <ExtraParams/>
+  <PostArgs/>
+  <Description>Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players</Description>
+  <Networking>
+    <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>4040</HostPort>
@@ -37,30 +42,31 @@
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
+  </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir/>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
       <ContainerDir>/music</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir/>
       <ContainerDir>/playlists</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir/>
       <ContainerDir>/podcasts</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir/>
       <ContainerDir>/media</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
@@ -86,10 +92,18 @@
       <Mode/>
     </Variable>
   </Environment>
-  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
-  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
-<DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
-<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.alpine:3.7</BaseImage>
- </Container>
+  <Config Name="config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="music" Target="/music" Default="" Mode="rw" Description="Container Path: /music" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="playlists" Target="/playlists" Default="" Mode="rw" Description="Container Path: /playlists" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="podcasts" Target="/podcasts" Default="" Mode="rw" Description="Container Path: /podcasts" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="media" Target="/media" Default="" Mode="rw" Description="Container Path: /media" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Webui Port" Target="4040" Default="" Mode="tcp" Description="Container Port: 4040" Type="Port" Display="always" Required="false" Mask="false">4040</Config>
+  <Config Name="CONTEXT PATH" Target="CONTEXT_PATH" Default="airsonic" Mode="" Description="Container Variable: CONTEXT_PATH" Type="Variable" Display="advanced-hide" Required="false" Mask="false">airsonic</Config>
+  <Config Name="JAVA OPTIONS" Target="JAVA_OPTS" Default="" Mode="" Description="Container Variable: JAVA_OPTS" Type="Variable" Display="advanced-hide" Required="false" Mask="false">-Xms256 -Xmx512</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+  <BaseImage>linuxserver/baseimage.alpine:3.7</BaseImage>
+</Container>
