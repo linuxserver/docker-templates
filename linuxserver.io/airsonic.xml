@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<Container version="2">
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
   <Name>airsonic</Name>
   <Repository>linuxserver/airsonic</Repository>
   <BindTime>true</BindTime>
