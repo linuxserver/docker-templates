@@ -22,6 +22,7 @@
   [b]JAVA_OPTS[/b] for setting Java options, default is 256MB starting RAM and Max RAM of 512MB[br]&#xD;
 [br][b]Default user/pass is: admin/admin[/b]</Description>
   <Project>https://airsonic.github.io/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/airsonic/</Registry>
   <Overview>Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.</Overview>
   <Repository>linuxserver/airsonic</Repository>
   <BindTime>true</BindTime>

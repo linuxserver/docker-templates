@@ -22,6 +22,7 @@
   [b]username:[/b] admin[br]&#xD;
   [b]password:[/b] gazee</Description>
   <Project>https://github.com/hubbcaps/gazee</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/gazee/</Registry>
   <Overview>A WebApp Comic Reader for your favorite digital comics. Reach and read your comic library from any web connected device with a modern web browser</Overview>
   <Repository>linuxserver/gazee</Repository>
   <BindTime>true</BindTime>
