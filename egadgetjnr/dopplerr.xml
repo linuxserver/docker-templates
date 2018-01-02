@@ -44,8 +44,6 @@ Type="Variable" Display="always" Required="false" Mask="false">0</Config>
 Type="Path" Display="always" Required="false" Mode="rw"></Config>
 <Config Name="TV Path" Target="/tv" Description="Your path to the TV media"
 Type="Path" Display="always" Required="false" Mode="rw"></Config>
-<Config Name="Anime Path" Target="/anime" Description="Your path to the Anime media"
-Type="Path" Display="always" Required="false" Mode="rw"></Config>
 <Config Name="Timezone" Target="TZ" Default="" Description="Your timezone for scheduling"
 Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
 <Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Description="Location to Localtime"
