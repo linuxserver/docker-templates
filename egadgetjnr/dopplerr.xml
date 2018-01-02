@@ -30,7 +30,7 @@
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Network Default="bridge">bridge</Network>
-  <Config Name="Dopplerr Port" Target="8086" Default="8086" Description="Set media base directory"
+  <Config Name="Dopplerr Port" Target="8086" Default="8086" Description="Dopplerr WebUI Listening Port"
 Type="Port" Display="always" Required="true" Mode="tcp">8086</Config>
   <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
 Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
@@ -40,11 +40,11 @@ Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 Type="Variable" Display="always" Required="true" Mask="false">en</Config>
 <Config Name="Verbosity" Target="DOPPLERR_GENERAL_VERBOSE" Default="0" Description="The Verbosity of logging"
 Type="Variable" Display="always" Required="false" Mask="false">0</Config>
-<Config Name="Movies Path" Target="/movies" Default="" Description="Your path to the movies media"
+<Config Name="Movies Path" Target="/movies" Description="Your path to the movies media"
 Type="Path" Display="always" Required="false" Mode="rw"></Config>
-<Config Name="TV Path" Target="/tv" Default="" Description="Your path to the TV media"
+<Config Name="TV Path" Target="/tv" Description="Your path to the TV media"
 Type="Path" Display="always" Required="false" Mode="rw"></Config>
-<Config Name="Anime Path" Target="/anime" Default="" Description="Your path to the Anime media"
+<Config Name="Anime Path" Target="/anime" Description="Your path to the Anime media"
 Type="Path" Display="always" Required="false" Mode="rw"></Config>
 <Config Name="Timezone" Target="TZ" Default="" Description="Your timezone for scheduling"
 Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
