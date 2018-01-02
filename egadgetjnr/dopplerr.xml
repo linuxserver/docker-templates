@@ -36,7 +36,7 @@ Type="Port" Display="always" Required="true" Mode="tcp">8086</Config>
 Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
 Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
-<Config Name="Language" Target="DOPPLERR_SUBLIMINAL_LANGUAGES" Default="en" Description="The Language to download"
+<Config Name="Language" Target="DOPPLERR_SUBLIMINAL_LANGUAGES" Default="eng" Description="The Language to download"
 Type="Variable" Display="always" Required="true" Mask="false">en</Config>
 <Config Name="Verbosity" Target="DOPPLERR_GENERAL_VERBOSE" Default="0" Description="The Verbosity of logging"
 Type="Variable" Display="always" Required="false" Mask="false">0</Config>
