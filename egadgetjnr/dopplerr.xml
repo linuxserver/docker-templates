@@ -25,8 +25,8 @@
 <!-- DON'T use any "&" in the overview section  -->
   <Overview></Overview>
 <!-- dockerhub link  -->
-  <Registry>https://hub.docker.com/r/stibbons/dopplerr/</Registry>
-  <Repository>stibbons/dopplerr</Repository>
+  <Registry>https://hub.docker.com/r/stibbons31/dopplerr/</Registry>
+  <Repository>stibbons31/dopplerr</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Network Default="bridge">bridge</Network>
