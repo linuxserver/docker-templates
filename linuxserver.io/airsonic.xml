@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Container>
+<?xml version="1.0" encoding="UTF-8"?>
+<Container version="2">
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/airsonic.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>MediaApp:Music MediaServer:Music Status:Stable</Category>
@@ -27,9 +27,10 @@
   <Registry>https://hub.docker.com/r/linuxserver/airsonic/</Registry>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Network Default="bridge">bridge</Network>
   <WebUI>http://[IP]:[PORT:4040]/airsonic</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-logo.png</Icon>
+  <Networking>
+    <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>4040</HostPort>
@@ -37,6 +38,7 @@
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
+  </Networking>
   <Data>
     <Volume>
       <HostDir></HostDir>
@@ -66,6 +68,16 @@
   </Data>
   <Environment>
     <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
       <Value>airsonic</Value>
       <Name>CONTEXT_PATH</Name>
       <Mode/>
@@ -78,6 +90,14 @@
   </Environment>
   <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
   <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Container Path: /music" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Playlists" Target="/playlists" Default="" Mode="rw" Description="Container Path: /playlists" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Podcasts" Target="/podcasts" Default="" Mode="rw" Description="Container Path: /podcasts" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Media" Target="/media" Default="" Mode="rw" Description="Container Path: /media" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="CONTEXT_PATH" Target="CONTEXT_PATH" Default="airsonic" Mode="" Description="Container Variable: CONTEXT_PATH" Type="Variable" Display="always" Required="false" Mask="false">airsonic</Config>
+  <Config Name="JAVA_OPTS" Target="JAVA_OPTS" Default="-Xms256 -Xmx512" Mode="" Description="Container Variable: JAVA_OPTS" Type="Variable" Display="always" Required="false" Mask="false">-Xms256 -Xmx512</Config>
+  <Config Name="Port" Target="4040" Default="4040" Mode="tcp" Description="Container Port: 4040" Type="Port" Display="always" Required="true" Mask="false">4040</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/airsonic" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/airsonic</Config>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
