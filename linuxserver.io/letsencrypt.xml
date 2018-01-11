@@ -83,6 +83,7 @@
     <Variable>
       <Value>false</Value>
       <Name>HTTPVAL</Name>
+    </Variable>
   </Environment>
   <Config Name="http" Target="80" Default="" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false"></Config>
   <Config Name="https" Target="443" Default="" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="false" Mask="false"></Config>
