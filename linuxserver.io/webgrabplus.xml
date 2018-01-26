@@ -13,6 +13,7 @@
 		[b]/config[/b] : This is where WebGrab+Plus will store it's configuration.[br][br]&#xD;
 		[b]/data[/b] : This is where tv_grab_wg script in the Tvheadend container looks for the guide.xml file.[br][br]</Overview>
   <Category>Downloaders:</Category>
+  <Project>http://webgrabplus.com/</Project>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webgrabplus.png</Icon>
