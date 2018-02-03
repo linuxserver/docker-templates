@@ -99,8 +99,8 @@
   <Config Name="Diffie Hellman" Target="DHLEVEL" Default="2048" Mode="" Description="Diffie Hellman parameters bit value.  Can be 1024, 2048 or 4096.  (Default is 2048)" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="UID for permissions.  Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"></Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="GID for permissions.  Do not change unless you know what you're doing." Type="Variable" Display="advanced-hide" Required="true" Mask="false"></Config>
-  <Config Name="VALIDATION" Target="VALIDATION" Default="http" Mode="" Description="Flag to specify validation method use either 'http','dns' or 'tls-sni'" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="DNSPLUGIN" Target="DNSPLUGIN" Default="" Mode="" Description="DNS plugin to use if using DNS validation" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Validation" Target="VALIDATION" Default="http" Mode="" Description="Flag to specify validation method use either 'http','dns' or 'tls-sni'" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="DNS-Plugin" Target="DNSPLUGIN" Default="" Mode="" Description="DNS plugin to use if using DNS validation" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/letsencrypt" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"></Config>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
