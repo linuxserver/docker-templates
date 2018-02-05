@@ -17,6 +17,7 @@
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where resilio sync should store settings files[br]
   [b]/sync[/b] Folder to sync[br]
+  [b]/downloads[/b] Folder for downloads/cache[br]
   </Description>
   <Overview>Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both.</Overview>
 <Project>https://www.resilio.com/individuals/</Project>
@@ -58,6 +59,11 @@
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/sync</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/downloads</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
