@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/heimdall.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Tools: Network:Web Network:Other Status:Stable</Category>
+  <Date>2018/02/12</Date>
+  <Changes>
+  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+
+  [center][font size=4] Change Log[/font][/center]
+  </Changes>
+  <Name>heimdall</Name>
+  <Support>https://lime-technology.com/forums/topic/</Support>
+  <Description>Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way.[br]&#xD;
+&#xD;
+Simplicity is the key to Heimdall.[br]
+&#xD;
+Why not use it as your browser start page? It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.&#xD;
+&#xD;
+  [br][br]&#xD;
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+  [b]/config[/b] Where Heimdall should store it's database[br]&#xD;</Description>
+  <Project>https://heimdall.site/</Project>
+  <Registry>https://hub.docker.com/r/linuxserver/heimdall/</Registry>
+  <Repository>linuxserver/heimdall</Repository>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-icon.png</Icon>
+  <Overview>Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way.</Overview>
+   <Config Name="http port" Target="80" Default="" Mode="tcp" Description="Port for http access" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="https port" Target="443" Default="" Mode="tcp" Description="Port for https access" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="appdata" Target="/config" Default="" Mode="rw" Description="appdata location" Type="Path" Display="advanced" Required="true" Mask="false"></Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+<BaseImage>linuxserver/alpine.nginx:3.7</BaseImage>
+</Container>
