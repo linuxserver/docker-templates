@@ -20,7 +20,7 @@ Why not use it as your browser start page? It even has the ability to include a 
   [br][br]&#xD;
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
   [b]/config[/b] Where Heimdall should store it's database[br]&#xD;</Description>
-  <Project>https://heimdall.site/</Project>
+  <Project>https://github.com/linuxserver/Heimdall</Project>
   <Registry>https://hub.docker.com/r/linuxserver/heimdall/</Registry>
   <Repository>linuxserver/heimdall</Repository>
   <Network>bridge</Network>
