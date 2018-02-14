@@ -1,40 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Container>
-  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/heimdall.xml</TemplateURL>
-  <Beta>False</Beta>
-  <Category>Tools: Network:Web Network:Other Status:Stable</Category>
-  <Date>2018/02/12</Date>
-  <Changes>
-  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4] Change Log[/font][/center]
-  </Changes>
+<?xml version="1.0"?>
+<Container version="2">
   <Name>heimdall</Name>
-  <Support>https://lime-technology.com/forums/topic/68194-support-linuxserverio-heimdall/</Support>
-  <Description>Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way.[br]&#xD;
-&#xD;
-Simplicity is the key to Heimdall.[br]
-&#xD;
-Why not use it as your browser start page? It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.&#xD;
-&#xD;
-  [br][br]&#xD;
-  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
-  [b]/config[/b] Where Heimdall should store it's database[br]&#xD;</Description>
-  <Project>https://github.com/linuxserver/Heimdall</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/heimdall/</Registry>
   <Repository>linuxserver/heimdall</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/heimdall/</Registry>
   <Network>bridge</Network>
+  <MyIP/>
   <Privileged>false</Privileged>
-  <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-icon.png</Icon>
+  <Support>https://lime-technology.com/forums/topic/68194-support-linuxserverio-heimdall/</Support>
+  <Project>https://github.com/linuxserver/Heimdall</Project>
   <Overview>Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way.</Overview>
-   <Config Name="http port" Target="80" Default="" Mode="tcp" Description="Port for http access" Type="Port" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="https port" Target="443" Default="" Mode="tcp" Description="Port for https access" Type="Port" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="appdata" Target="/config" Default="" Mode="rw" Description="appdata location" Type="Path" Display="advanced" Required="true" Mask="false"></Config>
+  <Category>Tools: Network:Web Network:Other Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/heimdall.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <DateInstalled>1518616899</DateInstalled>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
+  <MinVer>6.0</MinVer>
+  <Description>Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort/>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort/>
+        <ContainerPort>443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/heimdall</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Config Name="http port" Target="80" Default="" Mode="tcp" Description="Port for http access" Type="Port" Display="always" Required="false" Mask="false"/>
+  <Config Name="https port" Target="443" Default="" Mode="tcp" Description="Port for https access" Type="Port" Display="always" Required="false" Mask="false"/>
+  <Config Name="appdata" Target="/config" Default="/mnt/user/appdata/heimdall" Mode="rw" Description="appdata location" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/heimdall</Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
-<DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
-<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/alpine.nginx:3.7</BaseImage>
 </Container>
