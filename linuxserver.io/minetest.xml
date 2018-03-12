@@ -38,6 +38,10 @@
   <Tag>0.4.14</Tag>
   <TagDescription>Minetest Version 0.4.14</TagDescription>
   </Branch>
+     <Branch>
+  <Tag>0.4.13</Tag>
+  <TagDescription>Minetest Version 0.4.13</TagDescription>
+  </Branch>
   <Repository>linuxserver/minetest</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
