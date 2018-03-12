@@ -22,6 +22,22 @@
   <Overview>Server version of minetest, a free, open source alternative to minecraft.</Overview>
   <Project>http://www.minetest.net/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/minetest/</Registry>
+  <Branch>
+  <Tag>latest</Tag>
+  <TagDescription>latest build from Minetest master</TagDescription>
+  </Branch>
+  <Branch>
+  <Tag>0.4.16</Tag>
+  <TagDescription>Minetest Version 0.4.16</TagDescription>
+  </Branch>
+  <Branch>
+  <Tag>0.4.15</Tag>
+  <TagDescription>Minetest Version 0.4.15</TagDescription>
+  </Branch>
+   <Branch>
+  <Tag>0.4.14</Tag>
+  <TagDescription>Minetest Version 0.4.14</TagDescription>
+  </Branch>
   <Repository>linuxserver/minetest</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
