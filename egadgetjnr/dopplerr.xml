@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/egadgetjnr/docker-templates/master/egadgetjnr/dopplerr.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Network Services</Category>
+  <!-- Date in format YYYY-MM-DD  -->
+  <Date>2018-01-02</Date>
+  <Changes>
+  </Changes>
+<!-- name preferably in lowercase  -->
+  <Name>dopplerr subtitle downloader</Name>
+  <Support></Support>
+  <Project>https://github.com/Stibbons/dopplerr</Project>
+  <Description> [br]
+  [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]languages[/b] : the languages to download [br]
+  [b]verbose[/b] : the verbosity 1=verbose 0=silent [br]
+  [b]tv[/b] : the path to tv media [br]
+  [b]movies[/b] : the path to movies media [br]
+  [b]anime[/b] : the path to anime media [br]
+  [b]TZ[/b] : the timezone [br]
+  </Description>
+<!-- link to the apps homepage or git page  -->
+ <Project></Project>
+<!-- DON'T use any "&" in the overview section  -->
+  <Overview></Overview>
+<!-- dockerhub link  -->
+  <Registry>https://hub.docker.com/r/stibbons31/dopplerr/</Registry>
+  <Repository>stibbons31/dopplerr</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Network Default="bridge">bridge</Network>
+  <Config Name="Dopplerr Port" Target="8086" Default="8086" Description="Dopplerr WebUI Listening Port"
+Type="Port" Display="always" Required="true" Mode="tcp">8086</Config>
+  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID"
+Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID"
+Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+<Config Name="Language" Target="DOPPLERR_SUBLIMINAL_LANGUAGES" Default="eng" Description="The Language to download"
+Type="Variable" Display="always" Required="true" Mask="false">en</Config>
+<Config Name="Verbosity" Target="DOPPLERR_GENERAL_VERBOSE" Default="0" Description="The Verbosity of logging"
+Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+<Config Name="Movies Path" Target="/movies" Description="Your path to the movies media"
+Type="Path" Display="always" Required="false" Mode="rw"></Config>
+<Config Name="TV Path" Target="/tv" Description="Your path to the TV media"
+Type="Path" Display="always" Required="false" Mode="rw"></Config>
+<Config Name="Timezone" Target="TZ" Default="" Description="Your timezone for scheduling"
+Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+<Config Name="Localtime" Target="/etc/localtime" Default="/etc/localtime" Description="Location to Localtime"
+Type="Path" Display="advanced" Required="false" Mode="r">/etc/localtime</Config>
+<Config Name="Dopplerr Base Directory" Target="DOPPLERR_GENERAL_BASEDIR" Default="" Description="Set media base directory"
+Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+
+<WebUI></WebUI>
+  <!-- <Icon>https://raw.githubusercontent.com/egadgetjnr/docker-templates/master/egadgetjnr/img/dnsmadeeasy.png</Icon> -->
+</Container>
