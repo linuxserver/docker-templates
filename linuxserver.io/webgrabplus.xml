@@ -15,6 +15,9 @@
   <Category>Downloaders:</Category>
   <Project>http://webgrabplus.com/</Project>
   <WebUI/>
+<DonateText>Donations</DonateText>
+<DonateLink>https://www.linuxserver.io/donate</DonateLink>
+<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/webgrabplus.png</Icon>
   <ExtraParams/>
