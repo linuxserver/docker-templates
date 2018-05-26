@@ -61,7 +61,7 @@ A free, self-hostable rss aggregator…[br]
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freshrss-icon.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>linuxserver/baseimage.apache</BaseImage>
 </Container>

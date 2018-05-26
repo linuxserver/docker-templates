@@ -103,7 +103,7 @@
   <Config Name="DNS-Plugin" Target="DNSPLUGIN" Default="" Mode="" Description="DNS plugin to use if using DNS validation" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/letsencrypt" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"></Config>
 <DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
 </Container>

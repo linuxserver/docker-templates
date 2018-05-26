@@ -64,7 +64,7 @@
   <Config Name="Variable 1" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="Variable 2" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
 <DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

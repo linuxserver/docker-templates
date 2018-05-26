@@ -65,7 +65,7 @@ A simple, easy way to turn a photo album into a webgallery[br]
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/photoshow-icon.png</Icon>
   <DonateText>Donations</DonateText>
-  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
   <BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
 </Container>

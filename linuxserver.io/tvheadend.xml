@@ -79,7 +79,7 @@ Multiple EPG sources are supported (over-the-air DVB and ATSC including OpenTV D
   <Config Name="Webgui" Target="9981" Default="9981" Mode="tcp" Description="Webgui" Type="Port" Display="always" Required="true" Mask="false">9981</Config>
   <Config Name="HTSP" Target="9982" Default="9982" Mode="tcp" Description="HTSP" Type="Port" Display="always" Required="true" Mask="false">9982</Config>
   <DonateText>Donations</DonateText>
-  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
   <BaseImage>lsiobase/alpine:3.6</BaseImage>
 </Container>

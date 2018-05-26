@@ -100,7 +100,7 @@
   <Config Name="Port" Target="4040" Default="4040" Mode="tcp" Description="Container Port: 4040" Type="Port" Display="always" Required="true" Mask="false">4040</Config>
   <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/airsonic" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/airsonic</Config>
 <DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+<DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
 <BaseImage>linuxserver/baseimage.alpine:3.7</BaseImage>
  </Container>
