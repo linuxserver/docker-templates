@@ -50,7 +50,7 @@
     </Volume>
   </Data>
 <WebUI>http://[IP]:[PORT:5060]/</WebUI>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cardigan.png</Icon>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cardigann.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
