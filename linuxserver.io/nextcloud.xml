@@ -11,7 +11,7 @@
     [b]08.03.2017:[/b] Initial Release with PHP7 and Alpine 3.5.
   </Changes>
   <Name>nextcloud</Name>
-  <Support>https://forums.lime-technology.com/topic/48383-support-linuxserverio-nextcloud/</Support>
+  <Support>https://forums.unraid.net/topic/48383-support-linuxserverio-nextcloud/</Support>
   <Repository>linuxserver/nextcloud</Repository>
   <Project>https://nextcloud.com</Project>
   <Registry>https://hub.docker.com/r/linuxserver/nextcloud</Registry>

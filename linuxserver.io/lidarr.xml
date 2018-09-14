@@ -10,7 +10,7 @@
   [b]24.02.2017:[/b] Initial Release.
   </Changes>
   <Name>lidarr</Name>
-  <Support>https://lime-technology.com/forums/topic/69663-support-linuxserverio-lidarr/</Support>
+  <Support>https://forums.unraid.net/topic/69663-support-linuxserverio-lidarr/</Support>
   <Project>https://github.com/lidarr/Lidarr</Project>
   <Repository>linuxserver/lidarr</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/lidarr/</Registry>

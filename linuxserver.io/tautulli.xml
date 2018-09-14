@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/tautulli/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://lime-technology.com/forums/topic/40750-support-linuxserverio-tautulli/</Support>
+  <Support>https://forums.unraid.net/topic/40750-support-linuxserverio-tautulli/</Support>
   <Project>http://tautulli.com/</Project>
   <Overview>Tautulli is a 3rd party application that you can run along side your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched. All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.[br][br]&#xD;
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;

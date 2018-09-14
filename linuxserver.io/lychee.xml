@@ -12,7 +12,7 @@
   </Changes>
   <Name>lychee</Name>
   <Project>https://lychee.electerious.com</Project>
-  <Support>http://lime-technology.com/forum/index.php?topic=56494.0</Support>
+  <Support>https://forums.unraid.net/topic/54743-support-linuxserverio-lychee/</Support>
   <Repository>linuxserver/lychee</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/lychee/</Registry>
   <Network>bridge</Network>

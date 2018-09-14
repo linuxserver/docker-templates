@@ -11,7 +11,7 @@
 - Initial release.
 </Changes>
 <Name>qbittorrent</Name>
-<Support>https://forums.lime-technology.com/topic/59191-support-linuxserverio-qbittorrent/</Support>
+<Support>https://forums.unraid.net/topic/59191-support-linuxserverio-qbittorrent/</Support>
   <Repository>linuxserver/qbittorrent</Repository>
   <Project>https://www.qbittorrent.org</Project>
   <Registry>https://hub.docker.com/r/linuxserver/qbittorrent/</Registry>

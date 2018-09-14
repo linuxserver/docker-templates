@@ -11,7 +11,7 @@
 [font size=4]15-08-2016[/font]
 - Initial release.
 </Changes>
-  <Support>https://lime-technology.com/forum/index.php?topic=50118.0</Support>
+  <Support>https://forums.unraid.net/topic/48411-support-linuxserverio-minisatip/</Support>
   <Description>Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
 
   The application is designed to stream the requested data to multiple clients (even with one dvb card) at the same time while opening different pids.

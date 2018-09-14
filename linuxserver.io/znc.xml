@@ -12,7 +12,7 @@
 [b]07.12.2016[/b] Use scanelf to set runtime packages.
 [b]20.08.2016[/b] Rebase to alpine linux
 </Changes>
-  <Support>http://lime-technology.com/forum/index.php?topic=44605.0</Support>
+  <Support>https://forums.unraid.net/topic/42908-support-linuxserverio-znc/</Support>
   <Description>ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]

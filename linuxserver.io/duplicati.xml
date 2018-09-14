@@ -14,7 +14,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/duplicati/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://forums.lime-technology.com/topic/56610-support-linuxserverio-duplicati/</Support>
+  <Support>https://forums.unraid.net/topic/56610-support-linuxserverio-duplicati/</Support>
   <Overview>Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.</Overview>
   <Category>Backup: Cloud: Network:Other Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:8200]/</WebUI>

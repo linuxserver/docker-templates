@@ -14,7 +14,7 @@
   [b]26.01.2016:[/b] Initial Release.
   </Changes>
   <Name>jackett</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=45938.0</Support>
+  <Support>https://forums.unraid.net/topic/44235-support-linuxserverio-jackett/</Support>
   <Description>Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all jackett config files [br]

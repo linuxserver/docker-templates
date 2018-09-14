@@ -9,7 +9,7 @@
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Project>https://github.com/linuxserver/davos</Project>
-  <Support>https://lime-technology.com/forum/index.php?topic=53955.0</Support>
+  <Support>https://forums.unraid.net/topic/52221-support-linuxserverio-davos/</Support>
   <Overview>davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.&#xD;
 &#xD;
 /config : AppData Location&#xD;

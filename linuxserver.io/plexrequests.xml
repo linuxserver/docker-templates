@@ -13,7 +13,7 @@
   [b]05.02.2016:[/b] Initial Release.
   </Changes>
   <Name>plexrequests</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=46320.0</Support>
+  <Support>https://forums.unraid.net/topic/44617-support-linuxserverio-plex-requests/</Support>
   <Description>Simple automated way for users to request new content for Plex[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all plexrequests config files [br]

@@ -15,7 +15,7 @@ add wget (hopefully better rss integration).
 [b]08.03.2016[/b] Initial Release
 </Changes>
   <Name>rutorrent</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=47299.0</Support>
+  <Support>https://forums.unraid.net/topic/45596-support-linuxserverio-rutorrent/</Support>
   <Description>
   Popular torrent client with a webui for ease of use.
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]

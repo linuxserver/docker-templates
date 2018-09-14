@@ -11,7 +11,7 @@
   [b]12.01.2017:[/b] Add ghostscript package, allows creation of magazine covers.
   [b]26.09.2016:[/b] Initial Release
 </Changes>
-  <Support>http://lime-technology.com/forum/index.php?topic=52342.0</Support>
+  <Support>https://forums.unraid.net/topic/50617-support-linuxserverio-lazylibrarian/</Support>
   <Name>lazylibrarian</Name>
   <Description>LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.[br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]

@@ -12,7 +12,7 @@
 [b]02.11.2016[/b] Rebase to ubuntu xenial as alpine linux no longer works with resilio-sync.
 </Changes>
   <Name>resilio-sync</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=53345.0</Support>
+  <Support>https://forums.unraid.net/topic/51613-support-linuxserverio-resilio-sync/</Support>
   <Description>Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where resilio sync should store settings files[br]

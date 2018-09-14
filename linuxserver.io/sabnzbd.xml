@@ -17,7 +17,7 @@
 [b]14.12.2015[/b] Bump image install to beta3
 </Changes>
   <Name>sabnzbd</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=42441</Support>
+  <Support>https://forums.unraid.net/topic/40756-support-linuxserverio-sabnzbd/</Support>
   <Description>SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where sabnzbd should store settings, log and configuration files[br]

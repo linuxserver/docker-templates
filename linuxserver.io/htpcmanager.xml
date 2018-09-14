@@ -17,7 +17,7 @@ Remove loglevel from run command, user can set in webui
 [font size=4]2015-10-07[/font]
 - Add psutil pip package
 </Changes>
-  <Support>http://lime-technology.com/forum/index.php?topic=43318.0</Support>
+  <Support>https://forums.unraid.net/topic/41632-support-linuxserverio-htpc-manager-hellowlol/</Support>
   <Description>Htpcmanager, a front end for many htpc related applications. Hellowlol version.
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]

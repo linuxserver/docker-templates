@@ -14,7 +14,7 @@
 - Refresh Dependencies
 </Changes>
   <Name>tt-rss</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=42692</Support>
+  <Support>https://forums.unraid.net/topic/41007-support-linuxserverio-tiny-tiny-rss/</Support>
   <Description>Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where tt-rss should store settings and configuration files[br]

@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/webgrabplus/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://lime-technology.com/forums/topic/68338-support-linuxserverio-webgrabplus/</Support>
+  <Support>https://forums.unraid.net/topic/68338-support-linuxserverio-webgrabplus/</Support>
   <Overview>WebGrab+Plus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.[br]&#xD;
 		Optional postprocessors to add IMDb data or to customize your xmltv listing.[br]&#xD;
 		http://www.webgrabplus.com/[br]&#xD;

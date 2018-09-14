@@ -12,7 +12,7 @@
   [b]22.02.2016:[/b] Initial Release.
   </Changes>
   <Name>muximux</Name>
-  <Support>https://lime-technology.com/forum/index.php?topic=46817.0</Support>
+  <Support>https://forums.unraid.net/topic/45114-support-linuxserverio-muximux/</Support>
   <Description>A lightweight portal to view, manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps.[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all muximux config files [br]

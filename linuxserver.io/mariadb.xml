@@ -13,7 +13,7 @@
 [b]10.12.2015[/b] Remove autoupdate feature, was breaking between random versions.
 </Changes>
   <Name>mariadb</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=42422</Support>
+  <Support>https://forums.unraid.net/topic/40737-support-linuxserverio-mariadb/</Support>
   <Description>
 An Enhanced drop in replacement for Mysql[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]

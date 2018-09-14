@@ -29,7 +29,7 @@ range values in VERSION variable
 - Bump to 15.2
 </Changes>
   <Name>kodi-headless</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=42439</Support>
+  <Support>https://forums.unraid.net/topic/40754-support-linuxserverio-kodi-headless/</Support>
   <Description>Kodi™ (formerly known as XBMC™) is an award-winning free and open source (GPL) software media center for playing videos, music, pictures, games, and more.
   [br]Headless installation to enable library updates[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]

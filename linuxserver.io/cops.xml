@@ -11,7 +11,7 @@
 [font size=4]12-08-2016[/font]
 - Initial release.
 </Changes>
-<Support>http://lime-technology.com/forum/index.php?topic=51052.0</Support>
+<Support>https://forums.unraid.net/topic/49343-support-linuxserverio-cops-calibre-opds-php-server/</Support>
   <Description>COPS, by Sébastien Lucas, stands for Calibre OPDS (and HTML) Php Server.
 
   COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices.

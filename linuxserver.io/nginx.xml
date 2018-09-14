@@ -5,7 +5,7 @@
 <Category>Network:Web Network:Proxy</Category>
 <Date>2015-12-05</Date>
   <Name>nginx</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=44481.0</Support>
+  <Support>https://forums.unraid.net/topic/42784-support-linuxserverio-nginx/</Support>
   <Overview>Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache.</Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 

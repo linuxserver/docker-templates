@@ -2,7 +2,7 @@
 <Container>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/unifi.xml</TemplateURL>
   <Name>unifi</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=43803.0</Support>
+  <Support>https://forums.unraid.net/topic/42110-support-linuxserverio-unifi/</Support>
   <Project>https://community.ubnt.com/</Project>
   <Description>The UniFi® Controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.</Description>
   <Registry>https://hub.docker.com/r/linuxserver/unifi</Registry>

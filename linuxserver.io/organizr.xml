@@ -12,7 +12,7 @@
   </Changes>
   <Name>organizr</Name>
   <Project>https://github.com/causefx/Organizr</Project>
-  <Support>https://forums.lime-technology.com/topic/55563-support-linuxserverio-organizr/</Support>
+  <Support>https://forums.unraid.net/topic/55563-support-linuxserverio-organizr/</Support>
   <Repository>lsiocommunity/organizr</Repository>
   <Registry>https://hub.docker.com/r/lsiocommunity/organizr/</Registry>
   <Network>bridge</Network>

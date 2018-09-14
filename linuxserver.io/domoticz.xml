@@ -11,7 +11,7 @@
   [b]11.02.2017:[/b] Initial Release.
   </Changes>
   <Name>domoticz</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=55261</Support>
+  <Support>https://forums.unraid.net/topic/53519-support-linuxserverio-domoticz/</Support>
   <Repository>linuxserver/domoticz</Repository>
   <Project>https://www.domoticz.com</Project>
   <Branch>

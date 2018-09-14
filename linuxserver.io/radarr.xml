@@ -12,7 +12,7 @@
   [b]10.01.2017:[/b] Initial Release.
   </Changes>
   <Name>radarr</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=55500.0</Support>
+  <Support>https://forums.unraid.net/topic/53758-support-linuxserverio-radarr/</Support>
   <Project>https://github.com/Radarr/Radarr</Project>
   <Repository>linuxserver/radarr</Repository>
   <Branch>

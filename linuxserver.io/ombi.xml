@@ -13,7 +13,7 @@
 - Initial release.
 </Changes>
 <Name>ombi</Name>
-<Support>http://lime-technology.com/forum/index.php?topic=55262</Support>
+<Support>https://forums.unraid.net/topic/53520-support-linuxserverio-ombi/</Support>
   <Repository>linuxserver/ombi</Repository>
   <Project>https://www.ombi.io/</Project>
   <Registry>https://hub.docker.com/r/linuxserver/ombi/</Registry>
