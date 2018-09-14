@@ -18,7 +18,7 @@
   [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
   [b]03.07.2015:[/b] Fixed a mistake that allowed plex to run as user plex rather than abc (99:100). Thanks to double16 for spotting this.</Changes>
   <Name>plex</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
+  <Support>https://forums.unraid.net/topic/40463-support-linuxserverio-plex-media-server/</Support>
   <Description>
   Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. [br]
 

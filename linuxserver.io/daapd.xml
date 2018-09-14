@@ -16,7 +16,7 @@
   [b]16.11.2015:[/b] Initial Release.
   </Changes>
   <Name>daapd</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=44210</Support>
+  <Support>https://forums.unraid.net/topic/42513-support-linuxserverio-daapd/</Support>
   <Description>DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio.[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all daapd config files [br]

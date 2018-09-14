@@ -14,7 +14,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/booksonic/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>http://lime-technology.com/forum/index.php?topic=54663.0</Support>
+  <Support>https://forums.unraid.net/topic/52926-support-linuxserverio-booksonic/</Support>
   <Overview>Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic</Overview>
   <Category>MediaApp:Books MediaApp:Other MediaServer:Books MediaServer:Other Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:4040]/booksonic/</WebUI>

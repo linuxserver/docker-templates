@@ -12,7 +12,7 @@
   [b]15.07.2015:[/b] Inital Release.
   </Changes>
   <Name>headphones</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=42495</Support>
+  <Support>https://forums.unraid.net/topic/40810-support-linuxserverio-headphones/</Support>
   <Description>
   Headphones is an automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole. [br]
 

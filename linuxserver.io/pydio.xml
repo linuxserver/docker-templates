@@ -13,7 +13,7 @@
 [b]19.02.2017:[/b] Rebase to alpine linux nginx 3.5
 </Changes>
 <Overview>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.</Overview>
-<Support>http://lime-technology.com/forum/index.php?topic=42811</Support>
+<Support>https://forums.unraid.net/topic/41126-support-linuxserverio-pydio/</Support>
 <Description>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.[br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   Create a user and database in your mysql/mariadb server (not root)[br]
    Use the IP address for "host" of your database server in the webui setup.[br]

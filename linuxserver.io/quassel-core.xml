@@ -13,7 +13,7 @@
 thanks bauerj
 [b]10.08.2016[/b] Rebase to ubuntu xenial
 </Changes>
-  <Support>https://lime-technology.com/forum/index.php?topic=42573.0</Support>
+  <Support>https://forums.unraid.net/topic/40888-support-linuxserverio-quassel-core/</Support>
   <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]

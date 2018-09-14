@@ -12,7 +12,7 @@
   [b]26.01.2016:[/b] Initial Release.
   </Changes>
   <Name>hydra</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=45939.0</Support>
+  <Support>https://forums.unraid.net/topic/44236-support-linuxserverio-nzbhydra/</Support>
   <Description>NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all hydra config files [br]

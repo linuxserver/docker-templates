@@ -13,7 +13,7 @@
 </Changes>
 <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://lime-technology.com/forum/index.php?topic=52273.0</Support>
+  <Support>https://forums.unraid.net/topic/50548-support-linuxserverio-oscam/</Support>
   <Project>http://www.streamboard.tv/oscam/</Project>
   <Overview>OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module
   (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the

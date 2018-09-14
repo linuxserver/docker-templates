@@ -16,7 +16,7 @@
   <Privileged>false</Privileged>
   <Beta>false</Beta>
   <Project>https://www.duckdns.org/</Project>
-  <Support>http://lime-technology.com/forum/index.php?topic=53906.0</Support>
+  <Support>https://forums.unraid.net/topic/52172-support-linuxserverio-duckdns/</Support>
   <Overview>Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence.&#xD;
 &#xD;
 First, go to duckdns site, register your subdomain and retrieve your token&#xD;

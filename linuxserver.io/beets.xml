@@ -16,7 +16,7 @@
   [b]29.11.2015:[/b] Change to no terminal type set, seems to be causing
   issues with key entries for some users
   [b]06.11.2015:[/b] Initial Release </Changes>
-  <Support>http://lime-technology.com/forum/index.php?topic=43852.0</Support>
+  <Support>https://forums.unraid.net/topic/42159-support-linuxserverio-beets/</Support>
   <Name>beets</Name>
   <Description>The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. Then it provides a bouquet of tools for manipulating and accessing your music.[br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]

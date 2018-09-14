@@ -13,7 +13,7 @@
 [b]19.02.2016[/b] Change port to UDP
   </Changes>
   <Name>minetest</Name>
-  <Support></Support>
+  <Support>https://forums.unraid.net/topic/42426-support-linuxserverio-minetest/</Support>
   <Description>
   A free, open source alternative to minecraft.
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]

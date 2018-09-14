@@ -15,7 +15,7 @@
   [b]16.11.2015:[/b] Initial Release.
   </Changes>
   <Name>transmission</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=44049.0</Support>
+  <Support>https://forums.unraid.net/topic/42352-support-linuxserverio-transmission/</Support>
   <Description>Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all transmission config files [br]

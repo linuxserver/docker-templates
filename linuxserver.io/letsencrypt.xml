@@ -14,7 +14,7 @@
   <Network>bridge</Network>
   <Privileged>true</Privileged>
   <Project>https://letsencrypt.org/</Project>
-  <Support>http://lime-technology.com/forum/index.php?topic=53542.0</Support>
+  <Support>https://forums.unraid.net/topic/51808-support-linuxserverio-letsencrypt-nginx/</Support>
   <Overview>This container sets up an Nginx webserver and reverse proxy with php support and a built-in letsencrypt client that automates free SSL server certificate generation and renewal processes. It also contains fail2ban for intrusion prevention.&#xD;
   &#xD;
   Before running this container, make sure that the url and subdomains are properly forwarded to this container's host.&#xD;

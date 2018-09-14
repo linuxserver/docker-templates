@@ -26,7 +26,7 @@
 </Changes>
 <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>http://lime-technology.com/forum/index.php?topic=51621.0</Support>
+  <Support>https://forums.unraid.net/topic/49898-support-linuxserverio-tvheadend/</Support>
   <Project>https://www.tvheadend.org/</Project>
   <Overview>Tvheadend is a TV streaming server and recorder for Linux, FreeBSD and Android supporting DVB-S, DVB-S2, DVB-C, DVB-T, ATSC, ISDB-T, IPTV, SAT&amp;gt;IP and HDHomeRun as input sources.&#xD;
 Tvheadend offers the HTTP (VLC, MPlayer), HTSP (Kodi, Movian) and SAT&amp;gt;IP streaming.&#xD;

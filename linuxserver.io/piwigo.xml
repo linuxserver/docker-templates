@@ -14,7 +14,7 @@ Change to use baseimage update script
 </Changes>
 <Category>MediaServer:Photos</Category>
 <Overview>Piwigo is photo gallery software for the web, built by an active community of users and developers.</Overview>
-<Support>https://lime-technology.com/forum/index.php?topic=42575</Support>
+<Support>https://forums.unraid.net/topic/40890-support-linuxserverio-piwigo/</Support>
 <Description>Piwigo is photo gallery software for the web, built by an active community of users and developers.[br]Extensions make Piwigo easily customizable. Icing on the cake, Piwigo is free and opensource.[br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   Create a user and database in your mysql/mariadb server (not root)[br]
    Use the IP address for "host" of your database server in the webui setup.[br]

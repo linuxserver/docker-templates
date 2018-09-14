@@ -11,7 +11,7 @@
 [b]01.11.2016[/b] Initial Release
 </Changes>
   <Name>cardigann</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=53299.0</Support>
+  <Support>https://forums.unraid.net/topic/51567-support-linuxserverio-cardigann/</Support>
   <Description>Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where cardigann should store settings, log and configuration files[br]

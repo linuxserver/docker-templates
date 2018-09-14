@@ -12,7 +12,7 @@
   [b]26.01.2016:[/b] Initial Release.
   </Changes>
   <Name>mylar</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=45937.0</Support>
+  <Support>https://forums.unraid.net/topic/44234-support-linuxserverio-mylar/</Support>
   <Description>An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents.[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all mylar config files [br]
