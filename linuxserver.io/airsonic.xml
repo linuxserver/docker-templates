@@ -84,7 +84,7 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>-Xms256 -Xmx512</Value>
+      <Value>-Xms256m -Xmx512m</Value>
       <Name>JAVA_OPTS</Name>
       <Mode/>
     </Variable>
@@ -102,5 +102,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.alpine:3.7</BaseImage>
+<BaseImage>linuxserver/baseimage.java:bionic</BaseImage>
  </Container>
