@@ -96,7 +96,7 @@
   <Config Name="Podcasts" Target="/podcasts" Default="" Mode="rw" Description="Container Path: /podcasts" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Media" Target="/media" Default="" Mode="rw" Description="Container Path: /media" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="CONTEXT_PATH" Target="CONTEXT_PATH" Default="airsonic" Mode="" Description="Container Variable: CONTEXT_PATH" Type="Variable" Display="always" Required="false" Mask="false">airsonic</Config>
-  <Config Name="JAVA_OPTS" Target="JAVA_OPTS" Default="-Xms256 -Xmx512" Mode="" Description="Container Variable: JAVA_OPTS" Type="Variable" Display="always" Required="false" Mask="false">-Xms256 -Xmx512</Config>
+  <Config Name="JAVA_OPTS" Target="JAVA_OPTS" Default="-Xms256m -Xmx512m" Mode="" Description="Container Variable: JAVA_OPTS" Type="Variable" Display="always" Required="false" Mask="false">-Xms256m -Xmx512m</Config>
   <Config Name="Port" Target="4040" Default="4040" Mode="tcp" Description="Container Port: 4040" Type="Port" Display="always" Required="true" Mask="false">4040</Config>
   <Config Name="AppData Config Path" Target="/config" Default="/mnt/cache/appdata/airsonic" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/cache/appdata/airsonic</Config>
 <DonateText>Donations</DonateText>
