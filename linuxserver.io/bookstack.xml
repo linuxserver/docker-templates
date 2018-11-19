@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/75762-support-linuxserverio-bookstack/</Support>
   <Project>https://www.bookstackapp.com/</Project>
   <Overview>Bookstack is a free and open source Wiki designed for creating beautiful documentation. Feautring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease.[br][br]&#xD;
 A database server is needed.</Overview>
