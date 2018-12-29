@@ -3,7 +3,7 @@
   <Name>bazarr</Name>
   <Repository>linuxserver/bazarr</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/bazarr/</Registry>
-  <Network>docker</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
