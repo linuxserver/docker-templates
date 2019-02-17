@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/unifi-controller/</Registry>
   <Branch>
   <Tag>latest</Tag>
-  <TagDescription>The most recent build version of the Controller software, regardless of release train.  Warning! May (and does) break</TagDescription>
+  <TagDescription>The most recent build version of the Controller software, regardless of release train.  Warning! May be broken or buggy (and often is!)</TagDescription>
   </Branch>
   <Branch>
   <Tag>LTS</Tag>
@@ -32,7 +32,7 @@
 [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]The UniFi® Controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.[br]
 [br]
 [span style='color: #E80000;'][u][b]Available Branches[/u][/b][/span][br]
-[span style='color: #E80000;'][b]Warning![/b]The latest tag may be broken or contain bugs (and often is!)[/span][br]
+[span style='color: #E80000;'][b]Warning![/b]The latest tag may be broken or buggy (and often is!)[/span][br]
 [b]latest[/b] - The most recent build version of the Controller software, regardless of release train.[br]
 [b]LTS[/b] - The most recent Long Term Support release.[br]
 [b]5.9[/b] - The most recent 5.9.x release.[br]
