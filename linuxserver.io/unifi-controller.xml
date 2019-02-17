@@ -26,7 +26,7 @@
   <Network>bridge</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/linuxserver/unifi-controller/</Support>
+  <Support>https://forums.unraid.net/topic/78060-support-linuxserverio-unifi-controller/</Support>
   <Project>https://www.ui.com/software/</Project>
   <Overview>
 [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]The UniFi® Controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.[br]
