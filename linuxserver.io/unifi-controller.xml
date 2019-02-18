@@ -85,7 +85,7 @@
       <Port>
         <HostPort>10001</HostPort>
         <ContainerPort>10001</ContainerPort>
-        <Protocol>tcp</Protocol>
+        <Protocol>udp</Protocol>
       </Port>
     </Publish>
   </Networking>
@@ -114,7 +114,7 @@
   <Config Name="Port used for controller GUI/API as seen in a web browser" Target="8443" Default="" Mode="tcp" Description="Port used for controller GUI/API as seen in a web browser" Type="Port" Display="always" Required="false" Mask="false">8443</Config>
   <Config Name="Port used for HTTP portal redirection." Target="8880" Default="" Mode="tcp" Description="Port used for HTTP portal redirection." Type="Port" Display="always" Required="false" Mask="false">8880</Config>
   <Config Name="Port used for HTTPS portal redirection." Target="8843" Default="" Mode="tcp" Description="8843" Type="Port" Display="always" Required="false" Mask="false">8843</Config>
-  <Config Name="Port used for AP discovery" Target="10001" Default="" Mode="tcp" Description="Port used for AP discovery" Type="Port" Display="always" Required="false" Mask="false">10001</Config>
+  <Config Name="Port used for AP discovery" Target="10001" Default="" Mode="udp" Description="Port used for AP discovery" Type="Port" Display="always" Required="false" Mask="false">10001</Config>
   <Config Name="appdata" Target="/config" Default="" Mode="rw,slave" Description="Container Path: /config" Type="Path" Display="advanced" Required="false" Mask="false"></Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
