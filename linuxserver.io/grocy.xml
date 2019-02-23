@@ -44,7 +44,7 @@ Username/Password = admin/admin</Description>
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/disks/virtualisation/appdata/grocy</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
