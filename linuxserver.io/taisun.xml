@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/linuxserver/taisun/</Support>
+  <Support>https://forums.unraid.net/topic/79027-support-linuxserverio-taisun/</Support>
   <Project>https://www.taisun.io/</Project>
   <Overview>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]Taisun is an application for a Docker enabled device with an emphasis on providing a web based interface for managing a single server.&#xD;
 &#xD;
