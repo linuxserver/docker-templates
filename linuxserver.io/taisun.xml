@@ -42,21 +42,7 @@ With Taisun you can manage your server all from the convience of your web browse
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Environment>
-    <Variable>
-      <Value>99</Value>
-      <Name>PUID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>100</Value>
-      <Name>PGID</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
   <Labels/>
   <Config Name="Webui Port" Target="3000" Default="" Mode="tcp" Description="Webui Port" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
   <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="" Mode="rw" Description="Docker Socket - Do Not Change" Type="Path" Display="advanced-hide" Required="true" Mask="false">/var/run/docker.sock</Config>
-  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
-  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
 </Container>
