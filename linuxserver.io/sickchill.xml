@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-sickrage/</Support>
+  <Support>https://forums.unraid.net/topic/79233-support-linuxserverio-sickrage/</Support>
   <Project>https://sickchill.github.io/</Project>
   <Overview>Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
