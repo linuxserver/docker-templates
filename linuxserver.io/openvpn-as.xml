@@ -13,19 +13,14 @@
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where openvpn-as should store settings, logs and configuration[br]
-  [b]INTERFACE[/b] Set as eth0, bond0 depending on your Unraid config.
   </Description>
   <Project>https://openvpn.net/index.php/access-server/overview.html</Project>
   <Overview>OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments.</Overview>
   <Registry>https://hub.docker.com/r/linuxserver/openvpn-as/</Registry>
   <Repository>linuxserver/openvpn-as</Repository>
   <BindTime>true</BindTime>
-  <Privileged>true</Privileged>
+  <Privileged>false</Privileged>
   <Environment>
-    <Variable>
-      <Value>eth0</Value>
-      <Name>INTERFACE</Name>
-    </Variable>
     <Variable>
       <Name>PGID</Name>
       <Value>100</Value>
@@ -36,7 +31,7 @@
     </Variable>
   </Environment>
   <Networking>
-    <Mode>host</Mode>
+    <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>943</HostPort>
@@ -63,8 +58,8 @@
     </Volume>
   </Data>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/openvpn-as-icon.png</Icon>
-  <WebUI>https://[IP]:[PORT:943]/</WebUI>
-  <ExtraParams></ExtraParams>
+  <WebUI>https://[IP]:[PORT:943]/admin</WebUI>
+  <ExtraParams>--cap-add=NET_ADMIN</ExtraParams>
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
