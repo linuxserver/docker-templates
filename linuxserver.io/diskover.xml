@@ -136,7 +136,7 @@ Elasticsearch is needed for this container. Use 5.6.x.</Description>
   <Config Name="Optional argumens to pass to the diskover bots launcher (optional)" Target="WORKER_OPTS" Default="" Mode="" Description="Container Variable: WORKER_OPTS" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Initiate a crawl every time the container is started (optional)" Target="RUN_ON_START" Default="true" Mode="" Description="Container Variable: RUN_ON_START" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <Config Name="Run a crawl on as a cron job (optional)" Target="USE_CRON" Default="" Mode="" Description="Container Variable: USE_CRON" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
-  <Config Name="appdata" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="appdata" Target="/config" Default="" Mode="rw" Description="Specify the exact disk.  DO NOT USE /mnt/user/appdata either use /mnt/cache/appdata/ or /mnt/disk$/appdata/ " Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Default mount point to crawl" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Webgui" Target="80" Default="8080" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
