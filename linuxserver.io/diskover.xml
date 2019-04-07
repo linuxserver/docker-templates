@@ -12,7 +12,7 @@
   <Overview>diskover is a file system crawler and disk space usage software that uses Elasticsearch to index and manage data across heterogeneous storage systems.[br]&#xD;
 Elasticsearch is needed for this container. Use 5.6.x.</Overview>
   <Category>Tools: Status:Stable</Category>
-  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/diskover.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/shirosaidev/diskover/master/docs/diskover.png</Icon>
   <ExtraParams/>
