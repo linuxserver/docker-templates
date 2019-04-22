@@ -16,7 +16,7 @@
   [b]/config[/b] : Storing all hydra config files [br]
   [b]/downloads[/b] : Point to Downloads location[br]
   </Description>
-  <Project>https://github.com/theotherp/nzbhydra</Project>
+  <Project>https://github.com/theotherp/nzbhydra2</Project>
   <Overview>NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.</Overview>
   <Registry>https://hub.docker.com/r/linuxserver/hydra2/</Registry>
   <Repository>linuxserver/hydra2</Repository>
