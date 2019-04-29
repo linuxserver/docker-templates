@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-quassel-web/</Support>
+  <Support>https://forums.unraid.net/topic/79710-support-linuxserverio-quassel-web/</Support>
   <Project>https://github.com/magne4000/quassel-webserver</Project>
   <Overview>A web client for Quassel (requires the quassel-core container as a backend)</Overview>
   <Category>Network:Messenger</Category>
