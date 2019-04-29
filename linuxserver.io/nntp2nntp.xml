@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-nntp2nntp/</Support>
+  <Support>https://forums.unraid.net/topic/79695-support-linuxserverio-nntp2nntp/</Support>
   <Project>https://github.com/linuxserver/nntp2nntp</Project>
   <Overview>nntp2nntp proxy allow you to use your NNTP Account from multiple systems, each with own user name and password. It fully supports SSL and you can also limit the access to proxy with SSL certificates. nntp2nntp proxy is very simple and pretty fast.</Overview>
   <Category>Downloaders: Network:Proxy Status:Stable</Category>
