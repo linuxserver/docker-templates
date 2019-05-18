@@ -95,5 +95,5 @@
   <Config Name="ADVANCED" Target="ADVANCED" Default="" Mode="" Description="Specify true to configure through /config/settings-user.js ignoring the above environmental variables" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Config Name="Host Key 1" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="Host Key 2" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
-  <Config Name="Appdata" Target="/config" Default="/mnt/disks/virtualisation/appdata/quassel-web" Mode="rw" Description="Appdata " Type="Path" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata " Type="Path" Display="advanced" Required="false" Mask="false"></Config>
 </Container>
