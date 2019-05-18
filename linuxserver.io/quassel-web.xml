@@ -11,13 +11,12 @@
   <Project>https://github.com/magne4000/quassel-webserver</Project>
   <Overview>A web client for Quassel (requires the quassel-core container as a backend)</Overview>
   <Category>Network:Messenger</Category>
-  <WebUI>https://[IP]:[PORT:64443]</WebUI>
+  <WebUI>http://[IP]:[PORT:64080]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-web-icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1556453769</DateInstalled>
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <Description>A web client for Quassel (requires the quassel-core container as a backend)</Description>
@@ -38,35 +37,40 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir/>
+      <HostDir></HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment>
     <Variable>
-      <Value/>
+      <Value></Value>
       <Name>QUASSEL_CORE</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value/>
+      <Value>4242</Value>
       <Name>QUASSEL_PORT</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value/>
+      <Value></Value>
       <Name>URL_BASE</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>true</Value>
+      <Value>false</Value>
       <Name>HTTPS</Name>
       <Mode/>
     </Variable>
     <Variable>
       <Value>false</Value>
       <Name>FORCE_DEFAULT</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>false</Value>
+      <Name>ADVANCED</Name>
       <Mode/>
     </Variable>
     <Variable>
@@ -83,12 +87,13 @@
   <Labels/>
   <Config Name="http" Target="64080" Default="" Mode="tcp" Description="http port" Type="Port" Display="always" Required="false" Mask="false">64080</Config>
   <Config Name="https" Target="64443" Default="" Mode="tcp" Description="https port" Type="Port" Display="always" Required="false" Mask="false">64443</Config>
-  <Config Name="QUASSEL_CORE" Target="QUASSEL_CORE" Default="" Mode="" Description="Specify the URL or IP address of your Quassel Core instance" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="QUASSEL_PORT" Target="QUASSEL_PORT" Default="" Mode="" Description="Specify the port of your Quassel Core instance" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="URL_BASE" Target="URL_BASE" Default="" Mode="" Description="Specify a url-base in reverse proxy setups ie. /quassel" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="HTTPS" Target="HTTPS" Default="" Mode="" Description="Specify true to use https on 64443 or false to use http on 64080" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="QUASSEL_CORE" Target="QUASSEL_CORE" Default="" Mode="" Description="Specify the URL or IP address of your Quassel Core instance" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="QUASSEL_PORT" Target="QUASSEL_PORT" Default="" Mode="" Description="Specify the port of your Quassel Core instance" Type="Variable" Display="always" Required="false" Mask="false">4242</Config>
+  <Config Name="URL_BASE" Target="URL_BASE" Default="" Mode="" Description="Specify a url-base in reverse proxy setups ie. /quassel" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="HTTPS" Target="HTTPS" Default="" Mode="" Description="Specify true to use https on 64443 or false to use http on 64080" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Config Name="FORCE_DEFAULT" Target="FORCE_DEFAULT" Default="" Mode="" Description="Specify true to use only the default instance of Quassel Core specified above" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="ADVANCED" Target="ADVANCED" Default="" Mode="" Description="Specify true to configure through /config/settings-user.js ignoring the above environmental variables" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Config Name="Host Key 1" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="Host Key 2" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
-  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata " Type="Path" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Appdata" Target="/config" Default="/mnt/disks/virtualisation/appdata/quassel-web" Mode="rw" Description="Appdata " Type="Path" Display="advanced" Required="false" Mask="false"></Config>
 </Container>
