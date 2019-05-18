@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-mstream/</Support>
+  <Support>https://forums.unraid.net/topic/80233-support-linuxserverio-mstream/</Support>
   <Project>https://www.mstream.io/</Project>
   <Overview>mStream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.  There are apps available for both Android and iPhone. </Overview>
   <Category>MediaApp:Music MediaServer:Music Status:Stable</Category>
