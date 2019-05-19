@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/79710-support-linuxserverio-quassel-web/</Support>
   <Project>https://github.com/magne4000/quassel-webserver</Project>
-  <Overview>A web client for Quassel (requires the quassel-core container as a backend)</Overview>
+  <Overview>A web client for Quassel (requires the quassel-core container as a backend)[br][br]If the QUASSEL_CORE variable is not set then the container will default to an advanced setting and you must edit[br] /config/settings-user.js[br] directly.  [br][br]This allows access to all the configuration settings possible and is for advanced users.</Overview>
   <Category>Network:Messenger</Category>
   <WebUI>http://[IP]:[PORT:64080]</WebUI>
   <TemplateURL/>
@@ -19,7 +19,7 @@
   <CPUset/>
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
-  <Description>A web client for Quassel (requires the quassel-core container as a backend)</Description>
+  <Description>A web client for Quassel (requires the quassel-core container as a backend)[br][br]If the QUASSEL_CORE variable is not set then the container will default to an advanced setting and you must edit[br] /config/settings-user.js[br] directly.  [br][br]This allows access to all the configuration settings possible and is for advanced users.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -69,11 +69,6 @@
       <Mode/>
     </Variable>
     <Variable>
-      <Value>false</Value>
-      <Name>ADVANCED</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
       <Mode/>
@@ -92,8 +87,7 @@
   <Config Name="URL_BASE" Target="URL_BASE" Default="" Mode="" Description="Specify a url-base in reverse proxy setups ie. /quassel" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="HTTPS" Target="HTTPS" Default="" Mode="" Description="Specify true to use https on 64443 or false to use http on 64080" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Config Name="FORCE_DEFAULT" Target="FORCE_DEFAULT" Default="" Mode="" Description="Specify true to use only the default instance of Quassel Core specified above" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
-  <Config Name="ADVANCED" Target="ADVANCED" Default="" Mode="" Description="Specify true to configure through /config/settings-user.js ignoring the above environmental variables" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
-  <Config Name="Appdata" Target="/config" Default="/mnt/disks/virtualisation/appdata/quassel-web" Mode="rw" Description="Appdata " Type="Path" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata " Type="Path" Display="advanced" Required="false" Mask="false"></Config>
 </Container>
