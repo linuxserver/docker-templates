@@ -1,60 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Container>
-  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/minetest.xml</TemplateURL>
-<Beta>False</Beta>
-<Category>Network:Other Other: GameServers:</Category>
-<Date>2016-11-25</Date>
- <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Minetest Change Log[/font][/center]
-[b]25.11.2016[/b] Rebase to alpine, move to main repo.
-[b]27.02.2016[/b] Bump to latest version.
-[b]19.02.2016[/b] Change port to UDP
-  </Changes>
+<?xml version="1.0"?>
+<Container version="2">
   <Name>minetest</Name>
-  <Support>https://forums.unraid.net/topic/42426-support-linuxserverio-minetest/</Support>
-  <Description>
-  A free, open source alternative to minecraft.
-  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]/config/.minetest[/b] Where minetest should store games, worlds, mods and configuration files[br]
-  </Description>
-  <Overview>Server version of minetest, a free, open source alternative to minecraft.</Overview>
-  <Project>http://www.minetest.net/</Project>
+  <Repository>linuxserver/minetest:latest</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/minetest/</Registry>
-  <Branch>
-  <Tag>latest</Tag>
-  <TagDescription>latest build from Minetest master</TagDescription>
-  </Branch>
-  <Branch>
-  <Tag>0.4.16</Tag>
-  <TagDescription>Minetest Version 0.4.16</TagDescription>
-  </Branch>
-  <Branch>
-  <Tag>0.4.15</Tag>
-  <TagDescription>Minetest Version 0.4.15</TagDescription>
-  </Branch>
-   <Branch>
-  <Tag>0.4.14</Tag>
-  <TagDescription>Minetest Version 0.4.14</TagDescription>
-  </Branch>
-     <Branch>
-  <Tag>0.4.13</Tag>
-  <TagDescription>Minetest Version 0.4.13</TagDescription>
-  </Branch>
-  <Repository>linuxserver/minetest</Repository>
-  <BindTime>true</BindTime>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
-  </Environment>
+  <Support>https://forums.unraid.net/topic/42426-support-linuxserverio-minetest/</Support>
+  <Project>http://www.minetest.net/</Project>
+  <Overview>Server version of minetest, a free, open source alternative to minecraft.</Overview>
+  <Category>Network:Other Other: GameServers:</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/minetest.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png</Icon>
+  <Branch>
+   <Tag>latest</Tag>
+   <TagDescription>latest build from Minetest master</TagDescription>
+  </Branch>
+  <Branch>
+   <Tag>0.4.16</Tag>
+   <TagDescription>Minetest Version 0.4.16</TagDescription>
+  </Branch>
+  <Branch>
+   <Tag>0.4.15</Tag>
+   <TagDescription>Minetest Version 0.4.15</TagDescription>
+  </Branch>
+  <Branch>
+   <Tag>0.4.14</Tag>
+   <TagDescription>Minetest Version 0.4.14</TagDescription>
+  </Branch>
+  <Branch>
+   <Tag>0.4.13</Tag>
+   <TagDescription>Minetest Version 0.4.13</TagDescription>
+  </Branch>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
+  <Description>Server version of minetest, a free, open source alternative to minecraft.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -67,16 +52,32 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir/>
       <ContainerDir>/config/.minetest</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version></Version>
-  <WebUI></WebUI>
-  <Icon>https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/minetest-icon.png</Icon>
-<DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donate</DonateLink>
-<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>CLI_ARGS</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Minetest Port" Target="30000" Default="30000" Mode="udp" Description="Container Port: 30000" Type="Port" Display="always" Required="true" Mask="false">30000</Config>
+  <Config Name="Appdata" Target="/config/.minetest" Default="" Mode="rw" Description="Container Path: /config/.minetest" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="CLI_ARGS" Target="CLI_ARGS" Default="" Mode="" Description="Optional CLI arguments.  See https://wiki.minetest.net/Command_line" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PUID" Target="PGID" Default="100" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>
