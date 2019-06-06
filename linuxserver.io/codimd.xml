@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>codimd</Name>
+  <Repository>linuxserver/codimd:latest</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/codimd/</Registry>
+  <Network>docker</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-codimd/</Support>
+  <Project>https://codimd.web.cern.ch/</Project>
+  <Overview>  <Overview>Codimd gives you access to all your files wherever you are.[br][br]CodiMD is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.[br][br]You can add extra environmental parameters for more granular control.  Read the docs here:.[br][br]https://github.com/linuxserver/docker-codimd#parameters</Overview></Overview>
+  <Category>Productivity: Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/codimd-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
+  <Description>Codimd gives you access to all your files wherever you are.[br][br]CodiMD is a real-time, multi-platform collaborative markdown note editor. This means that you can write notes with other people on your desktop, tablet or even on the phone. You can sign-in via multiple auth providers like Facebook, Twitter, GitHub and many more on the homepage.</Description>
+  <Networking>
+    <Mode>docker</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value></Value>
+      <Name>DB_HOST</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>DB_PORT</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>DB_USER</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>DB_PASS</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Webui" Target="3000" Default="" Mode="tcp" Description="If you wish to access this container from http://{IP}:{PORT} this must be left unchanged.  If you intend to access from behind a reverse proxy, this can be changed safely.  This is a limitation of the way CodiMD works." Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="DB_HOST" Target="DB_HOST" Default="" Mode="" Description="URL or IP or container name (if using a custom network) of your database, (Leave blank if using sqlite)" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DB_PORT" Target="DB_PORT" Default="" Mode="" Description="Port number of your database, (Leave blank if using sqlite)" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DB_USER" Target="DB_USER" Default="" Mode="" Description="Name of user to connect to the database, (Leave blank if using sqlite)" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DB_PASS" Target="DB_PASS" Default="" Mode="" Description="Password of the above user, (Leave blank if using sqlite)" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
