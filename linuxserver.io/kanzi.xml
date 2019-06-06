@@ -3,7 +3,6 @@
   <Name>kanzi</Name>
   <Repository>linuxserver/kanzi</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/kanzi/</Registry>
-  <Network>docker</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
