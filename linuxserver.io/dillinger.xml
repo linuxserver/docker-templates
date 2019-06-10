@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/80737-support-linuxserverio-dillinger/</Support>
   <Project>https://dillinger.io/</Project>
   <Overview>Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.</Overview>
   <Category>Productivity: Tools: Status:Stable</Category>
