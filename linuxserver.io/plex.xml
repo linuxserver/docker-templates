@@ -1,66 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Container>
-  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/plex.xml</TemplateURL>
-  <Beta>False</Beta>
-  <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
-  <Date>2016-08-27</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Plex Media Server Change Log[/font][/center]
-
-  [b]27.08.2016:[/b] Rebase to ubuntu xenial with S6 overlay.
-  [b]17.09.2015:[/b] Changed to run chmod only once
-  [b]16.09.2015:[/b] Now downloads from https rather than http (To comply with changes by plex.tv)
-  [b]28.08.2015:[/b] Now uses VERSION only rather than VERSION+PLEXPASS, Failure detection on updateing plex, aswell as faster baseimage.
-  [b]12.08.2015:[/b] Updated Support Thread.
-  [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
-  [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
-  [b]03.07.2015:[/b] Fixed a mistake that allowed plex to run as user plex rather than abc (99:100). Thanks to double16 for spotting this.</Changes>
+<?xml version="1.0"?>
+<Container version="2">
   <Name>plex</Name>
-  <Support>https://forums.unraid.net/topic/40463-support-linuxserverio-plex-media-server/</Support>
-  <Description>
-  Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. [br]
-
-  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]VERSION[/b] Set to either latest,public or a specific version e.g. "1.2.7.2987-1bef33a" [br]
-  [b]/config[/b] Where plex should store settings and metadata\logs and configuration[br]
-  [b]/media[/b] Map this to your media, you can use several submappings here[br]
-  </Description>
-  <Project>https://plex.tv/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
   <Repository>linuxserver/plex</Repository>
-  <BindTime>true</BindTime>
+  <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
-    <Variable>
-      <Name>VERSION</Name>
-      <Value>latest</Value>
-    </Variable>
-  </Environment>
+  <Support>https://forums.unraid.net/topic/40463-support-linuxserverio-plex-media-server/</Support>
+  <Project>https://www.plex.tv/</Project>
+  <Overview>Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices.[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br][b]VERSION[/b] Set to any of the below to control you Plex version the way you want.[br][b]docker[/b] - Let Docker handle the Plex Version, we keep our Dockerhub Endpoint up to date with the latest public builds. This is the same as leaving this setting out of your create command.[br][b]latest[/b] - Will update Plex to the latest version available that you are entitled to.[br][b]public[/b] - Will update PlexPass users to the latest public version, useful for PlexPass users that don't want to be on the bleeding edge but still want the latest public updates.[br][b]specific-version[/b] - Will select a specific version (eg 1.2.7.2987-1bef33a) of Plex to install, note you cannot use this to access plexpass versions if you do not have plexpass.[br][br][b][u][span style='color: #E80000;']Nvidia GPU Use[/span][/u][/b][br]Using the Unraid Nvidia Plugin to install a version of Unraid with the Nvidia Drivers installed and[br] add [b]--runtime=nvidia[/b] to [b]"extra parameters"[/b] (switch on advanced view) and[br]copy your [b]GPU UUID[/b] to [b]NVIDIA_VISIBLE_DEVICES.[/b][br][br][b][u][span style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file to include:[br][b]modprobe i915[br]chown -R nobody:users /dev/dri[/b] and [br]add [b]--device /dev/dri:/dev/dri[/b] to [b]"extra parameters"[/b] (switch on advanced view)</Overview>
+  <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
+  <WebUI>http://[IP]:[PORT:32400]/web</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/plex.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Donate</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
+  <Description>Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices.</Description>
   <Networking>
     <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort>32400</HostPort>
+        <ContainerPort>32400</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>3005</HostPort>
+        <ContainerPort>3005</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8324</HostPort>
+        <ContainerPort>8324</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>32469</HostPort>
+        <ContainerPort>32469</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>1900</HostPort>
+        <ContainerPort>1900</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>32410</HostPort>
+        <ContainerPort>32410</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>32412</HostPort>
+        <ContainerPort>32412</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>32413</HostPort>
+        <ContainerPort>32413</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>32414</HostPort>
+        <ContainerPort>32414</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir/>
+      <ContainerDir>/movies</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/tv</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/music</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/transcode</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir/>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-<WebUI>http://[IP]:[PORT:32400]/web</WebUI>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-icon.png</Icon>
-  <ExtraParams></ExtraParams>
-<DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donate</DonateLink>
-<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/ubuntu:xenial</BaseImage>
+  <Environment>
+    <Variable>
+      <Value>docker</Value>
+      <Name>VERSION</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>100</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="VERSION" Target="VERSION" Default="" Mode="" Description="VERSION" Type="Variable" Display="always" Required="false" Mask="false">docker</Config>
+  <Config Name="Movies" Target="/movies" Default="" Mode="rw" Description="Movies - /movies" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="TV" Target="/tv" Default="" Mode="rw" Description="TV - /tv" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Music - /music" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Transcode" Target="/transcode" Default="" Mode="rw" Description="Path for transcoding folder (Optional)" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata" Type="Path" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Webui" Target="32400" Default="32400" Mode="tcp" Description="For access to the Plex Media Server Webui (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32400</Config>
+  <Config Name="Plex Companion" Target="3005" Default="3005" Mode="tcp" Description="For controlling Plex Home Theater via Plex Companion (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">3005</Config>
+  <Config Name="Roku via Plex Companion" Target="8324" Default="8324" Mode="tcp" Description="For controlling Plex for Roku via Plex Companion (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">8324</Config>
+  <Config Name="Plex DLNA Server" Target="32469" Default="32469" Mode="tcp" Description="For access to the Plex DLNA Server (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32469</Config>
+  <Config Name="Plex DLNA Server" Target="1900" Default="1900" Mode="udp" Description="For access to the Plex DLNA Server (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">1900</Config>
+  <Config Name="GDM network discovery" Target="32410" Default="32410" Mode="udp" Description="For current GDM network discovery (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32410</Config>
+  <Config Name="GDM network discovery" Target="32412" Default="32412" Mode="udp" Description="For current GDM network discovery (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32412</Config>
+  <Config Name="GDM network discovery" Target="32413" Default="32413" Mode="udp" Description="For current GDM network discovery (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32413</Config>
+  <Config Name="GDM network discovery" Target="32414" Default="32414" Mode="udp" Description="For current GDM network discovery (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32414</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="100" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>
