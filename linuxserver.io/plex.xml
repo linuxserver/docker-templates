@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
   <Network>host</Network>
   <MyIP/>
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/40463-support-linuxserverio-plex-media-server/</Support>
   <Project>https://www.plex.tv/</Project>
