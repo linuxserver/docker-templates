@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/sickgear/</Registry>
   <Network>bridge</Network>
   <MyIP/>
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-sickgear/</Support>
   <Project>https://github.com/SickGear/SickGear</Project>
