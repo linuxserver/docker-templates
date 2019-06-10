@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-ddclient/</Support>
+  <Support>https://forums.unraid.net/topic/80731-support-linuxserverio-ddclient/</Support>
   <Project>https://github.com/ddclient/ddclient</Project>
   <Overview>Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider. It was originally written by Paul Burry and is now mostly by wimpunk. It has the capability to update more than just dyndns and it can fetch your WAN-ipaddress in a few different ways.</Overview>
   <Category>Network:DNS Status:Stable</Category>
