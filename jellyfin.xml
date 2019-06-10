@@ -9,9 +9,8 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-jellyfin/</Support>
   <Project/>
-  <Overview>Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.[br][br]To use with an Nvidia GPU just add --runtime=nvidia to "extra parameters" (switch on advanced view)[br]&amp;amp;#xD;&#xD;
- and copy your GPU UUID to NVIDIA_VISIBLE_DEVICES.</Overview>
-  <Category/>
+  <Overview>Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.[br][br][b][u][span style='color: #E80000;']Nvidia GPU Use[/span][/u][/b][br]Using the Unraid Nvidia Plugin to install a version of Unraid with the Nvidia Drivers installed and[br] add [b]--runtime=nvidia[/b] to [b]"extra parameters"[/b] (switch on advanced view) and[br]copy your [b]GPU UUID[/b] to [b]NVIDIA_VISIBLE_DEVICES.[/b][br][br][b][u][span style='color: #E80000;']Intel GPU Use[/span][/u][/b][br]Edit your [b]go[/b] file to include:[br][b]modprobe i915[br]chown -R nobody:users /dev/dri[/b] and [br]add [b]--device /dev/dri:/dev/dri[/b] to [b]"extra parameters"[/b] (switch on advanced view)</Overview>
+  <Category>MediaServer:Video MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:8096]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/jellyfin.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png</Icon>
@@ -37,7 +36,7 @@
       <Port>
         <HostPort>1900</HostPort>
         <ContainerPort>1900</ContainerPort>
-        <Protocol>tcp</Protocol>
+        <Protocol>udp</Protocol>
       </Port>
     </Publish>
   </Networking>
@@ -81,14 +80,14 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Webui - http" Target="8096" Default="" Mode="tcp" Description="Webui - Default 8096 (http)" Type="Port" Display="always" Required="false" Mask="false">8096</Config>
-  <Config Name="Webui - https" Target="8920" Default="" Mode="tcp" Description="Webui - Default 8920 (https)" Type="Port" Display="always" Required="false" Mask="false">8920</Config>
-  <Config Name="Service Discovery" Target="1900" Default="" Mode="tcp" Description="Service Discovery (optional)" Type="Port" Display="always" Required="false" Mask="false">1900</Config>
-  <Config Name="Movies" Target="/movies" Default="" Mode="rw" Description="Movies" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="TV" Target="/tv" Default="" Mode="rw" Description="TV" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Music" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Nvidia Visible Devices" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="Nvidia Visible Devices (Optional - Requires Nvidia GPU and Unraid Nvidia build)" Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata" Type="Path" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Webui - HTTP" Target="8096" Default="" Mode="tcp" Description="Webui - Default 8096 (HTTP)" Type="Port" Display="always" Required="false" Mask="false">8096</Config>
+  <Config Name="Webui - HTTPS" Target="8920" Default="" Mode="tcp" Description="Webui - Default 8920 (HTTPS) (Optional)" Type="Port" Display="always" Required="false" Mask="false">8920</Config>
+  <Config Name="Service Discovery" Target="1900" Default="" Mode="udp" Description="Service Discovery (Optional)" Type="Port" Display="always" Required="false" Mask="false">1900</Config>
+  <Config Name="Movies" Target="/movies" Default="" Mode="rw" Description="Movies" Type="Path" Display="always" Required="false" Mask="false"/></Config>
+  <Config Name="TV" Target="/tv" Default="" Mode="rw" Description="TV" Type="Path" Display="always" Required="false" Mask="false"/></Config>
+  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Music" Type="Path" Display="always" Required="false" Mask="false"/></Config>
+  <Config Name="Nvidia Visible Devices" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="Nvidia Visible Devices (Optional - Requires Nvidia GPU and Unraid Nvidia build)" Type="Variable" Display="always" Required="false" Mask="false"/></Config>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata" Type="Path" Display="advanced" Required="false" Mask="false"/></Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>
