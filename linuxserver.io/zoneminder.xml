@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/zoneminder</Registry>
   <Network>bridge</Network>
   <MyIP/>
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-zoneminder/</Support>
   <Project>https://zoneminder.com/</Project>
