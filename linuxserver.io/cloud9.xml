@@ -31,7 +31,7 @@
   <Project>https://github.com/c9/core</Project>
   <Overview>Cloud9 is a complete web based IDE with terminal access. This container is for running their core SDK locally and developing plugins.[br][br]Several branches are available with different development environments pre-installed.[br][br][b]latest[/b] = Docker and Compose environment preinstalled[br][b]go[/b] = Basic GoLang environment preinstalled[br][b]nodejs[/b] = Current stable NodeJS/NPM environment preinstalled[br][b]python[/b] = Current python3 environment preinstalled[br][b]ruby[/b] = Current Ruby environment preinstalled</Overview>
   <Category>Productivity: Tools: Status:Stable</Category>
-  <WebUI>http://[IP][PORT:8000]</WebUI>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/cloud9.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/cloud9-logo.png</Icon>
   <ExtraParams/>
