@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/linuxserver/dillinger/</Registry>
   <Network>bridge</Network>
   <MyIP/>
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://dillinger.io/</Project>
