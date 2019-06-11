@@ -93,9 +93,9 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Movies" Target="/movies" Default="" Mode="rw" Description="Movies" Type="Path" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="TV" Target="/tv" Default="" Mode="rw" Description="TV" Type="Path" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Music" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Movies" Target="/movies" Default="" Mode="rw" Description="Movies -/movies" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TV" Target="/tv" Default="" Mode="rw" Description="TV -/tv" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Music - /music" Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="HTTP" Target="8096" Default="" Mode="tcp" Description="HTTP - Default 8096" Type="Port" Display="always" Required="false" Mask="false">8096</Config>
   <Config Name="HTTPS" Target="8920" Default="" Mode="tcp" Description="HTTPS - Default 8920 (Optional)" Type="Port" Display="always" Required="false" Mask="false">8920</Config>
   <Config Name="DNLA" Target="1900" Default="" Mode="udp" Description="DNLA - Default 1900 (UDP) (Optional)" Type="Port" Display="always" Required="false" Mask="false">1900</Config>
