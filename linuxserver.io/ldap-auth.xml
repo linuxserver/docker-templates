@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-ldap-auth/</Support>
+  <Support>https://forums.unraid.net/topic/80759-support-linuxserverio-ldap-auth/</Support>
   <Project>https://github.com/nginxinc/nginx-ldap-auth</Project>
   <Overview>LDAP-auth software is for authenticating users who request protected resources from servers proxied by nginx. It includes a daemon (ldap-auth) that communicates with an authentication server, and a webserver daemon that generates an authentication cookie based on the user&#x2019;s credentials. The daemons are written in Python for use with a Lightweight Directory Access Protocol (LDAP) authentication server (OpenLDAP or Microsoft Windows Active Directory 2003 and 2012).</Overview>
   <Category>Tools: Network:Web Network:Management Status:Stable</Category>
