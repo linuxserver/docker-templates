@@ -83,9 +83,9 @@
   <Config Name="Webui - HTTP" Target="8096" Default="" Mode="tcp" Description="Webui - Default 8096 (HTTP)" Type="Port" Display="always" Required="false" Mask="false">8096</Config>
   <Config Name="Webui - HTTPS" Target="8920" Default="" Mode="tcp" Description="Webui - Default 8920 (HTTPS) (Optional)" Type="Port" Display="always" Required="false" Mask="false">8920</Config>
   <Config Name="Service Discovery" Target="1900" Default="" Mode="udp" Description="Service Discovery (Optional)" Type="Port" Display="always" Required="false" Mask="false">1900</Config>
-  <Config Name="Movies" Target="/movies" Default="" Mode="rw" Description="Movies" Type="Path" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="TV" Target="/tv" Default="" Mode="rw" Description="TV" Type="Path" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Music" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Movies" Target="/movies" Default="" Mode="rw" Description="Movies - /movies" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TV" Target="/tv" Default="" Mode="rw" Description="TV - /tv" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Music -/music" Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Nvidia Visible Devices" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="Nvidia Visible Devices (Optional - Requires Nvidia GPU and Unraid Nvidia build)" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata" Type="Path" Display="advanced" Required="false" Mask="false"></Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
