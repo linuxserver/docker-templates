@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-sickgear/</Support>
+  <Support>https://forums.unraid.net/topic/80760-support-linuxserverio-sickgear/</Support>
   <Project>https://github.com/SickGear/SickGear</Project>
   <Overview>SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more..</Overview>
   <Category/>
