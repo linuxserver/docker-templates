@@ -92,7 +92,7 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir/>
+      <HostDir></HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -101,6 +101,11 @@
     <Variable>
       <Value>docker</Value>
       <Name>VERSION</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>NVIDIA_VISIBLE_DEVICES</Name>
       <Mode/>
     </Variable>
     <Variable>
@@ -120,7 +125,8 @@
   <Config Name="TV" Target="/tv" Default="" Mode="rw" Description="TV - /tv" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Music" Target="/music" Default="" Mode="rw" Description="Music - /music" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Transcode" Target="/transcode" Default="" Mode="rw" Description="Path for transcoding folder (Optional)" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata" Type="Path" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Nvidia Visible Devices" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="Nvidia Visible Devices (Optional - Requires Nvidia GPU and Unraid Nvidia build)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata" Type="Path" Display="advanced" Required="false" Mask="false"></Config>
   <Config Name="Webui" Target="32400" Default="32400" Mode="tcp" Description="For access to the Plex Media Server Webui (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32400</Config>
   <Config Name="Plex Companion" Target="3005" Default="3005" Mode="tcp" Description="For controlling Plex Home Theater via Plex Companion (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">3005</Config>
   <Config Name="Roku via Plex Companion" Target="8324" Default="8324" Mode="tcp" Description="For controlling Plex for Roku via Plex Companion (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">8324</Config>
