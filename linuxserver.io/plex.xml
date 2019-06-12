@@ -115,7 +115,7 @@
     </Variable>
     <Variable>
       <Value>100</Value>
-      <Name>100</Name>
+      <Name>PGID</Name>
       <Mode/>
     </Variable>
   </Environment>
@@ -137,5 +137,5 @@
   <Config Name="GDM network discovery" Target="32413" Default="32413" Mode="udp" Description="For current GDM network discovery (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32413</Config>
   <Config Name="GDM network discovery" Target="32414" Default="32414" Mode="udp" Description="For current GDM network discovery (No effect in host mode - reference only)" Type="Port" Display="advanced" Required="false" Mask="false">32414</Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
-  <Config Name="PGID" Target="100" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>
