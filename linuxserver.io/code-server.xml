@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>code-server</Name>
+  <Repository>linuxserver/code-server</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/code-server/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/XXXXX-support-linuxserverio-code-server/</Support>
+  <Project>https://coder.com/</Project>
+  <Overview>Code-server is VS Code running on a remote server, accessible through the browser.[br][br]&#xD;
+&#xD;
+Code on your Chromebook, tablet, and laptop with a consistent dev environment.[br][br]&#xD;
+&#xD;
+If you have a Windows or Mac workstation, more easily develop for Linux.[br][br]&#xD;
+&#xD;
+See here for first time set up[br]&#xD;
+https://github.com/linuxserver/docker-code-server#application-setup</Overview>
+  <Category>Productivity: Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:8443]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/code-server.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/cdr/code-server/master/doc/assets/cli.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donations/</DonateLink>
+  <Description>Code-server is VS Code running on a remote server, accessible through the browser.[br][br]&#xD;
+&#xD;
+Code on your Chromebook, tablet, and laptop with a consistent dev environment.[br][br]&#xD;
+&#xD;
+If you have a Windows or Mac workstation, more easily develop for Linux.[br][br]&#xD;
+&#xD;
+See here for first time set up[br]&#xD;
+https://github.com/linuxserver/docker-code-server#application-setup</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort></HostPort>
+        <ContainerPort>8443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value></Value>
+      <Name>PASSWORD</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="GUI Port" Target="8443" Default="" Mode="tcp" Description="GUI Port - Default 8443" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PASSWORD" Target="PASSWORD" Default="" Mode="" Description="Password for the code-server gui." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata" Type="Path" Display="advanced" Required="false" Mask="false"></Config>
+</Container>
