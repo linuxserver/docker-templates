@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-code-server/</Support>
+  <Support>https://forums.unraid.net/topic/81306-support-linuxserverio-code-server/</Support>
   <Project>https://github.com/cdr/code-server</Project>
   <Overview>Code-server is VS Code running on a remote server, accessible through the browser.</Overview>
   <Category>Cloud: Productivity: Tools: Status:Stable</Category>
