@@ -13,7 +13,7 @@
   <Category>Cloud: Productivity: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8443]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/code-server.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/icons/code-server.png</Icon>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
