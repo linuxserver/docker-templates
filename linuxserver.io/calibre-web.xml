@@ -1,31 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <Container version="2">
-  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/calibre-web.xml</TemplateURL>
-  <Beta>False</Beta>
-  <Category>Cloud: MediaApp:Books MediaServer:Books</Category>
-  <Date>2018/01/21</Date>
-  <Changes>
-  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4] Change Log[/font][/center]
-  </Changes>
   <Name>calibre-web</Name>
-  <Support>https://forums.unraid.net/topic/71927-support-linuxserverio-calibre-web/</Support>
-  <Description>Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.</Description>
-  <Project>https://github.com/janeczku/calibre-web</Project>
-  <Overview>Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.
-
-  [br][br]
-  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]/config[/b] Where Calibre-web should store it's database[br]
-  [b]/books[/b] Path to your calibre library metadata.db file[br]</Overview>
   <Repository>linuxserver/calibre-web</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/calibre-web/</Registry>
   <Network>bridge</Network>
-  <BindTime>true</BindTime>
+  <MyIP/>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/71927-support-linuxserverio-calibre-web/</Support>
+  <Project>https://github.com/janeczku/calibre-web</Project>
+  <Overview>Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.&#xD;
+&#xD;
+  [br][br]&#xD;
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+  [b]/config[/b] Where Calibre-web should store it's database[br]&#xD;
+  [b]/books[/b] Path to your calibre library metadata.db file[br]</Overview>
+  <Category>Cloud: MediaApp:Books MediaServer:Books</Category>
   <WebUI>http://[IP]:[PORT:8083]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/calibre-web.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate/</DonateLink>
+  <Description>Calibre Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.&#xD;
+&#xD;
+  [br][br]&#xD;
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#xD;
+  [b]/config[/b] Where Calibre-web should store it's database[br]&#xD;
+  [b]/books[/b] Path to your calibre library metadata.db file[br]</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -38,7 +42,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir/>
       <ContainerDir>/books</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -50,6 +54,11 @@
   </Data>
   <Environment>
     <Variable>
+      <Value>linuxserver/calibre-web:calibre</Value>
+      <Name>DOCKER_MODS</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
       <Mode/>
@@ -60,13 +69,11 @@
       <Mode/>
     </Variable>
   </Environment>
-  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
-  <Config Name="Group ID" Target="PGID" Default="100" Mode="" Description="Set to Desired Group ID" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
-  <Config Name="Books" Target="/books" Default="" Mode="rw" Description="Container Path: /books" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Port" Target="8083" Default="8083" Mode="tcp" Description="Container Port: 8083" Type="Port" Display="always" Required="true" Mask="false">8083</Config>
-  <Config Name="AppData Config Path" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false"></Config>
-<DonateText>Donations</DonateText>
-<DonateLink>https://www.linuxserver.io/donate/</DonateLink>
-<DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/alpine.python:3.7</BaseImage>
+  <Labels/>
+  <Config Name="Books" Target="/books" Default="" Mode="rw" Description="Location of Calibre library " Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Webui" Target="8083" Default="8083" Mode="tcp" Description="Webui - Default 8083" Type="Port" Display="always" Required="true" Mask="false">8083</Config>
+  <Config Name="DOCKER_MODS" Target="DOCKER_MODS" Default="" Mode="" Description="Optional - This pulls an additional Docker layer which includes the Calibre binaries necessary to perform ebook conversion.  Please see the readme on Github for more details." Type="Variable" Display="always" Required="false" Mask="false">linuxserver/calibre-web:calibre</Config>
+  <Config Name="AppData Config Path" Target="/config" Default="/mnt/disks/virtualisation/appdata/calibre-web" Mode="rw" Description="Container Path: /config" Type="Path" Display="advanced-hide" Required="true" Mask="false"></Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 </Container>
