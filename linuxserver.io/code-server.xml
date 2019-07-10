@@ -44,6 +44,11 @@
       <Mode/>
     </Variable>
     <Variable>
+      <Value/>
+      <Name>SUDO_PASSWORD</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
       <Mode/>
@@ -57,7 +62,8 @@
   <Labels/>
   <Config Name="Webui" Target="8443" Default="" Mode="tcp" Description="Webui Port - Default 8443" Type="Port" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata - /config" Type="Path" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Password" Target="PASSWORD" Default="" Mode="" Description="Optional web gui password, if not provided, there will be no auth" Type="Variable" Display="always" Required="false" Mask="true"/>  
+  <Config Name="Password" Target="PASSWORD" Default="" Mode="" Description="Optional web gui password, if not provided, there will be no auth" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="Sudo Password" Target="SUDO_PASSWORD" Default="" Mode="" Description="If this optional variable is set, user will have sudo access in the code-server terminal with the specified password." Type="Variable" Display="always" Required="false" Mask="true"/>  
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>
