@@ -4,11 +4,6 @@
   <Beta>False</Beta>
   <Category>Network:Web MediaServer:Books Tools:</Category>
   <Date>2017/12/30</Date>
-  <Changes>
-  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4] Change Log[/font][/center]
-  </Changes>
   <Name>gazee</Name>
   <Support>https://forums.unraid.net/topic/62457-support-linuxserverio-gazee/</Support>
   <Description>A WebApp Comic Reader for your favorite digital comics. Reach and read your comic library from any web connected device with a modern web browser.&#xD;
@@ -75,5 +70,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.python3:3.7</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

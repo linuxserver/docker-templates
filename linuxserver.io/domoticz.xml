@@ -4,12 +4,6 @@
   <Beta>False</Beta>
   <Category>HomeAutomation: Network:Management</Category>
   <Date>2017-02-11</Date>
-<Changes>
-  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4]Domoticz Change Log[/font][/center]
-  [b]11.02.2017:[/b] Initial Release.
-  </Changes>
   <Name>domoticz</Name>
   <Support>https://forums.unraid.net/topic/53519-support-linuxserverio-domoticz/</Support>
   <Repository>linuxserver/domoticz</Repository>
@@ -74,5 +68,5 @@ To get full use of Domoticz, you probably have a USB device you want to pass thr
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine:3.6</BaseImage>
+  <BaseImage>lsiobase/alpine</BaseImage>
 </Container>

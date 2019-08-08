@@ -4,16 +4,6 @@
   <Beta>False</Beta>
   <Category>Downloaders:</Category>
   <Date>2017-01-15</Date>
-  <Changes>
-  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4]Transmission Change Log[/font][/center]
-  [b]15.01.2017:[/b] Add p7zip, tar, unrar and unzip packages.
-  [b]23.09.2016:[/b] Edit git and hub readme's for securing webui with username/password.
-  [b]21.09.2016:[/b] Add curl package for app to app communication in scripts.
-  [b]09.08.2016:[/b] Rebase to alpine linux.
-  [b]16.11.2015:[/b] Initial Release.
-  </Changes>
   <Name>transmission</Name>
   <Support>https://forums.unraid.net/topic/42352-support-linuxserverio-transmission/</Support>
   <Description>Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.[br]
@@ -75,5 +65,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

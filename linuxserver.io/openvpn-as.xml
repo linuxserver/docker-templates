@@ -5,9 +5,6 @@
 <Category>Network:Other</Category>
 <Date>2015-10-06</Date>
   <Name>openvpn-as</Name>
-  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Openvpn-as Change Log[/font][/center]</Changes>
   <Support>https://forums.unraid.net/topic/41631-support-linuxserverio-openvpn-as/</Support>
   <Description>OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments.
   [br][br]
@@ -63,5 +60,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/ubuntu:xenial</BaseImage>
+<BaseImage>lsiobase/ubuntu</BaseImage>
 </Container>

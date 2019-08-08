@@ -7,10 +7,6 @@
   <Name>nginx</Name>
   <Support>https://forums.unraid.net/topic/42784-support-linuxserverio-nginx/</Support>
   <Overview>Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache.</Overview>
-  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Nginx Change Log[/font][/center]
-[b]06.12.2015:[/b] Initial Release</Changes>
   <Description>Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache..[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]80[/b] Standard HTTP Port [br]
@@ -61,5 +57,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>linuxserver/baseimage.nginx</BaseImage>
+<BaseImage>lsiobase/nginx</BaseImage>
 </Container>

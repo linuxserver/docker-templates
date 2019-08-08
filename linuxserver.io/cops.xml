@@ -5,12 +5,6 @@
 <Category>Cloud: MediaApp:Books MediaServer:Books</Category>
 <Date>2016-08-12</Date>
 <Name>cops</Name>
-<Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]COPS Change Log[/font][/center]
-[font size=4]12-08-2016[/font]
-- Initial release.
-</Changes>
 <Support>https://forums.unraid.net/topic/49343-support-linuxserverio-cops-calibre-opds-php-server/</Support>
   <Description>COPS, by Sébastien Lucas, stands for Calibre OPDS (and HTML) Php Server.
 
@@ -78,5 +72,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
+<BaseImage>lsiobase/nginx</BaseImage>
 </Container>

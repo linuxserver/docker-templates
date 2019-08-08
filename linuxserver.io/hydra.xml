@@ -4,13 +4,6 @@
 <Beta>False</Beta>
 <Category>Downloaders: MediaApp:Other Tools:</Category>
 <Date>2016-08-08</Date>
-  <Changes>
-  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4]Hydra Change Log[/font][/center]
-  [b]08.08.2016:[/b] Rebase to alpine linux.
-  [b]26.01.2016:[/b] Initial Release.
-  </Changes>
   <Name>hydra</Name>
   <Support>https://forums.unraid.net/topic/44236-support-linuxserverio-nzbhydra/</Support>
   <Description>NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.[br]
@@ -61,5 +54,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.python:3.6</BaseImage>
+<BaseImage>lsiobase/python</BaseImage>
 </Container>

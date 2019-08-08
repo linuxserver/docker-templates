@@ -4,13 +4,6 @@
   <Beta>False</Beta>
   <Category>MediaApp:Books</Category>
   <Date>2017-01-12</Date>
-  <Changes>
-  	[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]LazyLibrarian Change Log[/font][/center]
-  [b]12.01.2017:[/b] Add ghostscript package, allows creation of magazine covers.
-  [b]26.09.2016:[/b] Initial Release
-</Changes>
   <Support>https://forums.unraid.net/topic/50617-support-linuxserverio-lazylibrarian/</Support>
   <Name>lazylibrarian</Name>
   <Description>LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs. It uses a combination of Goodreads Librarything and optionally GoogleBooks as sources for author info and book info.[br][br]
@@ -70,5 +63,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.python:3.6</BaseImage>
+<BaseImage>lsiobase/python</BaseImage>
 </Container>

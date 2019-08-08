@@ -4,12 +4,6 @@
   <Beta>False</Beta>
   <Category>Downloaders: MediaApp:Video Status:Stable</Category>
   <Date>2017-01-02</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Medusa Change Log[/font][/center]
-[b]02.01.2017[/b] Initial Release.
-  </Changes>
   <Name>medusa</Name>
   <Project>https://github.com/pymedusa/Medusa</Project>
   <Repository>linuxserver/medusa</Repository>
@@ -67,5 +61,5 @@
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine.python:3.6</BaseImage>
+  <BaseImage>lsiobase/python</BaseImage>
 </Container>

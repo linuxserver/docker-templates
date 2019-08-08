@@ -5,13 +5,6 @@
   <Category>Network:Messenger</Category>
   <Date>2017-01-19</Date>
   <Name>znc</Name>
-  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]ZNC Change Log[/font][/center]
-[b]19.01.2017[/b] Add playback module.
-[b]07.12.2016[/b] Use scanelf to set runtime packages.
-[b]20.08.2016[/b] Rebase to alpine linux
-</Changes>
   <Support>https://forums.unraid.net/topic/42908-support-linuxserverio-znc/</Support>
   <Description>ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.
   [br][br]
@@ -58,5 +51,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

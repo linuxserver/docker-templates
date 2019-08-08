@@ -4,12 +4,6 @@
   <Beta>False</Beta>
 <Category>Downloaders:</Category>
   <Date>2016-11-01</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Cardigann Change Log[/font][/center]
-[b]01.11.2016[/b] Initial Release
-</Changes>
   <Name>cardigann</Name>
   <Support>https://forums.unraid.net/topic/51567-support-linuxserverio-cardigann/</Support>
   <Description>Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format.[br]
@@ -55,5 +49,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

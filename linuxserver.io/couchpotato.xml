@@ -4,15 +4,6 @@
   <Beta>False</Beta>
   <Category>Downloaders: MediaApp:Video</Category>
   <Date>2016-08-08</Date>
-  <Changes>
-  	[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]CouchPotato Change Log[/font][/center]
- [b]08.08.2016[/b] Rebase to alpine linux
- [b]10.12.2015[/b] Update requests and urllib3 libraries via baseimage
- [b]12.11.2015:[/b] Code Cleanup, and updated baseimage.
-  [b]25.09.2015:[/b] Add python-openssl package.
-  [b]12.08.2015:[/b] Updated Support Thread.</Changes>
   <Support>https://forums.unraid.net/topic/40464-support-linuxserverio-couchpotato/</Support>
   <Name>couchpotato</Name>
   <Description>CouchPotato (CP) is an automatic NZB and torrent downloader. You can keep a "movies I want"-list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the torrent to a specified directory.&#13;
@@ -72,5 +63,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.python:3.6</BaseImage>
+<BaseImage>lsiobase/python</BaseImage>
 </Container>

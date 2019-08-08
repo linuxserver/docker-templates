@@ -6,12 +6,6 @@
 <Category>Cloud: Network:Other</Category>
 <Date>2017-02-19</Date>
 <Project>https://pyd.io/</Project>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Pydio Change Log[/font][/center]
-[b]19.02.2017:[/b] Rebase to alpine linux nginx 3.5
-</Changes>
 <Overview>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.</Overview>
 <Support>https://forums.unraid.net/topic/41126-support-linuxserverio-pydio/</Support>
 <Description>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.[br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -60,5 +54,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
+<BaseImage>lsiobase/nginx</BaseImage>
 </Container>

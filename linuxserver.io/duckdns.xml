@@ -4,12 +4,6 @@
   <Name>duckdns</Name>
   <Date>2016-11-17</Date>
   <Category>Network:DNS Tools:</Category>
-  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4]DuckDNS Change Log[/font][/center]
-  [font size=4]17-11-2016[/font]
-  - Initial release.
-  </Changes>
   <Repository>linuxserver/duckdns</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/duckdns/</Registry>
   <Network>host</Network>
@@ -52,5 +46,5 @@ It will update your IP with the DuckDNS service every 5 minutes&#xD;
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>
