@@ -5,14 +5,6 @@
   <Category>Network:Messenger</Category>
   <Date>2016-11-23</Date>
   <Name>quassel-core</Name>
-  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Quassel Core Change Log[/font][/center]
-[b]23.11.2016[/b] Rebase to alpine linux
-[b]24.09.2016[/b] Use correct dependencies due to xenial quassel built with Qt5 and not Qt4,
-thanks bauerj
-[b]10.08.2016[/b] Rebase to ubuntu xenial
-</Changes>
   <Support>https://forums.unraid.net/topic/40888-support-linuxserverio-quassel-core/</Support>
   <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.
   [br][br]
@@ -58,5 +50,5 @@ thanks bauerj
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

@@ -4,11 +4,6 @@
   <Beta>False</Beta>
   <Category>Backup: Cloud: Network:Other Tools:</Category>
   <Date>2016-11-02</Date>
-  <Changes>
-    [b]02.11.16: [/b] Switch to compiling syncthing from source to keep more on track with updates.
-    [b]11.08.16: [/b] Rebase to alpine linux.
-    [b]24.09.15: [/b] Inital release.
-  </Changes>
   <Name>syncthing</Name>
   <Project>https://github.com/syncthing/syncthing</Project>
   <Support>https://forums.unraid.net/topic/41394-support-linuxserverio-syncthing/</Support>
@@ -66,5 +61,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

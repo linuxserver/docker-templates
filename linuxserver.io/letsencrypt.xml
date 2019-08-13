@@ -3,12 +3,6 @@
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/letsencrypt.xml</TemplateURL>
   <Name>letsencrypt</Name>
   <Date>2016-11-08</Date>
-<Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4]letsencrypt Change Log[/font][/center]
-  [font size=4]07-11-2016[/font]
-  - Initial release.
-  </Changes>
   <Repository>linuxserver/letsencrypt</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/letsencrypt/</Registry>
   <Network>bridge</Network>
@@ -105,5 +99,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
+<BaseImage>lsiobase/nginx</BaseImage>
 </Container>

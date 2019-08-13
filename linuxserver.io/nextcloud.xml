@@ -4,12 +4,6 @@
   <Beta>False</Beta>
   <Category>Cloud: Productivity: Tools: MediaServer:Other Network:Web Status:Stable</Category>
   <Date>2017-03-08</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-    [center][font size=4]Nextcloud Change Log[/font][/center]
-    [b]08.03.2017:[/b] Initial Release with PHP7 and Alpine 3.5.
-  </Changes>
   <Name>nextcloud</Name>
   <Support>https://forums.unraid.net/topic/48383-support-linuxserverio-nextcloud/</Support>
   <Repository>linuxserver/nextcloud</Repository>
@@ -59,5 +53,5 @@
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine:3.6</BaseImage>
+  <BaseImage>lsiobase/nginx</BaseImage>
 </Container>

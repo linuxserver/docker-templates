@@ -4,30 +4,6 @@
   <Beta>False</Beta>
   <Category>MediaServer:Video</Category>
   <Date>2017-02-22</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Kodi-Headless Change Log[/font][/center]
-[font size=4]22.08.2017[/font]
-- Bump master and Krypton branches to 17.4.
-[font size=4]25.05.2017[/font]
-- Bump master and Krypton branches to 17.3.
-[font size=4]23.05.2017[/font]
-- Bump master and Krypton branches to 17.2.
-[font size=4]22.02.2017[/font]
-- Change default webui user/pw to kodi/kodi
-[font size=4]21.09.2016[/font]
-- Add in kodi-send, fix /var/cache/samba permissions.
-[font size=4]03.09.2016[/font]
-- Remove VERSION variable in favour of tagging, rebase most version to alpine linux.
-[font size=4]24.11.2015[/font]
-- Tweak update init to cater for white space and out of
-range values in VERSION variable
-[font size=4]21.10.2015[/font]
-- Rebase to python baseimage, allows use of some plugins
-(user installed only, not supported)
-- Bump to 15.2
-</Changes>
   <Name>kodi-headless</Name>
   <Support>https://forums.unraid.net/topic/40754-support-linuxserverio-kodi-headless/</Support>
   <Description>Kodi™ (formerly known as XBMC™) is an award-winning free and open source (GPL) software media center for playing videos, music, pictures, games, and more.
@@ -97,5 +73,5 @@ range values in VERSION variable
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/ubuntu:xenial</BaseImage>
+<BaseImage>lsiobase/ubuntu</BaseImage>
 </Container>

@@ -4,10 +4,6 @@
   <Beta>False</Beta>
   <Category>Cloud: Productivity: Tools: Network:Other Status:Stable</Category>
   <Date>2017-06-13</Date>
-  <Changes>  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4] Change Log[/font][/center]
-  [b]13.06.2017[/b] Initial Release</Changes>
   <Name>projectsend</Name>
   <Support>https://forums.unraid.net/topic/58055-support-linuxserverio-projectsend/</Support>
   <Description>ProjectSend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself! Secure, private and easy. No more depending on external services or e-mail to send those files!&#xD;
@@ -59,5 +55,5 @@
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine:3.6</BaseImage>
+  <BaseImage>lsiobase/alpine</BaseImage>
 </Container>

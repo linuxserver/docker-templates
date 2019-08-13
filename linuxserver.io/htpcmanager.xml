@@ -5,18 +5,6 @@
 <Category>MediaApp:Video MediaApp:Music MediaApp:Other</Category>
 <Date>2016-08-08</Date>
  <Name>htpcmanager</Name>
-  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Htpcmanager Change Log[/font][/center]
-[font size=4]2016-08-08[/font]
-Rebase to alpine linux
-[font size=4]2016-01-14[/font]
-Remove loglevel from run command, user can set in webui
-[font size=4]2015-11-12[/font]
-- Change log level to info
-[font size=4]2015-10-07[/font]
-- Add psutil pip package
-</Changes>
   <Support>https://forums.unraid.net/topic/41632-support-linuxserverio-htpc-manager-hellowlol/</Support>
   <Description>Htpcmanager, a front end for many htpc related applications. Hellowlol version.
   [br][br]
@@ -62,5 +50,5 @@ Remove loglevel from run command, user can set in webui
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.python:3.6</BaseImage>
+<BaseImage>lsiobase/python</BaseImage>
 </Container>

@@ -5,12 +5,6 @@
   <Category>MediaServer:Video MediaServer:Other Other: Tools:</Category>
   <Date>2016-08-15</Date>
   <Name>minisatip</Name>
-<Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Minisatip Change Log[/font][/center]
-[font size=4]15-08-2016[/font]
-- Initial release.
-</Changes>
   <Support>https://forums.unraid.net/topic/48411-support-linuxserverio-minisatip/</Support>
   <Description>Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.
 
@@ -66,5 +60,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

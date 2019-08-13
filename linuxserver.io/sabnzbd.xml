@@ -4,18 +4,6 @@
   <Beta>False</Beta>
 <Category>Downloaders:</Category>
   <Date>2017-25-02</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Sabnzbd Change Log[/font][/center]
-[b]25.02.2017[/b] split off unstable branch set by tag.
-[b]11.09.2016[/b] Bump to 1.10 release.
-[b]09.09.2016[/b] Rebase back to ubunutu, compatibility of 1.10 branch and python alpine and notifications tab
-[b]31.08.2016[/b] Rebase to alpine linux.
-[b]14.03.2016[/b] Bump image install to 1.0 RC5
-[b]23.01.2016[/b] Bump image install to beta5
-[b]14.12.2015[/b] Bump image install to beta3
-</Changes>
   <Name>sabnzbd</Name>
   <Support>https://forums.unraid.net/topic/40756-support-linuxserverio-sabnzbd/</Support>
   <Description>SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.[br]
@@ -82,5 +70,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/ubuntu:xenial</BaseImage>
+<BaseImage>lsiobase/ubuntu</BaseImage>
 </Container>

@@ -4,15 +4,6 @@
 <Beta>False</Beta>
 <Category>Network:Other</Category>
 <Date>2017-02-23</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]tt-rss Change Log[/font][/center]
-[font size=4]23-02-2017[/font]
-- Rebase to alpine linux and nginx.
-[font size=4]24-11-2015[/font]
-- Refresh Dependencies
-</Changes>
   <Name>tt-rss</Name>
   <Support>https://forums.unraid.net/topic/41007-support-linuxserverio-tiny-tiny-rss/</Support>
   <Description>Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.[br]
@@ -57,5 +48,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
+<BaseImage>lsiobase/nginx</BaseImage>
 </Container>

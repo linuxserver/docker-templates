@@ -4,13 +4,6 @@
   <Beta>False</Beta>
 <Category>Backup: Cloud: Network:Other Tools:</Category>
   <Date>2017-06-02</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Resilio Sync Change Log[/font][/center]
-[b]02.06.2017[/b] Initial Release
-[b]02.11.2016[/b] Rebase to ubuntu xenial as alpine linux no longer works with resilio-sync.
-</Changes>
   <Name>resilio-sync</Name>
   <Support>https://forums.unraid.net/topic/51613-support-linuxserverio-resilio-sync/</Support>
   <Description>Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both.[br]
@@ -73,5 +66,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/ubuntu:xenial</BaseImage>
+<BaseImage>lsiobase/ubuntu</BaseImage>
 </Container>

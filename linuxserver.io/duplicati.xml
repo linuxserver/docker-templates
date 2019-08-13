@@ -5,11 +5,6 @@
   <Beta>False</Beta>
   <Name>duplicati</Name>
   <Project>https://www.duplicati.com/</Project>
-  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4]Duplicati Change Log[/font][/center]
-  [b]24.04.2017[/b] Initial Release.
-  </Changes>
   <Repository>linuxserver/duplicati</Repository>
   <Registry>https://hub.docker.com/r/linuxserver/duplicati/</Registry>
   <Network>bridge</Network>
@@ -67,5 +62,5 @@
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/mono:xenial</BaseImage>
+  <BaseImage>lsiobase/mono</BaseImage>
 </Container>

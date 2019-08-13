@@ -4,12 +4,6 @@
 <Beta>False</Beta>
 <Category>Downloaders:</Category>
 <Date>2017-08-03</Date>
-<Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]qbittorrent Change Log[/font][/center]
-[font size=4]03-08-2017[/font]
-- Initial release.
-</Changes>
 <Name>qbittorrent</Name>
 <Support>https://forums.unraid.net/topic/59191-support-linuxserverio-qbittorrent/</Support>
   <Repository>linuxserver/qbittorrent</Repository>
@@ -71,5 +65,5 @@
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine:3.6</BaseImage>
+  <BaseImage>lsiobase/alpine</BaseImage>
 </Container>

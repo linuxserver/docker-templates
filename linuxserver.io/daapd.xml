@@ -4,17 +4,6 @@
 <Beta>False</Beta>
 <Category>MediaApp:Music MediaServer:Music</Category>
 <Date>2017-01-10</Date>
-  <Changes>
-  [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-  [center][font size=4]Daapd Change Log[/font][/center]
-  [b]10.01.2017:[/b] Bump to version 24.2.
-  [b]17.09.2016:[/b] Rebase to alpine linux, remove redundant spotify support, move to main repository.
-  [b]29.02.2016:[/b] Add chromecast support, bump dependency versions.
-  [b]04.01.2016:[/b] Disable ipv6 set in config by default.
-  [b]17.12.2015:[/b] Add spotify support.
-  [b]16.11.2015:[/b] Initial Release.
-  </Changes>
   <Name>daapd</Name>
   <Support>https://forums.unraid.net/topic/42513-support-linuxserverio-daapd/</Support>
   <Description>DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio.[br]
@@ -70,5 +59,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine:3.6</BaseImage>
+<BaseImage>lsiobase/alpine</BaseImage>
 </Container>

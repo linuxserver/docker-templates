@@ -4,15 +4,6 @@
   <Beta>False</Beta>
   <Category>Productivity</Category>
   <Date>2017-02-18</Date>
-  <Changes>
-  	[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Coadiad Change Log[/font][/center]
-  [b]18.02.2017:[/b] Rebase to alpine nginx from ubuntu apache[br]
-  [b]07.11.2015:[/b] Initial Release [br]
-  [b]07.11.2015:[/b] Add fix to remove collboaration warning [br]
-  [b]014.11.2015:[/b] Add fix have sed command only run once
-  </Changes>
   <Support>https://forums.unraid.net/topic/42189-support-linuxserverio-codiad/</Support>
   <Name>codiad</Name>
   <Description>Codiad is a web-based IDE framework with a small footprint and minimal requirements.[br]
@@ -62,5 +53,5 @@
 <DonateText>Donations</DonateText>
 <DonateLink>https://www.linuxserver.io/donate</DonateLink>
 <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-<BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
+<BaseImage>lsiobase/nginx</BaseImage>
 </Container>

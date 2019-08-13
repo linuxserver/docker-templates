@@ -4,12 +4,6 @@
   <Beta>false</Beta>
   <Category>MediaServer:Photos</Category>
   <Date>2016-09-30</Date>
-  <Changes>
-    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
-
-[center][font size=4]Photoshow Change Log[/font][/center]
-[b]30.09.2016[/b] Rebase to alpine linux.
-</Changes>
   <Name>photoshow</Name>
   <Support>https://forums.unraid.net/topic/40739-support-linuxserverio-photoshow/</Support>
   <Description>
@@ -67,5 +61,5 @@ A simple, easy way to turn a photo album into a webgallery[br]
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
-  <BaseImage>lsiobase/alpine.nginx:3.6</BaseImage>
+  <BaseImage>lsiobase/nginx</BaseImage>
 </Container>
