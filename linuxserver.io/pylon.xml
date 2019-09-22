@@ -24,7 +24,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort/>
+        <HostPort>3131</HostPort>
         <ContainerPort>3131</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -65,7 +65,7 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Webui" Target="3131" Default="" Mode="tcp" Description="Webui - Default 3131" Type="Port" Display="always" Required="false" Mask="false"/>
+  <Config Name="Webui" Target="3131" Default="" Mode="tcp" Description="Webui - Default 3131" Type="Port" Display="always" Required="false" Mask="false">3131</Config>
   <Config Name="Git URL" Target="GITURL" Default="" Mode="" Description="if you wish to checkout a specific Git repo instead of a local code repository specify it here." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Local Code Repository" Target="/code" Default="" Mode="rw" Description="if you want to mount up a local folder of code instead of checking out a Git URL specify its location here.  Find it at /code" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="PYUSER" Target="PYUSER" Default="" Mode="" Description="Specify a basic auth user" Type="Variable" Display="always" Required="false" Mask="false"/>
