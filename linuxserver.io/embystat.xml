@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-embystat/</Support>
+  <Support>https://forums.unraid.net/topic/84191-support-linuxserverio-embystat/</Support>
   <Project>https://github.com/mregni/EmbyStat</Project>
   <Overview>Embystat is a personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.</Overview>
   <Category>MediaApp:Other MediaServer:Other</Category>
