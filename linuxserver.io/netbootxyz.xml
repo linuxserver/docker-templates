@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>netbootxyz</Name>
+  <Repository>netbootxyz</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/netbootxyz/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-netbootxyz/</Support>
+  <Project>https://lexigr.am</Project>
+  <Overview>Netbootxyz is a way to PXE boot various operating system installers or utilities from one place within the BIOS without the need of having to go retrieve the media to run the tool. iPXE is used to provide a user friendly menu from within the BIOS that lets you easily choose the operating system you want along with any specific types of versions or bootable flags.</Overview>
+  <Category>Productivity: Tools: Network:Management Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL>https://github.com/linuxserver/docker-templates/blob/master/netbootxyz.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/netbootxyz.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText>Donate</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
+  <Description>Netbootxyz is a way to PXE boot various operating system installers or utilities from one place within the BIOS without the need of having to go retrieve the media to run the tool. iPXE is used to provide a user friendly menu from within the BIOS that lets you easily choose the operating system you want along with any specific types of versions or bootable flags.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>69</HostPort>
+        <ContainerPort>69</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="TFTP Port" Target="69" Default="" Mode="udp" Description="TFTP Port" Type="Port" Display="always" Required="false" Mask="false">69</Config>
+</Container>
