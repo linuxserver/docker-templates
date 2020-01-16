@@ -2,7 +2,7 @@
 <Container>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/openvpn-as.xml</TemplateURL>
 <Beta>False</Beta>
-<Category>Network:Other</Category>
+<Category>Network:VPN</Category>
 <Date>2015-10-06</Date>
   <Name>openvpn-as</Name>
   <Support>https://forums.unraid.net/topic/79012-support-linuxserverio-openvpn-as/</Support>
