@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/radarr.xml</TemplateURL>
-  <Beta>True</Beta>
   <Category>Downloaders: MediaApp:Video Status:Beta</Category>
   <Date>2017-04-17</Date>
   <Name>radarr</Name>
