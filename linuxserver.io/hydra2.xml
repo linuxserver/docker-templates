@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/hydra2.xml</TemplateURL>
-<Beta>True</Beta>
 <Category>Downloaders: MediaApp:Other Tools:</Category>
 <Date>2018-01-12</Date>
   <Name>hydra2</Name>
