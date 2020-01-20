@@ -5,7 +5,7 @@
 <Date>2018-01-12</Date>
   <Name>hydra2</Name>
   <Support>https://forums.unraid.net/topic/65495-support-linuxserverio-nzbhydra-v2/</Support>
-  <Description>NZBHydra 2 is a meta search application for NZB indexers, the "spiritual successor" to NZBmegasearcH, and an evolution of the original application NZBHydra . It provides easy access to a number of raw and newznab based indexers.[br][br]The application NZBHydra 2 is currently in its early stages and is in active development. Be wary that there may be some compatibility issues for those migrating from V1 to V2, so ensure you back up your old configuration before moving over to the new version.[br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  <Description>NZBHydra 2 is a meta search application for NZB indexers, the "spiritual successor" to NZBmegasearcH, and an evolution of the original application NZBHydra . It provides easy access to a number of raw and newznab based indexers. The application NZBHydra 2 is replacing NZBHydra 1 and supports migrating from V1. Be wary that there may be some compatibility issues for those migrating from V1 to V2, so ensure you back up your old configuration before moving over to the new version. **NOTE:** The last version that supports migration is `linuxserver/hydra2:v2.10.2-ls49`. [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all hydra config files [br]
   [b]/downloads[/b] : Point to Downloads location[br]
   </Description>
