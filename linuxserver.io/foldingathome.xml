@@ -15,9 +15,9 @@ The built-in webserver provides very basic control (ie. GPUs are only active whe
 &#xD;
 [b][u][span style='color: #E80000;']Nvidia GPU Use[/span][/u][/b][br]Using the Unraid Nvidia Plugin to install a version of Unraid with the Nvidia Drivers installed and[br] add [b]--runtime=nvidia[/b] to [b]"extra parameters"[/b] (switch on advanced view) and[br]copy your [b]GPU UUID[/b] to [b]NVIDIA_VISIBLE_DEVICES.[/b]</Overview>
   <Category>Tools: Status:Stable</Category>
-  <WebUI>http://[IP]:[PORT:8080]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/boinc.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/boinc-icon.png</Icon>
+  <WebUI>http://[IP]:[PORT:7396]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/foldingathome.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/foldingathome-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -66,7 +66,7 @@ The built-in webserver provides very basic control (ie. GPUs are only active whe
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="GUI Port" Target="8080" Default="" Mode="tcp" Description="GUI Port - Default 8080" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="GUI Port" Target="7396" Default="" Mode="tcp" Description="GUI Port - Default 7396" Type="Port" Display="always" Required="false" Mask="false"></Config>
   <Config Name="FAHControl Port" Target="36330" Default="" Mode="tcp" Description="FAHControl Port - Default 36330" Type="Port" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Nvidia Visible Devices" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="Nvidia Visible Devices (Optional - Requires Nvidia GPU and Unraid Nvidia build)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
