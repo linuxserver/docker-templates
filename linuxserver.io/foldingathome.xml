@@ -66,8 +66,8 @@ The built-in webserver provides very basic control (ie. GPUs are only active whe
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="GUI Port" Target="7396" Default="" Mode="tcp" Description="GUI Port - Default 7396" Type="Port" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="FAHControl Port" Target="36330" Default="" Mode="tcp" Description="FAHControl Port - Default 36330" Type="Port" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="GUI Port" Target="7396" Default="" Mode="tcp" Description="GUI Port - Default 7396" Type="Port" Display="always" Required="false" Mask="false">7396</Config>
+  <Config Name="FAHControl Port" Target="36330" Default="" Mode="tcp" Description="FAHControl Port - Default 36330" Type="Port" Display="always" Required="false" Mask="false">36330</Config>
   <Config Name="Nvidia Visible Devices" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="Nvidia Visible Devices (Optional - Requires Nvidia GPU and Unraid Nvidia build)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
