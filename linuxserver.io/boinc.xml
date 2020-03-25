@@ -82,8 +82,8 @@ https://github.com/linuxserver/docker-boinc#application-setup</Description>
   </Environment>
   <Labels/>
   <Config Name="GUI Port" Target="8080" Default="" Mode="tcp" Description="GUI Port - Default 8080" Type="Port" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="GUAC_USER" Target="GUAC_USER" Default="abc" Mode="" Description="Username for the boinc manager gui." Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="GUAC_PASS" Target="GUAC_PASS" Default="900150983cd24fb0d6963f7d28e17f72" Mode="" Description="Password md5 hash for the boinc manager gui." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="GUAC_USER" Target="GUAC_USER" Default="" Mode="" Description="Username for the boinc manager gui." Type="Variable" Display="always" Required="false" Mask="false">abc</Config>
+  <Config Name="GUAC_PASS" Target="GUAC_PASS" Default="" Mode="" Description="Password md5 hash for the boinc manager gui." Type="Variable" Display="always" Required="false" Mask="false">900150983cd24fb0d6963f7d28e17f72</Config>
   <Config Name="Nvidia Visible Devices" Target="NVIDIA_VISIBLE_DEVICES" Default="" Mode="" Description="Nvidia Visible Devices (Optional - Requires Nvidia GPU and Unraid Nvidia build)" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
