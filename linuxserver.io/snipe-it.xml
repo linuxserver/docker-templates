@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>snipe-it</Name>
+  <Repository>linuxserver/snipe-it:latest</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/snipe-it/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/linuxserver/snipe-it/</Support>
+  <Project>https://snipeitapp.com/</Project>
+  <Overview>makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.</Overview>
+  <Category>Productivity: Tools: Network:Management</Category>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/snipe-it.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/snipe-it.png</Icon>
+  <Description>makes asset management easy. It was built by people solving real-world IT and asset management problems, and a solid UX has always been a top priority. Straightforward design and bulk actions mean getting things done faster.</Description>
+  <Config Name="Port" Target="80" Default="8000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/snipe-it/" Mode="rw" Description="Appdata" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/snipe-it/</Config>
+  <Config Name="MYSQL Hostname or IP" Target="MYSQL_PORT_3306_TCP_ADDR" Default="192.168.0.100" Mode="" Description="MYSQL Hostname or IP" Type="Variable" Display="always" Required="true" Mask="false">192.168.0.100</Config>
+  <Config Name="MYSQL Port" Target="MYSQL_PORT_3306_TCP_PORT" Default="3306" Mode="" Description="MYSQL Port" Type="Variable" Display="always" Required="true" Mask="false">3306</Config>
+  <Config Name="MYSQL Database Name" Target="MYSQL_DATABASE" Default="snipe-it" Mode="" Description="MYSQL Database Name" Type="Variable" Display="always" Required="true" Mask="false">snipe-it</Config>
+  <Config Name="MYSQL User" Target="MYSQL_USER" Default="snipe-it" Mode="" Description="MYSQL User" Type="Variable" Display="always" Required="true" Mask="false">root</Config>
+  <Config Name="MYSQL Password" Target="MYSQL_PASSWORD" Default="" Mode="" Description="MYSQL Password" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="APP_URL" Target="APP_URL" Default="192.168.0.100:8000" Mode="" Description="Hostname or IP and port if applicable IE ip or hostname:8000" Type="Variable" Display="always" Required="true" Mask="false">192.168.0.100:8000</Config>
+  <Config Name="Mail Hostname" Target="MAIL_PORT_587_TCP_ADDR" Default="" Mode="" Description="SMTP mailserver ip or hostname" Type="Variable" Display="always" Required="false" Mask="false">example.com</Config>
+  <Config Name="Mail Port" Target="MAIL_PORT_587_TCP_PORT" Default="587" Mode="" Description="SMTP mailserver port" Type="Variable" Display="always" Required="false" Mask="false">587</Config>
+  <Config Name="Mail From Address" Target="MAIL_ENV_FROM_ADDR" Default="user@example.com" Mode="" Description="The email address mail should be replied to and listed when sent" Type="Variable" Display="always" Required="false" Mask="false">user@example.com</Config>
+  <Config Name="Mail From Name" Target="MAIL_ENV_FROM_NAME" Default="user@example.com" Mode="" Description="The name listed on email sent from the default account on the system" Type="Variable" Display="always" Required="false" Mask="false">user@example.com</Config>
+  <Config Name="Mail Encryption" Target="MAIL_ENV_ENCRYPTION" Default="tls" Mode="" Description="Mail encryption to use IE tls" Type="Variable" Display="always" Required="false" Mask="false">tls</Config>
+  <Config Name="Mail Username" Target="MAIL_ENV_USERNAME" Default="user@example.com" Mode="" Description="SMTP server login username" Type="Variable" Display="always" Required="false" Mask="false">user@example.com</Config>
+  <Config Name="Mail Password" Target="MAIL_ENV_PASSWORD" Default="" Mode="" Description="SMTP server login password" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="APP_LOCALE" Target="APP_LOCALE" Default="en" Mode="" Description="Default is en set to the language preferred full list [here][localesurl]" Type="Variable" Display="always" Required="false" Mask="false">en</Config>
+  <Config Name="APP_DEBUG" Target="APP_DEBUG" Default="false|true" Mode="" Description="Set to true to see debugging output in the web UI" Type="Variable" Display="always" Required="true" Mask="false">false</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="PUID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="PGID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+</Container>
