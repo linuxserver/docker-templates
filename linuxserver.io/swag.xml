@@ -9,7 +9,7 @@
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Project>https://docs.linuxserver.io/general/swag</Project>
-  <Support>https://forums.unraid.net/topic/51808-support-linuxserverio-letsencrypt-nginx/</Support>
+  <Support>https://forums.unraid.net/topic/51808-support-linuxserverio-swag-secure-web-application-gateway-nginxphpcertbotfail2ban/</Support>
   <Overview>SWAG - Secure Web Application Gateway is a rebirth of our letsencrypt docker image, a full fledged web server and reverse proxy that includes Nginx, Php7, Certbot (Let's Encrypt client) and Fail2ban.&#xD;
   &#xD;
   Before running this container, make sure that the url and subdomains are properly forwarded to this container's host.&#xD;
