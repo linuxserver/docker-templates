@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-wikijs/</Support>
+  <Support>https://forums.unraid.net/topic/97180-support-linuxserverio-wikijs/</Support>
   <Project>https://wiki.js.org/</Project>
   <Overview>A modern, lightweight and powerful wiki app built on NodeJS, Git and Markdown
 </Overview>
