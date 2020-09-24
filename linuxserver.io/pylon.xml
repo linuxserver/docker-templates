@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-pylon/</Support>
+  <Support>https://forums.unraid.net/topic/97179-support-linuxserverio-pylon/</Support>
   <Project>https://github.com/pylonide/pylon</Project>
   <Overview>Pylon is a web based integrated development environment built with Node.js as a backend and with a supercharged JavaScript/HTML5 frontend, licensed under GPL version 3. This project originates from Cloud9 v2 project.</Overview>
   <Category>Productivity: Tools:Utilities </Category>
