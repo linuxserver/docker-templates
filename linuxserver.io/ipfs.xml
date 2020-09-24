@@ -7,7 +7,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support></Support>
+    <Support>https://forums.unraid.net/topic/97176-support-linuxserverio-ipfs/</Support>
     <Project>https://ipfs.io/</Project>
     <Overview>A peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open.</Overview>
     <Category>Network:Other Tools:</Category>
