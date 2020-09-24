@@ -7,7 +7,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support></Support>
+    <Support>https://forums.unraid.net/topic/97177-support-linuxserverio-snapdrop/</Support>
     <Project>https://github.com/RobinLinus/snapdrop</Project>
     <Overview>A local file sharing in your browser. Inspired by Apple's Airdrop.</Overview>
     <Category>Network:Other Tools:</Category>
