@@ -8,7 +8,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/xxx-support-linuxserverio-xxx/</Support>
+    <Support>https://forums.unraid.net/topic/97230-support-linuxserverio-limnoria/</Support>
     <Project>https://github.com/ProgVal/limnoria</Project>
     <Overview>    Limnoria A robust, full-featured, and user/programmer-friendly Python IRC bot, with many existing plugins. Successor of the well-known Supybot.&#xD;
     [br]&#xD;

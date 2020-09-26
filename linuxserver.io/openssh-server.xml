@@ -9,7 +9,7 @@
   <Network>bridge</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/xxxxx-support-linuxserverio-openssh-server/</Support>
+  <Support>https://forums.unraid.net/topic/97226-support-linuxserverio-openssh-server/</Support>
   <Project>https://www.openssh.com/</Project>
   <Overview>Openssh-server is a sandboxed environment that allows ssh access without giving keys to the entire server. 
   Giving ssh access via private key often means giving full access to the server. 

@@ -8,7 +8,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/xxx-support-linuxserverio-xxx/</Support>
+    <Support>https://forums.unraid.net/topic/97232-support-linuxserverio-double-commander/</Support>
     <Project>https://doublecmd.sourceforge.io/</Project>
     <Overview>Double Commander is a free cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
     [br]By default the user/pass is abc/abc</Overview>

@@ -8,7 +8,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>host</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/xxx-support-linuxserverio-xxx/</Support>
+    <Support>https://forums.unraid.net/topic/97227-support-linuxserverio-ngircd/</Support>
     <Project>https://ngircd.barton.de/</Project>
     <Overview>It is easy to configure, can cope with dynamic IP addresses, and supports IPv6, SSL-protected connections as well as PAM for authentication. &#xD;
     It is written from scratch and not based on the original IRCd.[br]&#xD;

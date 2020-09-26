@@ -8,7 +8,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/xxx-support-linuxserverio-xxx/</Support>
+    <Support>https://forums.unraid.net/topic/97229-support-linuxserverio-mysql-workbench/</Support>
     <Project>https://www.mysql.com/products/workbench/</Project>
     <Overview>MySQL Workbench is a unified visual tool for database architects, developers, and DBAs. MySQL Workbench provides data modeling, SQL development, and comprehensive administration tools for server configuration, user administration, backup, and much more.[br]&#xD;
     By default the user/pass is abc/abc, if you change your password or want to login manually to the GUI session for any reason use the following link:&#xD;

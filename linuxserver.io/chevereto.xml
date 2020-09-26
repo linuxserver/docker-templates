@@ -8,7 +8,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/xxx-support-linuxserverio-xxx/</Support>
+    <Support>https://forums.unraid.net/topic/97235-support-linuxserverio-chevereto/</Support>
     <Project>https://github.com/Chevereto/Chevereto-Free</Project>
     <Overview>Chevereto is an image hosting software that allows you to create a beautiful and full-featured image hosting website on your own server. 
     It's your hosting and your rules, so say goodbye to closures and restrictions.</Overview>
