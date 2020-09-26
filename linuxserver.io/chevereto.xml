@@ -3,6 +3,7 @@
     <Name>chevereto</Name>
     <Repository>linuxserver/chevereto</Repository>
     <Registry>https://hub.docker.com/r/linuxserver/chevereto/</Registry>
+    <DonateText>Donations</DonateText>
     <DonateLink>https://www.linuxserver.io/donate</DonateLink>
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>

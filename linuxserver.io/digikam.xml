@@ -3,6 +3,7 @@
     <Name>digikam</Name>
     <Repository>linuxserver/digikam</Repository>
     <Registry>https://hub.docker.com/r/linuxserver/digikam/</Registry>
+    <DonateText>Donations</DonateText>
     <DonateLink>https://www.linuxserver.io/donate</DonateLink>
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>host</Network>
