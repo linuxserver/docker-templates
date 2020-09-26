@@ -7,9 +7,9 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>host</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/97177-support-linuxserverio-xxxxxx/</Support>
+    <Support>https://forums.unraid.net/topic/xxx-support-linuxserverio-xxx/</Support>
     <Project>https://www.digikam.org/</Project>
-    <Overview>digiKam: Professional Photo Management with the Power of Open Source[br]By default the user/pass is abc/abc,</Overview>
+    <Overview>digiKam: Professional Photo Management with the Power of Open Source[br]By default the user/pass is abc/abc</Overview>
     <Category>MediaApp:Photos</Category>
     <WebUI>http://[IP]:[PORT:3000]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/digikam.xml</TemplateURL>
