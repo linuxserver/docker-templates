@@ -17,7 +17,7 @@
     <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="true" Mask="false"/>
     <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="Appdata" Type="Path" Display="always" Required="true" Mask="false"/>
     <Config Name="Disks" Target="/dev/disk" Default="/dev/disk" Mode="rw" Description="/dev/disk" Type="Path" Display="always" Required="true" Mask="false"/>
-    <Config Name="UDEV" Target="/run/udev" Default="/run/udev:ro" Mode="ro" Description="UDEV" Type="Path" Display="always" Required="true" Mask="false"/>
+    <Config Name="UDEV" Target="/run/udev" Default="/run/udev" Mode="ro" Description="UDEV" Type="Path" Display="always" Required="true" Mask="false"/>
     <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="always" Required="false" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="always" Required="false" Mask="false"/>
     <Config Name="SCRUTINY_API_ENDPOINT" Target="SCRUTINY_API_ENDPOINT" Default="http://localhost:8080" Mode="" Description="API endpoint of the scrutiny UI" Type="Variable" Display="always" Required="true" Mask="false"/>
