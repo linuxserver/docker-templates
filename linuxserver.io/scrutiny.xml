@@ -7,7 +7,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>true</Privileged>
-    <Support>https://forums.unraid.net/topic/97177-support-linuxserverio-xxxxxx/</Support>
+    <Support>https://forums.unraid.net/topic/97259-support-linuxserverio-scrutiny/</Support>
     <Project>https://github.com/AnalogJ/scrutiny</Project>
     <Overview>Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution,
     merging manufacturer provided S.M.A.R.T metrics with real-world failure rates from Backblaze.</Overview>

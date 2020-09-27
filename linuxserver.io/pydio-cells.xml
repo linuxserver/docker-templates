@@ -7,7 +7,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/97177-support-linuxserverio-xxxxxx/</Support>
+    <Support>https://forums.unraid.net/topic/97257-support-linuxserverio-pydio-cells/</Support>
     <Project>https://pydio.com/</Project>
     <Overview>Pydio-cells is the nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using
     the Go language following a micro-service architecture.</Overview>

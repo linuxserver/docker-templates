@@ -7,7 +7,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/97177-support-linuxserverio-xxxxxx/</Support>
+    <Support>https://forums.unraid.net/topic/97261-support-linuxserverio-synclounge/</Support>
     <Project>https://github.com/samcm/synclounge</Project>
     <Overview>Synclounge is a third party tool that allows you to watch Plex in sync with your friends/family, wherever you are.</Overview>
     <Category>MediaApp:Video Tools:</Category>

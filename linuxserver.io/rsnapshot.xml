@@ -7,8 +7,8 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/97177-support-linuxserverio-xxxxxx/</Support>
-    <Project>http://www.rsnapshot.org/</Project>
+    <Support>https://forums.unraid.net/topic/97258-support-linuxserverio-rsnapshot/</Support>
+    <Project>https://www.rsnapshot.org/</Project>
     <Overview>Rsnapshot is a filesystem snapshot utility based on rsync. rsnapshot makes it easy to make periodic snapshots of local machines,
     and remote machines over ssh. The code makes extensive use of hard links whenever possible, to greatly reduce the disk space required."</Overview>
     <Category>Backup: Tools:</Category>

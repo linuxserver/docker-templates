@@ -7,7 +7,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>host</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/97177-support-linuxserverio-xxxxxx/</Support>
+    <Support>https://forums.unraid.net/topic/97262-support-linuxserverio-wireshark/</Support>
     <Project>https://www.wireshark.org/</Project>
     <Overview>Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic
     level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions.

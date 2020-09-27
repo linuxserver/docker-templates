@@ -7,7 +7,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>https://forums.unraid.net/topic/97177-support-linuxserverio-xxxxxx/</Support>
+    <Support>https://forums.unraid.net/topic/97260-support-linuxserverio-sqlitebrowser/</Support>
     <Project>https://sqlitebrowser.org/</Project>
     <Overview>DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.</Overview>
     <Category>Tools:</Category>
