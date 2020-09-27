@@ -9,7 +9,7 @@
     <Privileged>true</Privileged>
     <Support>https://forums.unraid.net/topic/97259-support-linuxserverio-scrutiny/</Support>
     <Project>https://github.com/AnalogJ/scrutiny</Project>
-    <Overview>Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard & Monitoring solution,
+    <Overview>Scrutiny WebUI for smartd S.M.A.R.T monitoring. Scrutiny is a Hard Drive Health Dashboard &amp; Monitoring solution,
     merging manufacturer provided S.M.A.R.T metrics with real-world failure rates from Backblaze.</Overview>
     <Category>Tools:</Category>
     <WebUI>http://[IP]:[PORT:8080]</WebUI>
