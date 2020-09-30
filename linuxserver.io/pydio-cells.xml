@@ -12,7 +12,7 @@
     <Overview>Pydio-cells is the nextgen file sharing platform for organizations. It is a full rewrite of the Pydio project using
     the Go language following a micro-service architecture.</Overview>
     <Category>Cloud: Network:Other</Category>
-    <WebUI>http://[IP]:[PORT:8080]</WebUI>
+    <WebUI>https://[IP]:[PORT:8080]</WebUI>
     <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pydio-cells-icon.png</Icon>
     <Description>You must first create a mysql database for Pydio Cells. Using our mariadb image is recommended.</Description>
     <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="true" Mask="false"/>
