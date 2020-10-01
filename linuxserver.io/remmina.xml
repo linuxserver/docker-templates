@@ -7,7 +7,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>hhttps://forums.unraid.net/topic/97255-support-linuxserverio-remmina/</Support>
+    <Support>https://forums.unraid.net/topic/97255-support-linuxserverio-remmina/</Support>
     <Project>https://remmina.org/</Project>
     <Overview>Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers,
     who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols,
