@@ -5,9 +5,9 @@
 <Category>Cloud: Network:Other Tools:</Category>
 <Name>pwndrop</Name>
 <Support>https://forums.unraid.net/topic/91568-support-linuxserverio-pwndrop/</Support>
-  <Repository>linuxserver/pwndrop</Repository>
+  <Repository>ghcr.io/linuxserver/pwndrop</Repository>
   <Project>https://github.com/kgretzky/pwndrop</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/pwndrop/</Registry>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/pwndrop/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Overview>Pwndrop is a self-deployable file hosting service for sending out red teaming payloads or securely sharing your private files over HTTP and WebDAV. </Overview>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ddclient</Name>
-  <Repository>linuxserver/ddclient</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/ddclient</Registry>
+  <Repository>ghcr.io/linuxserver/ddclient</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/ddclient</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

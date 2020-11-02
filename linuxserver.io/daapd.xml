@@ -13,8 +13,8 @@
   </Description>
   <Project>https://ejurgensen.github.io/forked-daapd/</Project>
   <Overview>DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/daapd/</Registry>
-  <Repository>linuxserver/daapd</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/daapd/</Registry>
+  <Repository>ghcr.io/linuxserver/daapd</Repository>
   <WebUI>http://[IP]:[PORT:3689]/</WebUI>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>

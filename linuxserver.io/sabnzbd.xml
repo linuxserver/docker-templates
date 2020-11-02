@@ -18,8 +18,8 @@
   <TagDescription>unstable branch (includes betas etc)</TagDescription>
   </Branch>
   <Project>http://sabnzbd.org/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/sabnzbd/</Registry>
-  <Repository>linuxserver/sabnzbd</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/sabnzbd/</Registry>
+  <Repository>ghcr.io/linuxserver/sabnzbd</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

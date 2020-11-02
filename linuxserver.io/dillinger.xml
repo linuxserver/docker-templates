@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>dillinger</Name>
-  <Repository>linuxserver/dillinger</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/dillinger/</Registry>
+  <Repository>ghcr.io/linuxserver/dillinger</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/dillinger/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

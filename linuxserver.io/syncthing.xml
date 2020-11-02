@@ -8,8 +8,8 @@
   <Project>https://github.com/syncthing/syncthing</Project>
   <Support>https://forums.unraid.net/topic/41394-support-linuxserverio-syncthing/</Support>
   <Description>Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.</Description>
-  <Registry>https://hub.docker.com/r/linuxserver/syncthing</Registry>
-  <Repository>linuxserver/syncthing</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/syncthing</Registry>
+  <Repository>ghcr.io/linuxserver/syncthing</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

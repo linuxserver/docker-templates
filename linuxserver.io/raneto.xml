@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>raneto</Name>
-  <Repository>linuxserver/raneto</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/raneto/</Registry>
+  <Repository>ghcr.io/linuxserver/raneto</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/raneto/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

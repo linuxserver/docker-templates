@@ -31,8 +31,8 @@
   <TagDescription>Krypton (17) version</TagDescription>
   </Branch>
   <Project>http://kodi.tv/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/kodi-headless/</Registry>
-  <Repository>linuxserver/kodi-headless</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/kodi-headless/</Registry>
+  <Repository>ghcr.io/linuxserver/kodi-headless</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

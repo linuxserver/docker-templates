@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>nntp2nntp</Name>
-  <Repository>linuxserver/nntp2nntp</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/nntp2nntp/</Registry>
+  <Repository>ghcr.io/linuxserver/nntp2nntp</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/nntp2nntp/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>

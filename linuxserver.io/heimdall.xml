@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>heimdall</Name>
-  <Repository>linuxserver/heimdall</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/heimdall/</Registry>
+  <Repository>ghcr.io/linuxserver/heimdall</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/heimdall/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Privileged>false</Privileged>

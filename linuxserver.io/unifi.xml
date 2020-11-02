@@ -5,8 +5,8 @@
   <Support>https://forums.unraid.net/topic/42110-support-linuxserverio-unifi/</Support>
   <Project>https://community.ubnt.com/</Project>
   <Description>The UniFi® Controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.</Description>
-  <Registry>https://hub.docker.com/r/linuxserver/unifi</Registry>
-  <Repository>linuxserver/unifi</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/unifi</Registry>
+  <Repository>ghcr.io/linuxserver/unifi</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Beta>False</Beta>

@@ -14,8 +14,8 @@
     </Description>
   <Project>https://github.com/DobyTang/LazyLibrarian/</Project>
   <Overview>LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/lazylibrarian/</Registry>
-  <Repository>linuxserver/lazylibrarian</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/lazylibrarian/</Registry>
+  <Repository>ghcr.io/linuxserver/lazylibrarian</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

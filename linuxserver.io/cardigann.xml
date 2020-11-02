@@ -12,8 +12,8 @@
   </Description>
   <Overview>Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format.</Overview>
 <Project>https://github.com/cardigann/cardigann</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/cardigann/</Registry>
-  <Repository>linuxserver/cardigann</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/cardigann/</Registry>
+  <Repository>ghcr.io/linuxserver/cardigann</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

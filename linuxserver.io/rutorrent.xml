@@ -14,8 +14,8 @@
   </Description>
   <Overview>Popular torrent client with a webui for ease of use.</Overview>
   <Project>https://github.com/Novik/ruTorrent</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/rutorrent/</Registry>
-  <Repository>linuxserver/rutorrent</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/rutorrent/</Registry>
+  <Repository>ghcr.io/linuxserver/rutorrent</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

@@ -3,8 +3,8 @@
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/oscam.xml</TemplateURL>
   <Name>oscam</Name>
   <Date>2016-09-26</Date>
-  <Repository>linuxserver/oscam</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/oscam/</Registry>
+  <Repository>ghcr.io/linuxserver/oscam</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/oscam/</Registry>
 <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/50548-support-linuxserverio-oscam/</Support>

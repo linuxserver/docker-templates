@@ -13,8 +13,8 @@
   </Description>
   <Project>https://github.com/Hellowlol/HTPC-Manager</Project>
   <Overview>Htpcmanager, a front end for many htpc related applications. Hellowlol version.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/htpcmanager/</Registry>
-  <Repository>linuxserver/htpcmanager</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/htpcmanager/</Registry>
+  <Repository>ghcr.io/linuxserver/htpcmanager</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

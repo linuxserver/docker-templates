@@ -5,8 +5,8 @@
   <Beta>False</Beta>
   <Name>duplicati</Name>
   <Project>https://www.duplicati.com/</Project>
-  <Repository>linuxserver/duplicati</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/duplicati/</Registry>
+  <Repository>ghcr.io/linuxserver/duplicati</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/duplicati/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/56610-support-linuxserverio-duplicati/</Support>

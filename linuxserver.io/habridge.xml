@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>habridge</Name>
-  <Repository>linuxserver/habridge</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/habridge/</Registry>
+  <Repository>ghcr.io/linuxserver/habridge</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/habridge/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

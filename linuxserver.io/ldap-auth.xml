@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ldap-auth</Name>
-  <Repository>linuxserver/ldap-auth</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/ldap-auth/</Registry>
+  <Repository>ghcr.io/linuxserver/ldap-auth</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/ldap-auth/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

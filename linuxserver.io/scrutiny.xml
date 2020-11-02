@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
     <Name>scrutiny</Name>
-    <Repository>linuxserver/scrutiny</Repository>
-    <Registry>https://hub.docker.com/r/linuxserver/scrutiny/</Registry>
+    <Repository>ghcr.io/linuxserver/scrutiny</Repository>
+    <Registry>https://github.com/orgs/linuxserver/packages/container/package/scrutiny/</Registry>
     <DonateLink>https://www.linuxserver.io/donate</DonateLink>
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>

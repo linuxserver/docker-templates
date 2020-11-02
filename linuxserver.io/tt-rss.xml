@@ -12,8 +12,8 @@
   </Description>
 <Overview>Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.</Overview>
 <Project>https://tt-rss.org/gitlab/fox/tt-rss/wikis/home</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/tt-rss/</Registry>
-  <Repository>linuxserver/tt-rss</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/tt-rss/</Registry>
+  <Repository>ghcr.io/linuxserver/tt-rss</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

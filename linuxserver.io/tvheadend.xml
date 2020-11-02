@@ -3,8 +3,8 @@
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/tvheadend.xml</TemplateURL>
   <Name>tvheadend</Name>
   <Date>2017-07-02</Date>
-  <Repository>linuxserver/tvheadend</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/tvheadend/</Registry>
+  <Repository>ghcr.io/linuxserver/tvheadend</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/tvheadend/</Registry>
   <Branch>
   <Tag>release-4.2</Tag>
   <TagDescription>latest release of 4.2 branch of TVH</TagDescription>

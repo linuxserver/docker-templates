@@ -15,8 +15,8 @@
   [b]/music[/b] Map this to your music, you can use several submappings here[br]
   </Description>
   <Project>https://github.com/rembo10/headphones</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/headphones/</Registry>
-  <Repository>linuxserver/headphones</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/headphones/</Registry>
+  <Repository>ghcr.io/linuxserver/headphones</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

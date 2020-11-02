@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>tautulli</Name>
-  <Repository>linuxserver/tautulli</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/tautulli/</Registry>
+  <Repository>ghcr.io/linuxserver/tautulli</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/tautulli/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/40750-support-linuxserverio-tautulli/</Support>

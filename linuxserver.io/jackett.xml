@@ -13,8 +13,8 @@
   </Description>
   <Project>https://github.com/Jackett/Jackett</Project>
   <Overview>Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.[</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/jackett/</Registry>
-  <Repository>linuxserver/jackett</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/jackett/</Registry>
+  <Repository>ghcr.io/linuxserver/jackett</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

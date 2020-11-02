@@ -17,8 +17,8 @@
   [b]8080[/b] : The web-interface. [br]
   [b]25565[/b] : The minecraft deamon [br]</Description>
   <Project>https://www.mcmyadmin.com</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/mcmyadmin2/</Registry>
-  <Repository>linuxserver/mcmyadmin2</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/mcmyadmin2/</Registry>
+  <Repository>ghcr.io/linuxserver/mcmyadmin2</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

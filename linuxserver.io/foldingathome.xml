@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>foldingathome</Name>
-  <Repository>linuxserver/foldingathome</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/foldingathome/</Registry>
+  <Repository>ghcr.io/linuxserver/foldingathome</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/foldingathome/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

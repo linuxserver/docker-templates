@@ -15,8 +15,8 @@
 </Description>
   <Project>https://musicbrainz.org/</Project>
   <Overview> MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/musicbrainz/</Registry>
-  <Repository>linuxserver/musicbrainz</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/musicbrainz/</Registry>
+  <Repository>ghcr.io/linuxserver/musicbrainz</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

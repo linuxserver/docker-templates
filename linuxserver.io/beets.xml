@@ -26,8 +26,8 @@
     </Description>
   <Project>http://beets.radbox.org/</Project>
   <Overview>The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. Then it provides a bouquet of tools for manipulating and accessing your music.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/beets/</Registry>
-  <Repository>linuxserver/beets</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/beets/</Registry>
+  <Repository>ghcr.io/linuxserver/beets</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

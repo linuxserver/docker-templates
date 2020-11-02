@@ -4,8 +4,8 @@
   <Name>swag</Name>
   <Beta>False</Beta>
   <Category>Tools: Network:Web Status:Stable</Category>
-  <Repository>linuxserver/swag</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/swag/</Registry>
+  <Repository>ghcr.io/linuxserver/swag</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/swag/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Project>https://docs.linuxserver.io/general/swag</Project>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>sickgear</Name>
-  <Repository>linuxserver/sickgear</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/sickgear/</Registry>
+  <Repository>ghcr.io/linuxserver/sickgear</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/sickgear/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

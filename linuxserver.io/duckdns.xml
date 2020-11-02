@@ -4,8 +4,8 @@
   <Name>duckdns</Name>
   <Date>2016-11-17</Date>
   <Category>Network:DNS Tools:</Category>
-  <Repository>linuxserver/duckdns</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/duckdns/</Registry>
+  <Repository>ghcr.io/linuxserver/duckdns</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/duckdns/</Registry>
   <Network>host</Network>
   <Privileged>false</Privileged>
   <Beta>false</Beta>

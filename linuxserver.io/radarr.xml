@@ -6,12 +6,12 @@
   <Name>radarr</Name>
   <Support>https://forums.unraid.net/topic/53758-support-linuxserverio-radarr/</Support>
   <Project>https://github.com/Radarr/Radarr</Project>
-  <Repository>linuxserver/radarr</Repository>
+  <Repository>ghcr.io/linuxserver/radarr</Repository>
   <Branch>
   <Tag>nightly</Tag>
   <TagDescription>nightly build of radarr (unsupported)</TagDescription>
   </Branch>
-  <Registry>https://hub.docker.com/r/linuxserver/radarr/</Registry>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/radarr/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Overview>Radarr - A fork of Sonarr to work with movies à la Couchpotato.</Overview>

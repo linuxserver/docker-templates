@@ -6,8 +6,8 @@
   <Date>2017-01-02</Date>
   <Name>medusa</Name>
   <Project>https://github.com/pymedusa/Medusa</Project>
-  <Repository>linuxserver/medusa</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/medusa/</Registry>
+  <Repository>ghcr.io/linuxserver/medusa</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/medusa/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/53499-support-linuxserverio-medusa/</Support>

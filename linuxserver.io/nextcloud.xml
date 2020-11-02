@@ -6,9 +6,9 @@
   <Date>2017-03-08</Date>
   <Name>nextcloud</Name>
   <Support>https://forums.unraid.net/topic/48383-support-linuxserverio-nextcloud/</Support>
-  <Repository>linuxserver/nextcloud</Repository>
+  <Repository>ghcr.io/linuxserver/nextcloud</Repository>
   <Project>https://nextcloud.com</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/nextcloud</Registry>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/nextcloud</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Overview>Nextcloud is an open source, self-hosted file sync and communication app platform. Access and sync your files, contacts, calendars and communicate and collaborate across your devices. You decide what happens with your data, where it is and who can access it!</Overview>

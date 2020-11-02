@@ -15,8 +15,8 @@
   </Description>
   <Project>https://github.com/SickRage/SickRage</Project>
   <Overview>Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/sickrage/</Registry>
-  <Repository>linuxserver/sickrage</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/sickrage/</Registry>
+  <Repository>ghcr.io/linuxserver/sickrage</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

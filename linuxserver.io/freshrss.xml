@@ -15,8 +15,8 @@ A free, self-hostable rss aggregator…[br]
 </Description>
  <Overview>A free, self-hostable rss aggregator…</Overview>
   <Project>http://freshrss.org/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/freshrss/</Registry>
-  <Repository>linuxserver/freshrss</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/freshrss/</Registry>
+  <Repository>ghcr.io/linuxserver/freshrss</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

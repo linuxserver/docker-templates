@@ -14,8 +14,8 @@
   </Description>
   <Project>https://github.com/evilhero/mylar</Project>
   <Overview>An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/mylar/</Registry>
-  <Repository>linuxserver/mylar</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/mylar/</Registry>
+  <Repository>ghcr.io/linuxserver/mylar</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

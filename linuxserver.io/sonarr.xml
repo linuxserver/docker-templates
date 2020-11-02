@@ -14,8 +14,8 @@
   [b]8989[/b] : The web-interface. [br]</Description>
   <Project>https://sonarr.tv/</Project>
   <Overview>Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/sonarr/</Registry>
-  <Repository>linuxserver/sonarr</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/sonarr/</Registry>
+  <Repository>ghcr.io/linuxserver/sonarr</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

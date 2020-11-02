@@ -14,8 +14,8 @@
   </Description>
   <Project>http://www.transmissionbt.com/</Project>
   <Overview>Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/transmission/</Registry>
-  <Repository>linuxserver/transmission</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/transmission/</Registry>
+  <Repository>ghcr.io/linuxserver/transmission</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

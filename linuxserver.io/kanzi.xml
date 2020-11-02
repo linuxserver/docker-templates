@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>kanzi</Name>
-  <Repository>linuxserver/kanzi</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/kanzi/</Registry>
+  <Repository>ghcr.io/linuxserver/kanzi</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/kanzi/</Registry>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>unifi-controller</Name>
-  <Repository>linuxserver/unifi-controller</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/unifi-controller/</Registry>
+  <Repository>ghcr.io/linuxserver/unifi-controller</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/unifi-controller/</Registry>
   <Branch>
   <Tag>latest</Tag>
   <TagDescription>The most recent build version of the Controller software, regardless of release train.  Warning! May be broken or buggy (and often is!)</TagDescription>

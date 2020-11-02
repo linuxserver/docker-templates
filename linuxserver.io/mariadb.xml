@@ -13,8 +13,8 @@ An Enhanced drop in replacement for Mysql[br]
   </Description>
  <Overview>An Enhanced drop in replacement for Mysql</Overview>
   <Project>https://mariadb.org/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/mariadb/</Registry>
-  <Repository>linuxserver/mariadb</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/mariadb/</Registry>
+  <Repository>ghcr.io/linuxserver/mariadb</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

@@ -14,8 +14,8 @@
   </Description>
   <Project>http://quassel-irc.org/</Project>
   <Overview>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/quassel-core/</Registry>
-  <Repository>linuxserver/quassel-core</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/quassel-core/</Registry>
+  <Repository>ghcr.io/linuxserver/quassel-core</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

@@ -15,8 +15,8 @@
 
   The application is designed to stream the requested data to multiple clients (even with one dvb card) at the same time while opening different pids.
   </Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/minisatip/</Registry>
-  <Repository>linuxserver/minisatip</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/minisatip/</Registry>
+  <Repository>ghcr.io/linuxserver/minisatip</Repository>
   <Network>host</Network>
   <Privileged>false</Privileged>
   <WebUI>http://[IP]:[PORT:8875]</WebUI>

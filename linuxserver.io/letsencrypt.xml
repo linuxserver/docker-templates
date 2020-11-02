@@ -3,8 +3,8 @@
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/letsencrypt.xml</TemplateURL>
   <Name>letsencrypt</Name>
   <Date>2016-11-08</Date>
-  <Repository>linuxserver/letsencrypt</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/letsencrypt/</Registry>
+  <Repository>ghcr.io/linuxserver/letsencrypt</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/letsencrypt/</Registry>
   <Network>bridge</Network>
   <Privileged>true</Privileged>
   <Project>https://letsencrypt.org/</Project>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>bazarr</Name>
-  <Repository>linuxserver/bazarr</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/bazarr/</Registry>
+  <Repository>ghcr.io/linuxserver/bazarr</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/bazarr/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

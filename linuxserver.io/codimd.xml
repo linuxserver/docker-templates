@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>codimd</Name>
-  <Repository>linuxserver/codimd</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/codimd/</Registry>
+  <Repository>ghcr.io/linuxserver/codimd</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/codimd/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

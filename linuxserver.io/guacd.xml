@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
     <Name>guacd</Name>
-    <Repository>linuxserver/guacd</Repository>
-    <Registry>https://hub.docker.com/r/linuxserver/guacd/</Registry>
+    <Repository>ghcr.io/linuxserver/guacd</Repository>
+    <Registry>https://github.com/orgs/linuxserver/packages/container/package/guacd/</Registry>
     <DonateLink>https://www.linuxserver.io/donate</DonateLink>
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>

@@ -28,8 +28,8 @@
   </Description>
   <Project>https://github.com/seblucas/cops</Project>
   <Overview>COPS links to your Calibre library database and allows downloading and emailing of books directly from a web browser and provides a OPDS feed to connect to your devices.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/cops/</Registry>
-  <Repository>linuxserver/cops</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/cops/</Registry>
+  <Repository>ghcr.io/linuxserver/cops</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Environment>

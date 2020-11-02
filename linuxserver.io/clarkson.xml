@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>clarkson</Name>
-  <Repository>linuxserver/clarkson</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/clarkson/</Registry>
+  <Repository>ghcr.io/linuxserver/clarkson</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/clarkson/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

@@ -6,9 +6,9 @@
 <Date>2017-08-03</Date>
 <Name>qbittorrent</Name>
 <Support>https://forums.unraid.net/topic/59191-support-linuxserverio-qbittorrent/</Support>
-  <Repository>linuxserver/qbittorrent</Repository>
+  <Repository>ghcr.io/linuxserver/qbittorrent</Repository>
   <Project>https://www.qbittorrent.org</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/qbittorrent/</Registry>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/qbittorrent/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Overview>The qBittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.</Overview>

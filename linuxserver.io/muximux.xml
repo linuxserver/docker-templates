@@ -12,8 +12,8 @@
   </Description>
   <Project>https://github.com/mescon/Muximux</Project>
   <Overview>A lightweight portal to view, manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/muximux/</Registry>
-  <Repository>linuxserver/muximux</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/muximux/</Registry>
+  <Repository>ghcr.io/linuxserver/muximux</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

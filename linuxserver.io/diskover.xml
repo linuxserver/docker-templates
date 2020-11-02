@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>diskover</Name>
-  <Repository>linuxserver/diskover</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/diskover</Registry>
+  <Repository>ghcr.io/linuxserver/diskover</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/diskover</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>embystat</Name>
-  <Repository>linuxserver/embystat</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/embystat/</Registry>
+  <Repository>ghcr.io/linuxserver/embystat</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/embystat/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>

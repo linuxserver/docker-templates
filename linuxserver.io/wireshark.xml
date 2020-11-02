@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
     <Name>wireshark</Name>
-    <Repository>linuxserver/wireshark</Repository>
-    <Registry>https://hub.docker.com/r/linuxserver/wireshark/</Registry>
+    <Repository>ghcr.io/linuxserver/wireshark</Repository>
+    <Registry>https://github.com/orgs/linuxserver/packages/container/package/wireshark/</Registry>
     <DonateLink>https://www.linuxserver.io/donate</DonateLink>
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>host</Network>

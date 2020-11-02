@@ -12,8 +12,8 @@
   </Description>
   <Project>https://thelounge.github.io/</Project>
   <Overview>A self-hosted web IRC client</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/thelounge/</Registry>
-  <Repository>linuxserver/thelounge</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/thelounge/</Registry>
+  <Repository>ghcr.io/linuxserver/thelounge</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

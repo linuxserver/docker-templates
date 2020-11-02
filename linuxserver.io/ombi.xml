@@ -6,9 +6,9 @@
 <Date>2017-04-16</Date>
 <Name>ombi</Name>
 <Support>https://forums.unraid.net/topic/53520-support-linuxserverio-ombi/</Support>
-  <Repository>linuxserver/ombi</Repository>
+  <Repository>ghcr.io/linuxserver/ombi</Repository>
   <Project>https://www.ombi.io/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/ombi/</Registry>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/ombi/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Overview>Ombi allows you to host your own Plex Request and user management system. </Overview>

@@ -4,8 +4,8 @@
   <Beta>False</Beta>
   <Name>libresonic</Name>
   <Date>2016-11-29</Date>
-  <Repository>linuxserver/libresonic</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/libresonic/</Registry>
+  <Repository>ghcr.io/linuxserver/libresonic</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/libresonic/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Project>https://github.com/Libresonic/libresonic</Project>

@@ -10,8 +10,8 @@
   [b]13.12.2016[/b] Initial Release.
   </Changes>
   <Project>http://booksonic.org</Project>
-  <Repository>linuxserver/booksonic</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/booksonic/</Registry>
+  <Repository>ghcr.io/linuxserver/booksonic</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/booksonic/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/52926-support-linuxserverio-booksonic/</Support>

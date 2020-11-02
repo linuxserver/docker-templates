@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>emby</Name>
-  <Repository>linuxserver/emby</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/emby/</Registry>
+  <Repository>ghcr.io/linuxserver/emby</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/emby/</Registry>
   <Branch>
   <Tag>latest</Tag>
   <TagDescription>Latest stable release of Emby</TagDescription>

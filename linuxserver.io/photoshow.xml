@@ -15,8 +15,8 @@ A simple, easy way to turn a photo album into a webgallery[br]
 </Description>
   <Overview>A simple, easy way to turn a photo album into a webgallery</Overview>
   <Project>http://www.photoshow-gallery.com/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/photoshow/</Registry>
-  <Repository>linuxserver/photoshow</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/photoshow/</Registry>
+  <Repository>ghcr.io/linuxserver/photoshow</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

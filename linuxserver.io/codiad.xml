@@ -14,8 +14,8 @@
   <Project>http://codiad.com/</Project>
   <Overview>Codiad is a web-based IDE framework with a small footprint and minimal requirements.
   </Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/codiad/</Registry>
-  <Repository>linuxserver/codiad</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/codiad/</Registry>
+  <Repository>ghcr.io/linuxserver/codiad</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

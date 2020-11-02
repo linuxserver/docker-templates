@@ -11,8 +11,8 @@
   </Description>
   <Project>https://github.com/theotherp/nzbhydra2</Project>
   <Overview>NZBHydra is a meta search for NZB indexers and the "spiritual successor" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.</Overview>
-  <Registry>https://hub.docker.com/r/linuxserver/hydra2/</Registry>
-  <Repository>linuxserver/hydra2</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/hydra2/</Registry>
+  <Repository>ghcr.io/linuxserver/hydra2</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

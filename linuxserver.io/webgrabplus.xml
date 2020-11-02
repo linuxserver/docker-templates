@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>webgrabplus</Name>
-  <Repository>linuxserver/webgrabplus</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/webgrabplus/</Registry>
+  <Repository>ghcr.io/linuxserver/webgrabplus</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/webgrabplus/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/68338-support-linuxserverio-webgrabplus/</Support>

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>taisun</Name>
-  <Repository>linuxserver/taisun</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/taisun/</Registry>
+  <Repository>ghcr.io/linuxserver/taisun</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/taisun/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>

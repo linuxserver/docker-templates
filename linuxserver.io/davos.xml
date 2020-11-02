@@ -4,8 +4,8 @@
   <Beta>False</Beta>
   <Date>2016-11-18</Date>
   <Name>davos</Name>
-  <Repository>linuxserver/davos</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/davos/</Registry>
+  <Repository>ghcr.io/linuxserver/davos</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/davos/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Project>https://github.com/linuxserver/davos</Project>

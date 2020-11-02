@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>minetest</Name>
-  <Repository>linuxserver/minetest:latest</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/minetest/</Registry>
+  <Repository>ghcr.io/linuxserver/minetest:latest</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/minetest/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>

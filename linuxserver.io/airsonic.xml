@@ -23,8 +23,8 @@
 [br][b]Default user/pass is: admin/admin[/b]</Description>
   <Project>https://airsonic.github.io/</Project>
   <Overview>Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.</Overview>
-  <Repository>linuxserver/airsonic</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/airsonic/</Registry>
+  <Repository>ghcr.io/linuxserver/airsonic</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/airsonic/</Registry>
   <Network>bridge</Network>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>

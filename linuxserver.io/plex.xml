@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>plex</Name>
-  <Repository>linuxserver/plex</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/plex/</Registry>
+  <Repository>ghcr.io/linuxserver/plex</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/plex/</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>bash</Shell>

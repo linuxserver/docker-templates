@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>mstream</Name>
-  <Repository>linuxserver/mstream</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/mstream/</Registry>
+  <Repository>ghcr.io/linuxserver/mstream</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/mstream/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>

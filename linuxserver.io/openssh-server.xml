@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>openssh-server</Name>
-  <Repository>linuxserver/openssh-server</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/openssh-server/</Registry>
+  <Repository>ghcr.io/linuxserver/openssh-server</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/openssh-server/</Registry>
   <DonateText>Donations</DonateText>
   <DonateLink>https://www.linuxserver.io/donate</DonateLink>
   <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>

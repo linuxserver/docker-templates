@@ -5,8 +5,8 @@
   <Beta>False</Beta>
   <Name>ubooquity</Name>
   <Project>https://vaemendis.net/ubooquity/</Project>
-  <Repository>linuxserver/ubooquity</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/ubooquity/</Registry>
+  <Repository>ghcr.io/linuxserver/ubooquity</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/ubooquity/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/52806-support-linuxserverio-ubooquity/</Support>

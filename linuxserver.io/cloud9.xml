@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>cloud9</Name>
-  <Repository>linuxserver/cloud9</Repository>
-  <Registry>https://hub.docker.com/r/linuxserver/cloud9/</Registry>
+  <Repository>ghcr.io/linuxserver/cloud9</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/cloud9/</Registry>
   <Branch>
   <Tag>latest</Tag>
   <TagDescription>Docker and Compose environment preinstalled</TagDescription>
