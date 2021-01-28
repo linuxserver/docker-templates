@@ -14,7 +14,7 @@ A simple, easy way to turn a photo album into a webgallery[br]
   [b]/Thumbs[/b]Where photoshow should store its thumbnails[br]
 </Description>
   <Overview>A simple, easy way to turn a photo album into a webgallery</Overview>
-  <Project>http://www.photoshow-gallery.com/</Project>
+  <Project>https://github.com/thibaud-rohmer/PhotoShow</Project>
   <Registry>https://hub.docker.com/r/linuxserver/photoshow/</Registry>
   <Repository>linuxserver/photoshow</Repository>
   <BindTime>true</BindTime>
