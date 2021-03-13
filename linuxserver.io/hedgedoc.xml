@@ -19,10 +19,10 @@ HedgeDoc is a real-time, multi-platform collaborative markdown note editor.  Thi
     <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/hedgedoc.png</Icon>
     <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="If you wish to access this container from http://{IP}:${PORT}` this *must* be left unchanged." Type="Port" Display="always" Required="true" Mask="false"/>
     <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="HedgeDoc config and configurable files" Type="Path" Display="advanced" Required="true" Mask="false"/>
-    <Config Name="DB_HOST" Target="DB_HOST" Default="&lt;hostname or ip&gt;" Description="Host address of mysql database" Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="DB_HOST" Target="DB_HOST" Default="hostname or ip" Description="Host address of mysql database" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_PORT" Target="DB_PORT" Default="3306" Description="Port to access mysql database default is 3306" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_USER" Target="DB_USER" Default="hedgedoc" Description="Database user" Type="Variable" Display="always" Required="true" Mask="false"/>
-    <Config Name="DB_PASS" Target="DB_PASS" Default="&lt;secret password&gt;" Description="Database password" Type="Variable" Display="always" Required="true" Mask="false"/>
+    <Config Name="DB_PASS" Target="DB_PASS" Default="secret password" Description="Database password" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="DB_NAME" Target="DB_NAME" Default="hedgedoc" Description="Database name" Type="Variable" Display="always" Required="true" Mask="false"/>
     <Config Name="PUID" Target="PUID" Default="99" Description="Container Variable: PUID" Type="Variable" Display="advanced" Required="true" Mask="false"/>
     <Config Name="PGID" Target="PGID" Default="100" Description="Container Variable: PGID" Type="Variable" Display="advanced" Required="true" Mask="false"/>
