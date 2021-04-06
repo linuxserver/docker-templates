@@ -8,7 +8,7 @@
     <DonateImg>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/donate.png</DonateImg>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support>NEEDED</Support>
+    <Support>https://github.com/linuxserver/docker-libreoffice/issues/new/choose</Support>
     <Project>https://www.libreoffice.org/</Project>
     <Overview>LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice).
     [br]By default the user/pass is abc/abc</Overview>
