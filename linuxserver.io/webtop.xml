@@ -5,22 +5,40 @@
     <Branch>
       <Tag>latest</Tag>
       <TagDescription>XFCE Alpine</TagDescription>
+    </Branch>
+    <Branch>      
       <Tag>ubuntu-xfce</Tag>
       <TagDescription>XFCE Ubuntu</TagDescription>
+    </Branch>
+    <Branch>        
       <Tag>alpine-kde</Tag>
       <TagDescription>KDE Alpine</TagDescription>
+    </Branch>
+    <Branch>        
       <Tag>alpine-mate</Tag>
       <TagDescription>MATE Alpine</TagDescription>
+    </Branch>
+    <Branch>        
       <Tag>ubuntu-mate</Tag>
       <TagDescription>MATE Ubuntu</TagDescription>
+    </Branch>
+    <Branch>        
       <Tag>alpine-i3</Tag>
       <TagDescription>i3 Alpine</TagDescription>
+    </Branch>
+    <Branch>        
       <Tag>alpine-openbox</Tag>
       <TagDescription>Openbox Alpine</TagDescription>
+    </Branch>
+    <Branch>        
       <Tag>ubuntu-openbox</Tag>
       <TagDescription>Openbox Ubuntu</TagDescription>
+    </Branch>
+    <Branch>        
       <Tag>alpine-icewm</Tag>
       <TagDescription>IceWM Alpine</TagDescription>
+    </Branch>
+    <Branch>        
       <Tag>ubuntu-icewm</Tag>
       <TagDescription>IceWM Ubuntu</TagDescription>
     </Branch>
