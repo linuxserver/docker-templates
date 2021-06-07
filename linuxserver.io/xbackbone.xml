@@ -2,7 +2,7 @@
 <!-- DO NOT CHANGE THIS FILE MANUALLY, IT IS AUTOMATICALLY GENERATED -->
 <Container version="2">
     <Name>xbackbone</Name>
-    <Repository>ghcr.io/linuxserver/xbackbone/</Repository>
+    <Repository>ghcr.io/linuxserver/xbackbone</Repository>
     <Registry>https://github.com/orgs/linuxserver/packages/container/package/xbackbone</Registry>
     <DonateText>Donations</DonateText>
     <DonateLink>https://www.linuxserver.io/donate</DonateLink>
