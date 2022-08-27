@@ -1,4 +1,5 @@
 plex-icon.png is grabbed from https://github.com/binhex/docker-templates
 oscam-logo.png is grabbed from https://svn.streamboard.tv/oscam/trunk/webif/images/ICMLOGO.svg and converted to png
-
+overseerr-logo.png is grabbed from https://github.com/binhex/docker-templates/blob/master/binhex/images/overseerr-icon.png
+overseerr.png is grabbed from https://github.com/sct/overseerr/blob/develop/public/logo_full.svg and converted to png with the addition of grey-ish text 
 Images Not mentioned here is grabbed from respective's softwares webpage.
