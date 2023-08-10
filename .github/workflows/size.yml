@@ -1,11 +1,12 @@
 name: Resize images
 
 on:
+  pull_request:
   push:
     paths:
-      - "linuxserver.io/img/*.png"
-    branches:
-      - "!master"
+      - "linuxserver.io/img/**"
+    branches-ignore:
+      - "master"
 
 jobs:
   summary-syncer:
