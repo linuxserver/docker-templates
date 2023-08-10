@@ -1,0 +1,27 @@
+name: Resize images
+
+on:
+  push:
+    paths:
+      - "linuxserver.io/img/*.png"
+    branches:
+      - "!master"
+
+jobs:
+  summary-syncer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.5.3
+        with:
+          fetch-depth: "0"
+
+      - name: Resize images
+        run: |
+          docker run -d --rm --name imagemagick -v $(pwd)/linuxserver.io:/inn -e FILES='/inn/img/*' ghcr.io/linuxserver/baseimage-alpine:3.18
+          docker exec imagemagick bash -c 'apk add --no-cache imagemagick && for file in $FILES-logo.png; do    convert $file -resize 192x192\> $file; done && for file in $FILES-icon.png; do    convert $file -resize 192x192\> $file; done'
+          docker stop imagemagick
+
+          git config --global user.email "ci@linuxserver.io"
+          git config --global user.name "LinuxServer-CI"
+          git commit -am "Automated Resizing of images" || :
+          git push || :
