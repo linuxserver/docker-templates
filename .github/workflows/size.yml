@@ -19,7 +19,7 @@ jobs:
       - name: Resize images
         run: |
           docker run -d --rm --name imagemagick -v $(pwd)/linuxserver.io:/inn -e FILES='/inn/img/*' ghcr.io/linuxserver/baseimage-alpine:3.18
-          docker exec imagemagick bash -c 'apk add --no-cache imagemagick && for file in $FILES-logo.png; do    convert $file -resize 192x192\> $file; done && for file in $FILES-icon.png; do    convert $file -resize 192x192\> $file; done'
+          docker exec imagemagick bash -c 'apk add --no-cache imagemagick && for file in $FILES-logo.png; do    convert -define exclude-chunk=tIME $file -resize 192x192\> $file; done && for file in $FILES-icon.png; do    convert -define exclude-chunk=tIME $file -resize 192x192\> $file; done'
           docker stop imagemagick
 
           git config --global user.email "ci@linuxserver.io"
