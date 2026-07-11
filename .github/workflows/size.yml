@@ -20,7 +20,7 @@ jobs:
       - name: Resize images
         run: |
           docker run -d --rm --name imagemagick -v "$(pwd)/linuxserver.io":/inn -e FOLDER='/inn/img/' -e WIDTH=192 -e HEIGHT=192 ghcr.io/linuxserver/baseimage-alpine:3.24
-          docker exec imagemagick bash -c 'apk add --no-cache imagemagick && mogrify -define exclude-chunk=tIME -resize "${WIDTH}x${HEIGHT}"'"'>'"' "${FOLDER%/}/*-logo.png" "${FOLDER%/}/*-icon.png"'
+          docker exec imagemagick bash -c 'apk add --no-cache imagemagick && for f in "${FOLDER%/}"/*-logo.png "${FOLDER%/}"/*-icon.png; do if [[ $(identify -format "%w" "${f}") -gt "${WIDTH}" ]] || [[ $(identify -format "%h" "${f}") -gt "${HEIGHT}" ]]; then magick mogrify -resize "${WIDTH}x${HEIGHT}>" "${f}"; fi; done'
           docker stop imagemagick
 
           git config --global user.email "ci@linuxserver.io"
