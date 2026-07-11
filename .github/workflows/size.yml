@@ -15,11 +15,12 @@ jobs:
       - uses: actions/checkout@v7.0.0
         with:
           fetch-depth: "0"
+          ref: ${{ github.head_ref }}
 
       - name: Resize images
         run: |
-          docker run -d --rm --name imagemagick -v $(pwd)/linuxserver.io:/inn -e FOLDER='/inn/img/' -e WIDTH=192 -e HEIGHT=192 ghcr.io/linuxserver/baseimage-alpine:3.24
-          docker exec imagemagick bash -c 'apk add --no-cache imagemagick && for match in $(find $FOLDER/ -type f \( -iname \*-logo.png -o -iname \*-icon.png \)); do  SIZE=$(identify -format "%w-%h" $match); WDT=${SIZE%-*}; HGT=${SIZE#*-}; if (( $WDT > $WIDTH )) || (( $HGT > $HEIGHT )); then  convert -define exclude-chunk=tIME $match -resize $WIDTHx$HEIGHT\> $match; fi; done'
+          docker run -d --rm --name imagemagick -v "$(pwd)/linuxserver.io":/inn -e FOLDER='/inn/img/' -e WIDTH=192 -e HEIGHT=192 ghcr.io/linuxserver/baseimage-alpine:3.24
+          docker exec imagemagick bash -c 'apk add --no-cache imagemagick && mogrify -define exclude-chunk=tIME -resize "${WIDTH}x${HEIGHT}"'"'>'"' "${FOLDER%/}/*-logo.png" "${FOLDER%/}/*-icon.png"'
           docker stop imagemagick
 
           git config --global user.email "ci@linuxserver.io"
